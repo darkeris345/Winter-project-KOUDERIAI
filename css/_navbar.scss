@@ -1,0 +1,12 @@
+@use "variables";
+
+ul {
+  list-style-type: none;
+
+  li {
+    display: inline;
+    a {
+      text-decoration: none;
+    }
+  }
+}
