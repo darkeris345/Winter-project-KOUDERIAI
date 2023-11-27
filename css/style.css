@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  min-width: 375px;
+}
+
+/* Styles for Mobile */
+/* Styles for Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+  body {
+    background-color: #82ae82;
+  }
+}
+/* Styles for Desktop */
+@media only screen and (min-width: 1440px) {
+  body {
+    background-color: #afaf93;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+ul {
+  list-style-type: none;
+}
+ul li {
+  display: inline;
+}
+ul li a {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
