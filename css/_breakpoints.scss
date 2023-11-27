@@ -7,17 +7,53 @@
         background-color: #82ae82;
     }
 
-   
+    .tblt {
+        display: block;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+
+        a {
+            text-decoration: none;
+        }
+    }
 }
+
+
+
 
 /* Styles for Desktop */
 @media only screen and (min-width: 1440px) {
     body {
         background-color: #afaf93;
     }
-    nav{ul{
+
+    nav {
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .menu {
         display: flex;
-        flex-direction: row;
         justify-content: space-between;
-    }}
+        list-style-type: none;
+
+        a {
+            text-decoration: none;
+        }
+    }    
 }

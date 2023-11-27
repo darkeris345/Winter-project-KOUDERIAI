@@ -1,12 +1,62 @@
 @use "variables";
 
-ul {
-  list-style-type: none;
+.nav {
+  margin: 2.5rem;
+}
 
-  li {
-    display: inline;
-    a {
-      text-decoration: none;
+@media screen and (max-width: 768px) {
+  .hamburger {
+    position: absolute;
+    z-index: 4;
+    top: 1rem;
+    right: 1rem;
+    padding: 4px;
+    cursor: pointer;
+  }
+
+  .closeIcon {
+    display: none;
+  }
+
+  .menu {
+    position: absolute;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: -1rem;
+    left: 300;
+    width: 70%;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    background: #333;
+    color: white;
+    list-style: none;
+    padding-top: 8.69rem;
+    text-align: center;
+
+    li {
+
+      font-size: 20px;
+      padding-bottom: 2rem;
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
+
+    li:nth-child(1) {
+      padding-top: 2.69rem;
     }
   }
+
+  .showMenu {
+    transform: translateY(0);
+  }
+
+  .tblt {
+    display: none;
+  }
+
 }
