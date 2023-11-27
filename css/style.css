@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Public+Sans:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Public+Sans:wght@400;700&display=swap");
+w-700 {
+  font-weight: 700;
+}
+
+w-400 {
+  font-weight: 400;
+}
+
 .h1__large {
   font-family: "DM Serif Display", serif;
   font-size: 72px;
@@ -44,56 +52,25 @@
 
 * {
   box-sizing: border-box;
-  min-width: 375px;
 }
 
 body {
   background-color: #EDF3F8;
 }
 
-/* Styles for Mobile */
-/* Styles for Tablet */
-@media only screen and (min-width: 768px) and (max-width: 1440px) {
-  body {
-    background-color: #82ae82;
-  }
-  .tblt {
-    display: block;
-  }
-  .hamburger {
-    display: none;
-  }
-  .menu {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-  }
-  .menu a {
-    text-decoration: none;
-  }
+.nav {
+  padding-top: 2rem;
+  padding-left: 1rem;
 }
-/* Styles for Desktop */
-@media only screen and (min-width: 1440px) {
-  body {
-    background-color: #afaf93;
-  }
-  nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .hamburger {
-    display: none;
-  }
-  .menu {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-  }
-  .menu a {
-    text-decoration: none;
-  }
+
+w-700 {
+  font-weight: 700;
 }
+
+w-400 {
+  font-weight: 400;
+}
+
 .h1__large {
   font-family: "DM Serif Display", serif;
   font-size: 72px;
@@ -136,30 +113,29 @@ body {
   line-height: 28px;
 }
 
-.nav {
-  margin: 2.5rem;
-}
-
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .hamburger {
     position: absolute;
     z-index: 4;
-    top: 1rem;
+    top: 3rem;
     right: 1rem;
     padding: 4px;
     cursor: pointer;
+    background-color: transparent;
+    border: none;
   }
   .closeIcon {
     display: none;
+    background-color: transparent;
+    border: none;
   }
   .menu {
     position: absolute;
     transform: translateY(-100%);
-    transition: transform 0.2s;
+    transition: transform 0.8s;
     top: -1rem;
-    left: 300;
-    width: 70%;
-    height: 100%;
+    width: 18.75rem;
+    height: 41.6875rem;
     right: 0;
     bottom: 0;
     z-index: 3;
@@ -170,20 +146,106 @@ body {
     text-align: center;
   }
   .menu li {
-    font-size: 20px;
+    text-align: center;
+    font-family: "Public Sans";
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 2rem;
     padding-bottom: 2rem;
   }
   .menu li a {
     text-decoration: none;
-    color: white;
+    color: #FBFCFE;
+  }
+  .menu .mobile__btn {
+    width: 15.75rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    background: #BA4270;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
   }
   .menu li:nth-child(1) {
-    padding-top: 2.69rem;
+    padding-top: 0rem;
+    position: relative;
+  }
+  .menu li:nth-child(1)::before {
+    content: "";
+    position: absolute;
+    left: 25px;
+    top: -75px;
+    width: 85%;
+    height: 1px;
+    background-color: #FBFCFE;
   }
   .showMenu {
     transform: translateY(0);
   }
-  .tblt {
+  .bttn {
     display: none;
   }
+}
+/* Styles for Mobile */
+/* Styles for Tablet */
+@media only screen and (min-width: 769px) and (max-width: 1440px) {
+  body {
+    background-color: #82ae82;
+  }
+  .hamburger {
+    display: none;
+  }
+  .menu {
+    display: flex;
+    list-style-type: none;
+  }
+  .menu a {
+    text-decoration: none;
+  }
+  .mobile__btn {
+    display: none;
+  }
+  .bttn {
+    width: 15.75rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    background: #BA4270;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.2509803922);
+  }
+  .nav {
+    display: flex;
+  }
+}
+/* Styles for Desktop */
+@media only screen and (min-width: 1440px) {
+  body {
+    background-color: #afaf93;
+  }
+  .hamburger {
+    display: none;
+  }
+  .menu {
+    display: flex;
+    list-style-type: none;
+  }
+  .menu a {
+    text-decoration: none;
+  }
+  .mobile__btn {
+    display: none;
+  }
+  .bttn {
+    width: 15.75rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    background: #BA4270;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.2509803922);
+  }
+}
+.mobile__btn,
+.bttn {
+  font-size: 0.9375rem;
+  color: #FBFCFE;
+}
+.mobile__btn:hover,
+.bttn:hover {
+  background-color: #DA6D97;
 }/*# sourceMappingURL=style.css.map */

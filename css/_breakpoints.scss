@@ -2,13 +2,9 @@
 
 
 /* Styles for Tablet */
-@media only screen and (min-width: 768px) and (max-width: 1440px) {
+@media only screen and (min-width: 769px) and (max-width: 1440px) {
     body {
         background-color: #82ae82;
-    }
-
-    .tblt {
-        display: block;
     }
 
     .hamburger {
@@ -17,12 +13,27 @@
 
     .menu {
         display: flex;
-        justify-content: space-between;
         list-style-type: none;
 
         a {
             text-decoration: none;
         }
+    }
+
+    .mobile__btn {
+        display: none;
+    }
+
+    .bttn {
+        width: 15.75rem;
+        height: 3rem;
+        border-radius: 1.5rem;
+        background: $primary-colors-dark-pink;
+        box-shadow: 10px 10px 25px -10px #36536b40;
+    }
+
+    .nav {
+        display: flex;
     }
 }
 
@@ -35,25 +46,28 @@
         background-color: #afaf93;
     }
 
-    nav {
-        ul {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-        }
-    }
-
     .hamburger {
         display: none;
     }
 
     .menu {
         display: flex;
-        justify-content: space-between;
         list-style-type: none;
 
         a {
             text-decoration: none;
         }
-    }    
+    }
+
+    .mobile__btn {
+        display: none;
+    }
+
+    .bttn {
+        width: 15.75rem;
+        height: 3rem;
+        border-radius: 1.5rem;
+        background: $primary-colors-dark-pink;
+        box-shadow: 10px 10px 25px -10px #36536b40;
+    }
 }
