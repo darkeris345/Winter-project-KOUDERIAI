@@ -2,7 +2,7 @@
 
 
 /* Styles for Tablet */
-@media only screen and (min-width: 769px) and (max-width: 1440px) {
+@media only screen and (min-width: 769px) and (max-width: 1439px) {
     body {
         background-color: #82ae82;
     }
@@ -16,7 +16,11 @@
         list-style-type: none;
 
         a {
+            padding-right: 2.5rem;
             text-decoration: none;
+            color: $primary-colors-water-white;
+            padding: 1rem;
+            ;
         }
     }
 
@@ -34,14 +38,24 @@
 
     .nav {
         display: flex;
+        justify-content: space-between;
+
+        .menu {
+            align-self: center;
+        }
     }
+
+    .logo {
+        margin-top: 0.5rem;
+    }
+
 }
 
 
 
 
 /* Styles for Desktop */
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1439px) {
     body {
         background-color: #afaf93;
     }
@@ -55,7 +69,11 @@
         list-style-type: none;
 
         a {
+            padding-right: 2.5rem;
             text-decoration: none;
+            color: $primary-colors-water-white;
+            font-size: 0.9375rem;
+            ;
         }
     }
 
@@ -64,10 +82,28 @@
     }
 
     .bttn {
+        margin-right: 10.31rem;
         width: 15.75rem;
         height: 3rem;
         border-radius: 1.5rem;
         background: $primary-colors-dark-pink;
         box-shadow: 10px 10px 25px -10px #36536b40;
+    }
+
+    .nav {
+        display: flex;
+
+        .menu {
+            flex-grow: 1;
+            padding-left: 4rem;
+            align-self: center;
+
+        }
+
+    }
+
+    .logo {
+        margin-left: 10.31rem;
+        margin-top: 0.5rem;
     }
 }

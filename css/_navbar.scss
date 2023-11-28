@@ -8,7 +8,6 @@
     z-index: 4;
     top: 3rem;
     right: 1rem;
-    padding: 4px;
     cursor: pointer;
     background-color: transparent;
     border: none;
@@ -21,41 +20,43 @@
   }
 
   .menu {
-    position: absolute;
+    position: fixed;
     transform: translateY(-100%);
-    transition: transform 0.8s;
+    transition: transform 0.1s;
     top: -1rem;
-    width: 18.75rem;
+    width: 300px;
     height: 41.6875rem;
     right: 0;
     bottom: 0;
     z-index: 3;
-    background: #333;
+    background: $secondary-colors-mirage-blue;
     color: white;
     list-style: none;
     padding-top: 8.69rem;
     text-align: center;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
 
     li {
       text-align: center;
       font-family: "Public Sans";
-      font-size: 1.25rem;
       font-weight: 700;
       line-height: 2rem;
       padding-bottom: 2rem;
-
+      
       a {
+        font-size: 1.25rem;
         text-decoration: none;
         color: $primary-colors-water-white;
       }
     }
 
     .mobile__btn {
-      width: 15.75rem;
-      height: 3rem;
+      width: 252px;
+      height: 48px;
       border-radius: 1.5rem;
       background: $primary-colors-dark-pink;
       box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  
     }
   }
 
@@ -71,8 +72,10 @@
       left: 25px;
       top: -75px;
       width: 85%;
-      height: 1px;
+      height: 0.5px;
       background-color: $primary-colors-water-white;
+      margin-top: 20px;
+      opacity: 0.15;
     }
   }
 
