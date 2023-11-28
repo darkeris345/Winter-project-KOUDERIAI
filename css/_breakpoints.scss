@@ -12,7 +12,7 @@
     }
     .benefits__wrapper {
         grid-template-columns: repeat(3, 1fr);
-        gap: 10px;
+        gap: 0.625rem;
         max-width: 720px;
       }
    
@@ -30,7 +30,7 @@
     }}
     .benefits__wrapper {
         grid-template-columns: repeat(3, 1fr);
-        gap: 10px;
+        gap: 0.625rem;
         max-width: 1320px;
       }
 }

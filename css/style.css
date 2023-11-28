@@ -8,6 +8,7 @@ p {
 
 .benefits {
   text-align: center;
+  font-weight: 400;
 }
 .benefits .benefits__wrapper {
   display: grid;
@@ -16,6 +17,9 @@ p {
   padding-left: 1.5rem;
   margin-right: auto;
   margin-left: auto;
+}
+.benefits .benefits__wrapper .benefit-card__img {
+  padding: 1.5rem;
 }
 .benefits .benefits__wrapper .benefit-card__heading {
   color: #36536B;
@@ -39,7 +43,7 @@ p {
   }
   .benefits__wrapper {
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 0.625rem;
     max-width: 720px;
   }
 }
@@ -55,7 +59,7 @@ p {
   }
   .benefits__wrapper {
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 0.625rem;
     max-width: 1320px;
   }
 }
