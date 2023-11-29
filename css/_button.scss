@@ -1,0 +1,11 @@
+.mobile__btn,
+.bttn {
+    &:hover {
+        background-color: $secondary-colors-charm-pink;
+    }
+    font-size: 0.9375rem;
+    color: $primary-colors-water-white;
+    border: none;
+}
+
+

@@ -1,76 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css" />
-    <script defer src="/js/main.js"></script>
-  </head>
 
-  <body>
-    <header>
-      <!-- NAVBAR Section -->
-      <section>
-        <a href="/html/index.html">
-          <img src="/assets/shared/desktop/logo.svg" alt="logo" />
-        </a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Homepage</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <script defer src="/js/main.js"></script>
+</head>
 
-        <nav>
-          <div class="side-menu">
-            <ul>
-              <li><a href="/html/pricing.html">Pricing</a></li>
-              <li><a href="/html/about.html">About</a></li>
-              <li><a href="/html/contact.html">Contact</a></li>
-            </ul>
-          </div>
-        </nav>
-      </section>
+<body>
+  <header>
+    <!-- NAVBAR Section -->
+    <section class="nav">
+      <a href="/html/index.html">
+        <img class="logo" src="/assets/shared/desktop/logo.svg" alt="logo">
+      </a>
 
-      <section>
-        <!-- Image Section -->
-        <div class="center__img">
-          <!-- <img
-            src="/assets/home/desktop/illustration-phone-mockup.svg"
-            alt=""
-          /> -->
-        </div>
-        <!-- Input and button Section -->
-        <div>
-          <input class="title_input" type="email" name="" id="" />
-          <input
-            class="schedule_btn act__btn"
-            type="submit"
-            value="Schedule a Demo"
-          />
-        </div>
-      </section>
-    </header>
-    <!-- MAIN PART -->
-    <main>
-      <section>
-        <!-- Section about partners with "About Us" button -->
-        <div>
-          <h1></h1>
-          <p></p>
-          <button type="button">About Us</button>
-        </div>
+      <ul class="menu">
+        <li class="w-700"><a class="menuItem" href="/html/pricing.html">Pricing</a></li>
+        <li class="w-700"><a class="menuItem" href="/html/about.html">About</a></li>
+        <li class="w-700"><a class="menuItem" href="/html/contact.html">Contact</a></li>
+        <input class="mobile__btn" type="button" value="Schedule a Demo">
+      </ul>
+      <input class="bttn" type="button" value="Schedule a Demo">
+      <button class="hamburger">
+        <svg class="menuIcon" width="28" height="17" xmlns="http://www.w3.org/2000/svg">
+          <g fill="#36536B" fill-rule="evenodd">
+            <path d="M0 0h28v3H0zM0 7h28v3H0zM0 14h28v3H0z" />
+          </g>
+        </svg>
+        <svg class="closeIcon" width="22" height="23" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M19.839.54L21.96 2.66 13.12 11.5l8.84 8.839-2.121 2.121-8.84-8.84-8.838 8.84L.04 20.34l8.838-8.84L.04 2.662 2.16.54 11 9.378 19.839.54z"
+            fill="#FBFCFE" fill-rule="evenodd" />
+        </svg>
+      </button>
+    </section>
+    <section>
+      <!-- Image Section -->
+      <div class="center__img">
+      </div>
+      <!-- Input and button Section -->
+      <div>
+        <input class="title_input" type="email" name="" id="" />
+        <input class="schedule_btn act__btn" type="submit" value="Schedule a Demo" />
+      </div>
+    </section>
+  </header>
+  <!-- MAIN PART -->
+  <main>
+    <section>
+      <!-- Partners Logos Section -->
+      <div>
+      </div>
 
-        <!-- Partners Logos Section -->
-        <div>
-          <img src="/assets/shared/desktop/microsoft.svg" alt="" />
-          <img src="/assets/shared/desktop/nvidia.svg" alt="" />
-          <img src="/assets/shared/desktop/oracle.svg" alt="" />
-          <img src="/assets/shared/desktop/tesla.svg" alt="" />
-          <img src="/assets/shared/desktop/google.svg" alt="" />
-          <img src="/assets/shared/desktop/hewlett-packard.svg" alt="" />
-        </div>
-      </section>
+      <!-- Section about partners with "About Us" button -->
+      <div>
+        <h1></h1>
+        <p></p>
+        <button type="button">About Us</button>
+      </div>
 
-      <!-- Section 1 with image and text-->
-      <section class="easy">
-        <div class="easy__wrapper">
-          <div class="easy__img">
+    </section>
+    <!-- Section 1 with image and text-->
+    <section class="easy">
+      <div class="easy__wrapper">
+        <div class="easy__img">
           <img src="/assets/home/desktop/illustration-easy-to-implement.svg" alt="easy to implement example" />
         </div>
         <div class="easy__description">
@@ -80,11 +76,11 @@
             payments functionality with ease.</p>
         </div>
       </div>
-      </section>
-      <!-- Section 2 with text and image -->
-      <section class="simple">
-        <div class="simple__wrapper">
-          <div class="simple__img">
+    </section>
+    <!-- Section 2 with text and image -->
+    <section class="simple">
+      <div class="simple__wrapper">
+        <div class="simple__img">
           <img src="/assets/home/desktop/illustration-simple-ui.svg" alt="simple ui & ux example" />
         </div>
         <div class="simple__description">
@@ -92,50 +88,50 @@
           <p class="simple__text">Our pre-built form is easy to integrate in your app or website’s
             checkout flow and designed to optimize conversion.</p>
         </div>
-        </div>
-      </section>
-
-      <!-- Section with three icons and text below them -->
-      <section class="benefits">
-        <div class="benefits__wrapper">
-            <div class="benefit-card">
-                <img class="benefit-card__img" src="/assets/home/desktop/icon-personal-finances.svg" alt="">
+      </div>
+    </section>
+    <!-- Section with three icons and text below them -->
+    <section class="benefits">
+      <div class="benefits__wrapper">
+        <div class="benefit-card">
+          <img class="benefit-card__img" src="/assets/home/desktop/icon-personal-finances.svg" alt="">
           <h2 class="benefit-card__heading">Personal Finances</h2>
           <p class="benefit-card__text">Consolidate financial data from multiple sources and categorize
             transactions up to 2 years of history. Analyze reports to
             reconcile activities in your account.</p>
         </div>
-          <div class="benefit-card">
-            <img class="benefit-card__img" src="/assets/home/desktop/icon-banking-and-coverage.svg" alt="">
-            <h2 class="benefit-card__heading">Banking & Coverage</h2>
-            <p class="benefit-card__text">With our platform, you can speed up account onboarding and support
-                ongoing payments for checking, savings, credit card, and brokerage
-                accounts.</p>
-          </div>
-
-          <div class="benefit-card">
-            <img class="benefit-card__img" src="/assets/home/desktop/icon-consumer-payments.svg" alt="">
-            <h2 class="benefit-card__heading">Consumer Payments</h2>
-            <p class="benefit-card__text">It’s easier to set up secure bank payments with us through a flow
-                designed with the user experience in mind. Customers could
-                instantly authenticate their account.</p>
-          </div>
+        <div class="benefit-card">
+          <img class="benefit-card__img" src="/assets/home/desktop/icon-banking-and-coverage.svg" alt="">
+          <h2 class="benefit-card__heading">Banking & Coverage</h2>
+          <p class="benefit-card__text">With our platform, you can speed up account onboarding and support
+            ongoing payments for checking, savings, credit card, and brokerage
+            accounts.</p>
         </div>
-      </section>
-    </main>
-    <!-- FOOTER part -->
-    <footer>
-      <!-- Text, input and button section -->
-      <section>
-        <div></div>
-        <div></div>
-      </section>
-      <!-- Logo, links and icons sections -->
-      <section>
-        <div></div>
-        <div></div>
-        <div></div>
-      </section>
-    </footer>
-  </body>
+
+        <div class="benefit-card">
+          <img class="benefit-card__img" src="/assets/home/desktop/icon-consumer-payments.svg" alt="">
+          <h2 class="benefit-card__heading">Consumer Payments</h2>
+          <p class="benefit-card__text">It’s easier to set up secure bank payments with us through a flow
+            designed with the user experience in mind. Customers could
+            instantly authenticate their account.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- FOOTER part -->
+  <footer>
+    <!-- Text, input and button section -->
+    <section>
+      <div></div>
+      <div></div>
+    </section>
+    <!-- Logo, links and icons sections -->
+    <section>
+      <div></div>
+      <div></div>
+      <div></div>
+    </section>
+  </footer>
+</body>
+
 </html>
