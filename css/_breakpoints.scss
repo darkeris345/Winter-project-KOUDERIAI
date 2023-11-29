@@ -1,36 +1,102 @@
 /* Styles for Mobile */
 @media only screen and (min-width: 375px) and (max-width: 768px) {
-    .benefits__wrapper {
-        max-width: 460px;
-    }
+  .benefits__wrapper {
+    max-width: 460px;
+  }
+  .simple__heading {
+    font-size: 36px;
+    margin-top: -1rem;
+  }
+  .simple__text {
+    max-width: 460px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .easy__heading {
+    font-size: 36px;
+    margin-top: -1rem;
+  }
+  .easy__text {
+    max-width: 460px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 }
 
 /* Styles for Tablet */
 @media only screen and (min-width: 768px) and (max-width: 1440px) {
-    body {
-        background-color: #82ae82;
-    }
-    .benefits__wrapper {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 0.625rem;
-        max-width: 720px;
+  body {
+    background-color: #82ae82;
+  }
+  .benefits__wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.625rem;
+    max-width: 720px;
+  }
+  .simple__heading {
+    font-size: 48px;
+    margin-top: -3rem;
+  }
+  .simple__img {
+    max-height: 100%;
+      width: auto;
       }
-   
+  .easy__heading {
+    font-size: 48px;
+    margin-top: -3rem;
+  }
 }
 
 /* Styles for Desktop */
 @media only screen and (min-width: 1440px) {
-    body {
-        background-color: #afaf93;
+  body {
+    background-color: #afaf93;
+  }
+  nav {
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
     }
-    nav{ul{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }}
-    .benefits__wrapper {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 0.625rem;
-        max-width: 1320px;
+  }
+  .benefits__wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.625rem;
+    max-width: 1320px;
+  }
+  .simple {
+    text-align: left;
+    .simple__wrapper {
+      flex-direction: row-reverse;
+      .simple__img {
+        margin-left: 5rem;
       }
+      .simple__heading {
+        font-size: 48px;
+        margin-left: 9.31rem;
+      }
+      .simple__text {
+        max-width: 500px;
+        margin-left: 9.31rem;
+      }
+    }
+  }
+
+  .easy {
+    text-align: left;
+    .easy__wrapper {
+      flex-direction: row;
+      .easy__img {
+        margin-right: 7rem;
+      }
+      .easy__heading {
+        font-size: 48px;
+        margin-right: 9.31rem;
+      }
+      .easy__text {
+        max-width: 400px;
+        margin-right: 9.31rem;
+      }
+    }
+  }
 }
