@@ -5,6 +5,10 @@
     margin: 0;
     padding: 0;
 }
+.resize-animation-stopper * {
+  animation: none !important;
+  transition: none !important;
+}
 
 body{
     background-color: $primary-colors-background-color;
