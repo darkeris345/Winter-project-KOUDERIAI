@@ -111,16 +111,6 @@ body {
   background-color: #EDF3F8;
 }
 
-.nav {
-  padding-top: 2rem;
-  padding-left: 1rem;
-}
-
-.menu a {
-  opacity: 0.7;
-  font-size: 0.9375rem;
-}
-
 p {
   line-height: 1.75rem;
 }
@@ -200,12 +190,21 @@ w-400 {
   line-height: 28px;
 }
 
-@media only screen and (max-width: 768px) {
+.nav {
+  padding: 2rem 1.5rem;
+}
+
+.menu a {
+  opacity: 0.7;
+  font-size: 0.9375rem;
+}
+
+@media only screen and (max-width: 767.5px) {
   .hamburger {
     position: absolute;
     z-index: 4;
-    top: 3rem;
-    right: 1rem;
+    top: 2.5rem;
+    right: 1.5rem;
     cursor: pointer;
     background-color: transparent;
     border: none;
@@ -218,10 +217,9 @@ w-400 {
   .menu {
     position: fixed;
     transform: translateY(-100%);
-    transition: transform 0.1s;
+    transition: transform 0.2s;
     top: -1rem;
     width: 300px;
-    height: 41.6875rem;
     right: 0;
     bottom: 0;
     z-index: 3;
@@ -259,8 +257,8 @@ w-400 {
     content: "";
     position: absolute;
     left: 25px;
-    top: -75px;
-    width: 85%;
+    top: -65px;
+    width: 80%;
     height: 0.5px;
     background-color: #FBFCFE;
     margin-top: 20px;
@@ -274,13 +272,13 @@ w-400 {
   }
 }
 /* Styles for Mobile */
-@media only screen and (min-width: 375px) and (max-width: 768px) {
+@media only screen and (min-width: 375px) and (max-width: 767.5px) {
   .benefits__wrapper {
     max-width: 460px;
   }
 }
 /* Styles for Tablet */
-@media only screen and (min-width: 769px) and (max-width: 1439px) {
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
   body {
     background-color: #82ae82;
   }
@@ -294,18 +292,21 @@ w-400 {
   .menu a {
     padding-right: 2.5rem;
     text-decoration: none;
-    color: #FBFCFE;
+    color: #36536B;
     padding: 1rem;
+    font-size: 0.9375rem;
+    font-family: "Public Sans";
   }
   .mobile__btn {
     display: none;
   }
   .bttn {
-    width: 15.75rem;
-    height: 3rem;
-    border-radius: 1.5rem;
+    width: 173px;
+    height: 48px;
+    border-radius: 24px;
     background: #BA4270;
     box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.2509803922);
+    margin-right: 2.5rem;
   }
   .nav {
     display: flex;
@@ -315,7 +316,7 @@ w-400 {
     align-self: center;
   }
   .logo {
-    margin-top: 0.5rem;
+    margin: 0.5rem 0 0 2.44rem;
   }
   .benefits__wrapper {
     grid-template-columns: repeat(3, 1fr);
@@ -324,7 +325,7 @@ w-400 {
   }
 }
 /* Styles for Desktop */
-@media only screen and (min-width: 1439px) {
+@media only screen and (min-width: 1440px) {
   body {
     background-color: #afaf93;
   }
@@ -338,17 +339,18 @@ w-400 {
   .menu a {
     padding-right: 2.5rem;
     text-decoration: none;
-    color: #FBFCFE;
+    color: #36536B;
     font-size: 0.9375rem;
+    font-family: "Public Sans";
   }
   .mobile__btn {
     display: none;
   }
   .bttn {
-    margin-right: 10.31rem;
-    width: 15.75rem;
+    width: 173px;
+    height: 48px;
     height: 3rem;
-    border-radius: 1.5rem;
+    border-radius: 24px;
     background: #BA4270;
     box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.2509803922);
   }
@@ -374,6 +376,7 @@ w-400 {
 .bttn {
   font-size: 0.9375rem;
   color: #FBFCFE;
+  border: none;
 }
 .mobile__btn:hover,
 .bttn:hover {

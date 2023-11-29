@@ -1,15 +1,16 @@
 /* Styles for Mobile */
-@media only screen and (min-width: 375px) and (max-width: 768px) {
+@media only screen and (min-width: 375px) and (max-width: 767.5px) {
     .benefits__wrapper {
         max-width: 460px;
     }
 }
 
 /* Styles for Tablet */
-@media only screen and (min-width: 769px) and (max-width: 1439px) {
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
     body {
         background-color: #82ae82;
     }
+
     .hamburger {
         display: none;
     }
@@ -19,11 +20,13 @@
         list-style-type: none;
 
         a {
+
             padding-right: 2.5rem;
             text-decoration: none;
-            color: $primary-colors-water-white;
+            color: $secondary-colors-san-juan-blue;
             padding: 1rem;
-            ;
+            font-size: 0.9375rem;
+            font-family: "Public Sans";
         }
     }
 
@@ -32,11 +35,12 @@
     }
 
     .bttn {
-        width: 15.75rem;
-        height: 3rem;
-        border-radius: 1.5rem;
+        width: 173px;
+        height: 48px;
+        border-radius: 24px;
         background: $primary-colors-dark-pink;
         box-shadow: 10px 10px 25px -10px #36536b40;
+        margin-right: 2.5rem;
     }
 
     .nav {
@@ -49,15 +53,15 @@
     }
 
     .logo {
-        margin-top: 0.5rem;
+        margin: 0.5rem 0 0 2.44rem;
     }
 
     .benefits__wrapper {
         grid-template-columns: repeat(3, 1fr);
         gap: 0.625rem;
         max-width: 720px;
-      }
-   
+    }
+
 
 }
 
@@ -65,7 +69,7 @@
 
 
 /* Styles for Desktop */
-@media only screen and (min-width: 1439px) {
+@media only screen and (min-width: 1440px) {
     body {
         background-color: #afaf93;
     }
@@ -81,9 +85,10 @@
         a {
             padding-right: 2.5rem;
             text-decoration: none;
-            color: $primary-colors-water-white;
-            font-size: 0.9375rem;
+            color: $secondary-colors-san-juan-blue;
             ;
+            font-size: 0.9375rem;
+            font-family: "Public Sans";
         }
     }
 
@@ -92,10 +97,10 @@
     }
 
     .bttn {
-        margin-right: 10.31rem;
-        width: 15.75rem;
+        width: 173px;
+        height: 48px;
         height: 3rem;
-        border-radius: 1.5rem;
+        border-radius: 24px;
         background: $primary-colors-dark-pink;
         box-shadow: 10px 10px 25px -10px #36536b40;
     }
@@ -121,6 +126,6 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 0.625rem;
         max-width: 1320px;
-      }
+    }
 
 }
