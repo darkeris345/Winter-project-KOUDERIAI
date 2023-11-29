@@ -14,7 +14,7 @@
     background-color: transparent;
     color: $primary-colors-water-white;
     border: 1px solid $primary-colors-water-white;
-    padding: 16px 26px;
+    padding: 16px 32px 14px 32px;
 }
 
 .ref__btn:hover {
@@ -23,7 +23,7 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1440px) {
-    partners__button {
+    .partners__button {
         margin: 32px 0px 88px 0px
     }
 }
