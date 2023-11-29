@@ -248,11 +248,6 @@ w-400 {
   padding: 2rem 1.5rem;
 }
 
-.menu a {
-  opacity: 0.7;
-  font-size: 0.9375rem;
-}
-
 @media only screen and (max-width: 767.5px) {
   .hamburger {
     position: absolute;
@@ -295,6 +290,8 @@ w-400 {
     font-size: 1.25rem;
     text-decoration: none;
     color: #FBFCFE;
+    opacity: 0.7;
+    font-size: 0.9375rem;
   }
   .menu .mobile__btn {
     width: 252px;
@@ -368,6 +365,11 @@ w-400 {
     padding: 1rem;
     font-size: 0.9375rem;
     font-family: "Public Sans";
+    opacity: 0.7;
+  }
+  .menu a:hover {
+    color: #36536B;
+    opacity: 1;
   }
   .mobile__btn {
     display: none;
@@ -431,6 +433,11 @@ w-400 {
     color: #36536B;
     font-size: 0.9375rem;
     font-family: "Public Sans";
+    opacity: 0.7;
+  }
+  .menu a:hover {
+    color: #36536B;
+    opacity: 1;
   }
   .mobile__btn {
     display: none;

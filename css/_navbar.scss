@@ -1,15 +1,9 @@
 @use "variables";
 
-.nav{
-  padding: 2rem 1.5rem;    
+.nav {
+  padding: 2rem 1.5rem;
 }
 
-.menu{
-  a{
-      opacity: 0.7;
-      font-size: 0.9375rem;;
-  }
-}
 
 @media only screen and (max-width: 767.5px) {
   .hamburger {
@@ -50,11 +44,15 @@
       font-weight: 700;
       line-height: 2rem;
       padding-bottom: 2rem;
-      
+
       a {
         font-size: 1.25rem;
         text-decoration: none;
         color: $primary-colors-water-white;
+        opacity: 0.7;
+        font-size: 0.9375rem;
+        ;
+
       }
     }
 
@@ -64,7 +62,7 @@
       border-radius: 1.5rem;
       background: $primary-colors-dark-pink;
       box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
-  
+
     }
   }
 
