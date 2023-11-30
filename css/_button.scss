@@ -8,6 +8,11 @@
     font-weight: bold;
     border-radius: 24px;
     margin: 60px 0px 80px 0px;
+
+    &:active {
+        box-shadow: 0 1px #666;
+        transform: translateY(4px);
+    }
 }
 
 .ref__btn {
@@ -39,6 +44,12 @@
 .bttn {
     &:hover {
         background-color: $secondary-colors-charm-pink;
+        cursor: pointer;
+    }
+
+    &:active {
+        box-shadow: 0 1px #666;
+        transform: translateY(4px);
     }
 
     font-size: 0.9375rem;

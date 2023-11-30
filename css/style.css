@@ -328,10 +328,6 @@ img {
     box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.2509803922);
     margin-right: 2.5rem;
   }
-  .bttn:active {
-    box-shadow: 0 1px #666;
-    transform: translateY(4px);
-  }
   .nav {
     display: flex;
     justify-content: space-between;
@@ -341,7 +337,7 @@ img {
     align-self: center;
   }
   .logo {
-    margin: 0.5rem 0 0 2.44rem;
+    margin: 0.2rem 0 0 2.44rem;
   }
   .benefits__wrapper {
     grid-template-columns: repeat(3, 1fr);
@@ -399,10 +395,6 @@ img {
     border-radius: 24px;
     background: #BA4270;
     box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.2509803922);
-  }
-  .bttn:active {
-    box-shadow: 0 1px #666;
-    transform: translateY(4px);
   }
   .nav {
     display: flex;
@@ -467,6 +459,10 @@ img {
   border-radius: 24px;
   margin: 60px 0px 80px 0px;
 }
+.partners__button:active {
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
 
 .ref__btn {
   background-color: transparent;
@@ -500,6 +496,12 @@ img {
 .mobile__btn:hover,
 .bttn:hover {
   background-color: #DA6D97;
+  cursor: pointer;
+}
+.mobile__btn:active,
+.bttn:active {
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
 }
 
 w-700 {
@@ -547,14 +549,21 @@ w-400 {
 }
 
 @media only screen and (max-width: 767.5px) {
+  .nav {
+    margin: 40px 25px 20px 30px;
+  }
   .hamburger {
     position: absolute;
     z-index: 4;
-    top: 2.5rem;
+    top: 3.1rem;
     right: 1.5rem;
     cursor: pointer;
     background-color: transparent;
     border: none;
+  }
+  .hamburger:active {
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
   }
   .closeIcon {
     display: none;
@@ -563,8 +572,8 @@ w-400 {
   }
   .menu {
     position: fixed;
-    transform: translateY(-100%);
-    transition: transform 0.2s;
+    transform: translateX(100%);
+    transition: transform 0.4s;
     top: -1rem;
     width: 300px;
     right: 0;

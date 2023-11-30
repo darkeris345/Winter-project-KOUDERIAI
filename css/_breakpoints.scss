@@ -72,10 +72,11 @@
         background: $primary-colors-dark-pink;
         box-shadow: 10px 10px 25px -10px #36536b40;
         margin-right: 2.5rem;
-        &:active {
-            box-shadow: 0 1px #666;
-            transform: translateY(4px);
-        }
+
+        // &:active {
+        //     box-shadow: 0 1px #666;
+        //     transform: translateY(4px);
+        // }
     }
 
     .nav {
@@ -89,7 +90,7 @@
     }
 
     .logo {
-        margin: 0.5rem 0 0 2.44rem;
+        margin: 0.2rem 0 0 2.44rem;
     }
 
     //        TEXT AND IMAGES SECTIONS
@@ -165,10 +166,10 @@
         background: $primary-colors-dark-pink;
         box-shadow: 10px 10px 25px -10px #36536b40;
 
-        &:active {
-            box-shadow: 0 1px #666;
-            transform: translateY(4px);
-        }
+        // &:active {
+        //     box-shadow: 0 1px #666;
+        //     transform: translateY(4px);
+        // }
     }
 
     .nav {
