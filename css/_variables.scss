@@ -1,7 +1,9 @@
 
+
 // Text fonts
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap');
+
 
 // Main colors
 $primary-colors-dark-pink: #BA4270;
@@ -11,6 +13,7 @@ $secondary-colors-mirage-blue: #1B262F;
 $secondary-colors-charm-pink: #DA6D97;
 $secondary-colors-light-juan-blue: #6C8294;
 $primary-colors-background-color: #EDF3F8;
+
 
 w-700{
     font-weight: 700;
@@ -50,7 +53,7 @@ w-400{
 }
 
 .h4__both {
-    font-family: 'DM Serif Display', serif;
+    font-family:'DM Serif Display', serif;
     font-size: 24px;
     line-height: 32px;
 }
