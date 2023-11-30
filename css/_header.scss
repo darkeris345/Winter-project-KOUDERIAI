@@ -35,7 +35,7 @@
         color: $secondary-colors-san-juan-blue;
     }
 
-    .bttn {
+    .bttn__header {
         margin-top: 16px;
         background-color: $primary-colors-dark-pink;
         border-radius: 24px;
@@ -67,12 +67,6 @@
         display: grid;
         padding: 24px;
         justify-content: center;
-    }
-
-    .p__text {
-        font-weight: 450;
-        color: $secondary-colors-light-juan-blue;
-        text-decoration: none;
     }
 
     .p__questions {
@@ -154,7 +148,7 @@
         opacity: 0.5;
     }
 
-    .bttn {
+    .bttn__header {
         margin-top: 15px;
         background-color: $primary-colors-dark-pink;
         border-radius: 24px;
@@ -164,7 +158,6 @@
         font-weight: 700;
         color: $primary-colors-water-white;
         letter-spacing: -0.115px;
-        aspect-ratio: 1;
         font-family: Public Sans;
         font-size: 15px;
         font-style: normal;
@@ -184,7 +177,6 @@
 
     .title__txt {
         line-height: 56px;
-        // margin-bottom: 24px;
         margin: auto;
         color: #36536B;
         text-align: center;
@@ -263,7 +255,7 @@
     }
 
     .title_input {
-        padding-right: 3.5rem;
+        padding-right: 7rem;
         border-radius: 24px;
         height: 48px;
         width: 327px;
@@ -278,12 +270,11 @@
         opacity: 0.5;
         margin-left: -1rem;
         color: $secondary-colors-san-juan-blue;
-        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
     }
     .title_input {border:0;outline:0;}
     input:focus {outline:none!important;}
 
-    .bttn {
+    .bttn__header {
         color: $primary-colors-water-white;
         font-family: Public Sans;
         font-size: 15px;
@@ -291,7 +282,7 @@
         font-weight: 700;
         line-height: normal;
         letter-spacing: -0.115px;
-        margin-top: 32px;
+        margin-top: 36px;
         background-color: $primary-colors-dark-pink;
         border-radius: 24px;
         height: 48px;
@@ -319,13 +310,9 @@
     .title__txt {
         width: 546px;
         margin-top: 152px;
-    }
-
-    .head__text {
-        width: 546px;
+        line-height: 72px;
         height: 243px;
         flex-shrink: 0;
-        line-height: 72px;
         letter-spacing: -0.554px;
         text-align: left;
         margin-left: 165px;
