@@ -1,6 +1,7 @@
 
 // Text fonts
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Public+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap');
 
 // Main colors
 $primary-colors-dark-pink: #BA4270;
@@ -19,35 +20,41 @@ w-400{
 }
 
 .h1__large {
-    font-family:'DM Serif Display', serif;
+    font-family: 'DM Serif Display', serif;
     font-size: 72px;
     line-height: 72px;
 }
+
 .h1__small {
-    font-family:'DM Serif Display', serif;
+    font-family: 'DM Serif Display', serif;
     font-size: 56px;
     line-height: 56px;
 }
-.h2__both {
-    font-family:'DM Serif Display', serif;
-    font-size: 48px;
-    line-height: 56px;
-}
+
+// .h2__both {
+//     font-family: 'DM Serif Display', serif;
+//     font-size: 48px;
+//     line-height: 56px;
+// }
+
 .h3__big {
-    font-family:'DM Serif Display', serif;
+    font-family: 'DM Serif Display', serif;
     font-size: 32px;
     line-height: 40px;
 }
+
 .h3__small {
     font-family: 'Public Sans', sans-serif;
     font-size: 18px;
     line-height: 25px;
 }
+
 .h4__both {
-    font-family:'DM Serif Display', serif;
+    font-family: 'DM Serif Display', serif;
     font-size: 24px;
     line-height: 32px;
 }
+
 .p__text {
     font-family: 'Public Sans', sans-serif;
     font-size: 15px;
