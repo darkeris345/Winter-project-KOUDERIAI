@@ -346,6 +346,41 @@ w-400 {
     margin-left: 1rem;
     margin-right: 1rem;
   }
+  .team_numbers_image {
+    background-image: url(/assets/about/mobile/image-team-members.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+  }
+  .team__numbers__grids {
+    border-top: 1px solid #bfcbd5;
+    margin-top: 3rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    border-bottom: 1px solid #bfcbd5;
+  }
+  .team__numbers__grids p {
+    color: #36536B;
+    text-align: center;
+    font-family: Public Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+    /* 175% */
+  }
+  .team__numbers__grids .team__numbers {
+    color: #BA4270;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.5rem;
+    /* 128.571% */
+    letter-spacing: -0.02694rem;
+  }
 }
 /* Styles for Tablet */
 @media only screen and (min-width: 768px) and (max-width: 1439.5px) {
@@ -414,6 +449,54 @@ w-400 {
   .easy__heading {
     font-size: 48px;
     margin-top: -3rem;
+  }
+  .team_numbers_image {
+    background-image: url(/assets/about/tablet/image-team-members.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 275px;
+  }
+  .team__numbers__grids {
+    border-top: none;
+    margin-top: 3rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    border-bottom: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .team__numbers__grids .team__numbers__text,
+  .team__numbers__grids .team__numbers__text1,
+  .team__numbers__grids .team__numbers__text2 {
+    border-bottom: 1px solid #bfcbd5;
+    border-top: 1px solid #bfcbd5;
+  }
+  .team__numbers__grids .team__numbers__text1 {
+    margin-left: 0.62rem;
+    margin-right: 0.62rem;
+  }
+  .team__numbers__grids p {
+    color: #36536B;
+    font-family: PublicSans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 1.75rem;
+    /* 175% */
+    padding-top: 1.06rem;
+  }
+  .team__numbers__grids .team__numbers {
+    color: #BA4270;
+    font-family: DM Serif Display;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.5rem;
+    /* 128.571% */
+    letter-spacing: -0.02694rem;
+    padding-bottom: 1.06rem;
   }
 }
 /* Styles for Desktop */
@@ -509,6 +592,54 @@ w-400 {
   .easy .easy__wrapper .easy__text {
     max-width: 400px;
     margin-right: 9.31rem;
+  }
+  .team_numbers_image {
+    background-image: url(/assets/about/tablet/image-team-members.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+  }
+  .team__numbers__grids {
+    border-top: none;
+    margin-top: 3rem;
+    padding: 1rem;
+    margin-left: 10.61rem;
+    margin-right: 10.61rem;
+    border-bottom: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .team__numbers__grids .team__numbers__text,
+  .team__numbers__grids .team__numbers__text1,
+  .team__numbers__grids .team__numbers__text2 {
+    border-bottom: 1px solid #bfcbd5;
+    border-top: 1px solid #bfcbd5;
+  }
+  .team__numbers__grids .team__numbers__text1 {
+    margin-left: 1.87rem;
+    margin-right: 1.87rem;
+  }
+  .team__numbers__grids p {
+    color: #36536B;
+    font-family: PublicSans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 1.75rem;
+    /* 175% */
+    padding-top: 1.06rem;
+  }
+  .team__numbers__grids .team__numbers {
+    color: #BA4270;
+    font-family: DM Serif Display;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.5rem;
+    /* 128.571% */
+    letter-spacing: -0.02694rem;
+    padding-bottom: 1.06rem;
   }
 }
 .mobile__btn,
