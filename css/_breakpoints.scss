@@ -1,5 +1,5 @@
 /* Styles for Mobile */
-@media only screen and (min-width: 375px) and (max-width: 768px) {
+@media only screen and (min-width: 375px) and (max-width: 767.5px) {
   .benefits__wrapper {
     max-width: 460px;
   }
@@ -21,10 +21,31 @@
     margin-left: 1rem;
     margin-right: 1rem;
   }
+  .about__heading{
+    font-size: 2rem;
+    margin-top: 7.88rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    line-height: 2.5rem;
+  }
+  .our-vision,
+  .our-business,
+  .culture,
+  .people {
+    margin-bottom: 3rem;
+    .our-vision__heading, .our-business__heading, .culture__heading, .people__heading {
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+    }
+    .our-vision__description, .our-business__description, .culture__description, .people__description {
+      margin-right: 1.5rem;
+      margin-left: 1.5rem;
+    }
+  }
 }
 
 /* Styles for Tablet */
-@media only screen and (min-width: 768px) and (max-width: 1440px) {
+@media only screen and (min-width: 768px) and (max-width: 1439.5px) {
   body {
     background-color: #82ae82;
   }
@@ -39,11 +60,46 @@
   }
   .simple__img {
     max-height: 100%;
-      width: auto;
-      }
+    width: auto;
+  }
   .easy__heading {
     font-size: 48px;
     margin-top: -3rem;
+  }
+  .about__heading{
+    font-size: 3rem;
+    margin-top: 10.19rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    line-height: 3.5rem;
+  }
+  .our-vision,
+  .our-business,
+  .culture,
+  .people {
+    display: flex;
+    margin-left: 2.44rem;
+    margin-bottom: 4rem;
+    text-align: left;
+  }
+  .our-vision__description {
+    margin-left: 6.3rem;
+    margin-right: 2.5rem;
+  }
+  .our-business__description {
+    margin-left: 4rem;
+    margin-right: 2.5rem;
+  }
+  .people__description {
+    margin-left: 5.6rem;
+    margin-right: 2.5rem;
+  }
+  .culture__description{
+    margin-left: 5rem;
+    margin-right: 2.5rem;
+  }
+  .our-vision {
+    margin-top: 3.4rem;
   }
 }
 
@@ -74,6 +130,7 @@
       .simple__heading {
         font-size: 48px;
         margin-left: 9.31rem;
+        margin-top: -3rem;
       }
       .simple__text {
         max-width: 500px;
@@ -92,11 +149,49 @@
       .easy__heading {
         font-size: 48px;
         margin-right: 9.31rem;
+        margin-top: -3rem;
       }
       .easy__text {
         max-width: 400px;
         margin-right: 9.31rem;
       }
     }
+  }
+
+  .about__heading {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    margin-right: 28.12rem;
+    margin-left: 16.25rem;
+    margin-top: 10.63rem;
+    text-align: left;
+  }
+  .our-vision,
+  .our-business,
+  .culture,
+  .people {
+    display: flex;
+    margin-left: 16.25rem;
+    margin-bottom: 3.75rem;
+    text-align: left;
+    .our-vision__description {
+      margin-left: 10rem;
+      margin-right: 16.25rem;
+    }
+    .our-business__description {
+      margin-left: 7.8rem;
+      margin-right: 16.25rem;
+    }
+    .people__description {
+      margin-left: 9.5rem;
+      margin-right: 16.25rem;
+    }
+    .culture__description{
+      margin-left: 8.8rem;
+      margin-right: 16.25rem;
+    }
+  }
+  .our-vision {
+    margin-top: 3.25rem;
   }
 }

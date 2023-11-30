@@ -174,8 +174,32 @@ img {
   max-width: 573px;
 }
 
+.about-main {
+  text-align: center;
+}
+.about-main .about__heading {
+  font-family: "DM Serif Display", serif;
+  letter-spacing: 1.25px;
+  color: #36536B;
+  margin-bottom: 3rem;
+  font-style: normal;
+  font-weight: 400;
+}
+.about-main .our-vision__heading, .about-main .our-business__heading, .about-main .culture__heading, .about-main .people__heading {
+  font-size: 2rem;
+  white-space: nowrap;
+  font-family: "DM Serif Display", serif;
+  color: #36536B;
+  font-style: normal;
+  font-weight: 400;
+}
+.about-main .our-business__description, .about-main .our-vision__description, .about-main .culture__description, .about-main .people__description {
+  font-family: "Public Sans", sans-serif;
+  color: #6C8294;
+}
+
 /* Styles for Mobile */
-@media only screen and (min-width: 375px) and (max-width: 768px) {
+@media only screen and (min-width: 375px) and (max-width: 767.5px) {
   .benefits__wrapper {
     max-width: 460px;
   }
@@ -197,9 +221,54 @@ img {
     margin-left: 1rem;
     margin-right: 1rem;
   }
+  .about__heading {
+    font-size: 2rem;
+    margin-top: 7.88rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    line-height: 2.5rem;
+  }
+  .our-vision,
+  .our-business,
+  .culture,
+  .people {
+    margin-bottom: 3rem;
+  }
+  .our-vision .our-vision__heading, .our-vision .our-business__heading, .our-vision .culture__heading, .our-vision .people__heading,
+  .our-business .our-vision__heading,
+  .our-business .our-business__heading,
+  .our-business .culture__heading,
+  .our-business .people__heading,
+  .culture .our-vision__heading,
+  .culture .our-business__heading,
+  .culture .culture__heading,
+  .culture .people__heading,
+  .people .our-vision__heading,
+  .people .our-business__heading,
+  .people .culture__heading,
+  .people .people__heading {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  .our-vision .our-vision__description, .our-vision .our-business__description, .our-vision .culture__description, .our-vision .people__description,
+  .our-business .our-vision__description,
+  .our-business .our-business__description,
+  .our-business .culture__description,
+  .our-business .people__description,
+  .culture .our-vision__description,
+  .culture .our-business__description,
+  .culture .culture__description,
+  .culture .people__description,
+  .people .our-vision__description,
+  .people .our-business__description,
+  .people .culture__description,
+  .people .people__description {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
 }
 /* Styles for Tablet */
-@media only screen and (min-width: 768px) and (max-width: 1440px) {
+@media only screen and (min-width: 768px) and (max-width: 1439.5px) {
   body {
     background-color: #82ae82;
   }
@@ -219,6 +288,41 @@ img {
   .easy__heading {
     font-size: 48px;
     margin-top: -3rem;
+  }
+  .about__heading {
+    font-size: 3rem;
+    margin-top: 10.19rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    line-height: 3.5rem;
+  }
+  .our-vision,
+  .our-business,
+  .culture,
+  .people {
+    display: flex;
+    margin-left: 2.44rem;
+    margin-bottom: 4rem;
+    text-align: left;
+  }
+  .our-vision__description {
+    margin-left: 6.3rem;
+    margin-right: 2.5rem;
+  }
+  .our-business__description {
+    margin-left: 4rem;
+    margin-right: 2.5rem;
+  }
+  .people__description {
+    margin-left: 5.6rem;
+    margin-right: 2.5rem;
+  }
+  .culture__description {
+    margin-left: 5rem;
+    margin-right: 2.5rem;
+  }
+  .our-vision {
+    margin-top: 3.4rem;
   }
 }
 /* Styles for Desktop */
@@ -248,6 +352,7 @@ img {
   .simple .simple__wrapper .simple__heading {
     font-size: 48px;
     margin-left: 9.31rem;
+    margin-top: -3rem;
   }
   .simple .simple__wrapper .simple__text {
     max-width: 500px;
@@ -265,10 +370,59 @@ img {
   .easy .easy__wrapper .easy__heading {
     font-size: 48px;
     margin-right: 9.31rem;
+    margin-top: -3rem;
   }
   .easy .easy__wrapper .easy__text {
     max-width: 400px;
     margin-right: 9.31rem;
+  }
+  .about__heading {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    margin-right: 28.12rem;
+    margin-left: 16.25rem;
+    margin-top: 10.63rem;
+    text-align: left;
+  }
+  .our-vision,
+  .our-business,
+  .culture,
+  .people {
+    display: flex;
+    margin-left: 16.25rem;
+    margin-bottom: 3.75rem;
+    text-align: left;
+  }
+  .our-vision .our-vision__description,
+  .our-business .our-vision__description,
+  .culture .our-vision__description,
+  .people .our-vision__description {
+    margin-left: 10rem;
+    margin-right: 16.25rem;
+  }
+  .our-vision .our-business__description,
+  .our-business .our-business__description,
+  .culture .our-business__description,
+  .people .our-business__description {
+    margin-left: 7.8rem;
+    margin-right: 16.25rem;
+  }
+  .our-vision .people__description,
+  .our-business .people__description,
+  .culture .people__description,
+  .people .people__description {
+    margin-left: 9.5rem;
+    margin-right: 16.25rem;
+  }
+  .our-vision .culture__description,
+  .our-business .culture__description,
+  .culture .culture__description,
+  .people .culture__description {
+    margin-left: 8.8rem;
+    margin-right: 16.25rem;
+  }
+  .our-vision {
+    margin-top: 3.25rem;
   }
 }
 .h1__large {
