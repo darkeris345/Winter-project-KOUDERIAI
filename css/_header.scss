@@ -117,7 +117,8 @@
         margin-bottom: 75px;
         margin: 0 auto;
     }
-// NEED TO FIX THIS PART
+
+    // NEED TO FIX THIS PART
     .btns {
         width: 445px;
         max-width: 100%;
@@ -137,9 +138,9 @@
         box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
         border-radius: 24px;
         height: 48px;
-        
-     
-    
+
+
+
         font-weight: 700;
         font-family: Public Sans;
         font-size: 15px;
@@ -164,6 +165,7 @@
 
         position: absolute;
         right: 0;
+
         &:hover {
             background: $secondary-colors-charm-pink;
             cursor: pointer;
@@ -189,7 +191,7 @@
         letter-spacing: -0.369px;
         width: 573px;
         height: 122px;
-        
+
     }
 
     .p__questions {
@@ -208,8 +210,14 @@
         font-weight: 700;
     }
 
-    .title_input {border:0;outline:0;}
-    input:focus {outline:none!important;}
+    .title_input {
+        border: 0;
+        outline: 0;
+    }
+
+    input:focus {
+        outline: none !important;
+    }
 
     .head__text {
         margin-left: 97px;
@@ -249,7 +257,7 @@
         width: 445px;
         max-width: 100%;
         position: relative;
-        margin:auto 0;
+        margin: auto 0;
     }
 
     .title_input {
@@ -269,8 +277,15 @@
         margin-left: -1rem;
         color: $secondary-colors-san-juan-blue;
     }
-    .title_input {border:0;outline:0;}
-    input:focus {outline:none!important;}
+
+    .title_input {
+        border: 0;
+        outline: 0;
+    }
+
+    input:focus {
+        outline: none !important;
+    }
 
     .bttn__header {
         color: $primary-colors-water-white;
@@ -293,6 +308,7 @@
 
         position: absolute;
         right: 0;
+
         &:hover {
             background: $secondary-colors-charm-pink;
             cursor: pointer;
@@ -304,13 +320,14 @@
         }
     }
 
-    .head__text{
-        margin-left:10.31rem;
+    .head__text {
+        margin-left: 10.31rem;
         padding-left: 0;
     }
+
     .title__txt {
         width: 546px;
-        margin-top: 152px;
+        margin-top: 100px;
         line-height: 72px;
         height: 243px;
         flex-shrink: 0;
@@ -344,14 +361,12 @@
     }
 
     .center__img {
-        width: 233px;
-        height: 465px;
-        // margin: 0 auto;
+        width: 257px;
         filter: drop-shadow(25px 25px 80px rgba(54, 83, 107, 0.30));
     }
 
     .center__img {
-        margin-top: 100px;
+        margin-top: 50px;
         margin-right: 275px;
     }
 }

@@ -323,7 +323,7 @@ img {
   }
   .about__heading {
     font-size: 2rem;
-    margin-top: 7.88rem;
+    margin-top: 3rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     line-height: 2.5rem;
@@ -333,6 +333,7 @@ img {
   .culture,
   .people {
     margin-bottom: 3rem;
+    margin-top: 3rem;
   }
   .our-vision .our-vision__heading,
   .our-vision .our-business__heading,
@@ -377,6 +378,7 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     height: 300px;
+    margin-top: 4.75rem;
   }
   .team__numbers__grids {
     border-top: 1px solid rgba(54, 83, 107, 0.25);
@@ -416,6 +418,7 @@ img {
     list-style-type: none;
   }
   .menu a {
+    font-weight: 700;
     padding-right: 2.5rem;
     text-decoration: none;
     color: #36536B;
@@ -473,7 +476,7 @@ img {
   }
   .about__heading {
     font-size: 3rem;
-    margin-top: 10.19rem;
+    margin-top: 5rem;
     margin-left: 6rem;
     margin-right: 6rem;
     line-height: 3.5rem;
@@ -485,6 +488,7 @@ img {
     display: flex;
     margin-left: 2.44rem;
     margin-bottom: 4rem;
+    margin-top: 4rem;
     text-align: left;
   }
   .our-vision__description {
@@ -501,6 +505,7 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     height: 275px;
+    margin-top: 5.5rem;
   }
   .team__numbers__grids {
     border-top: none;
@@ -578,6 +583,7 @@ img {
     font-size: 0.9375rem;
     font-family: "Public Sans";
     opacity: 0.7;
+    font-weight: 700;
   }
   .menu a:hover {
     color: #36536B;
@@ -651,7 +657,7 @@ img {
     line-height: 3.5rem;
     margin-right: 28.12rem;
     margin-left: 16.25rem;
-    margin-top: 10.63rem;
+    margin-top: 5.13rem;
     text-align: left;
   }
   .our-vision,
@@ -661,6 +667,7 @@ img {
     display: flex;
     margin-left: 16.25rem;
     margin-bottom: 3.75rem;
+    margin-top: 4.5rem;
     text-align: left;
   }
   .our-vision .our-vision__description,
@@ -700,6 +707,7 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
+    margin-top: 6rem;
   }
   .team__numbers__grids {
     border-top: none;
@@ -769,7 +777,7 @@ img {
   color: #1B262F;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1440px) {
+@media only screen and (min-width: 768px) and (max-width: 1439.5px) {
   .partners__button {
     margin: 32px 0px 88px 0px;
   }
@@ -784,6 +792,7 @@ img {
 .bttn {
   font-size: 0.9375rem;
   color: #FBFCFE;
+  font-family: "Public Sans";
   border: none;
 }
 .mobile__btn:hover,
@@ -979,7 +988,7 @@ w-400 {
   line-height: 2.25rem;
   /* 112.5% */
   letter-spacing: -0.01538rem;
-  margin-top: 5rem;
+  margin-top: 3rem;
   margin-bottom: 0.5rem;
 }
 
@@ -1035,7 +1044,7 @@ w-400 {
 }
 
 /* Styles for Tablet */
-@media only screen and (min-width: 768px) and (max-width: 1440px) {
+@media only screen and (min-width: 768px) and (max-width: 1439.5px) {
   .footer__section1 .footer__section1__text {
     font-size: 3rem;
     line-height: 3.5rem;
@@ -1084,14 +1093,14 @@ w-400 {
   .footer__section1 .footer__section1__text {
     font-size: 3rem;
     line-height: 3.5rem;
-    /* 116.667% */
     letter-spacing: -0.02306rem;
-    margin-top: 6rem;
+    margin-top: 3rem;
     margin-bottom: 6rem;
     width: 445px;
     text-align: left;
   }
   .footer__section1 .footer__button {
+    margin-bottom: 6.25rem;
     left: 0;
   }
   .footer__section1 .footer__button__pink {
@@ -1399,7 +1408,7 @@ w-400 {
   }
   .title__txt {
     width: 546px;
-    margin-top: 152px;
+    margin-top: 100px;
     line-height: 72px;
     height: 243px;
     flex-shrink: 0;
@@ -1429,12 +1438,11 @@ w-400 {
     margin-left: 1rem;
   }
   .center__img {
-    width: 233px;
-    height: 465px;
+    width: 257px;
     filter: drop-shadow(25px 25px 80px rgba(54, 83, 107, 0.3));
   }
   .center__img {
-    margin-top: 100px;
+    margin-top: 50px;
     margin-right: 275px;
   }
 }/*# sourceMappingURL=style.css.map */

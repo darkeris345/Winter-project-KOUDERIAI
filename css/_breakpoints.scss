@@ -30,7 +30,7 @@
 
   .about__heading {
     font-size: 2rem;
-    margin-top: 7.88rem;
+    margin-top: 3rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     line-height: 2.5rem;
@@ -41,6 +41,7 @@
   .culture,
   .people {
     margin-bottom: 3rem;
+    margin-top: 3rem;
 
     .our-vision__heading,
     .our-business__heading,
@@ -60,11 +61,13 @@
 
 
   }
+
   .team_numbers_image {
     background-image: url(/assets/about/mobile/image-team-members.jpg);
     background-position: center;
     background-repeat: no-repeat;
     height: 300px;
+    margin-top: 4.75rem;
   }
 
   .team__numbers__grids {
@@ -113,7 +116,7 @@
     list-style-type: none;
 
     a {
-
+      font-weight: 700;
       padding-right: 2.5rem;
       text-decoration: none;
       color: $secondary-colors-san-juan-blue;
@@ -161,7 +164,7 @@
     }
   }
 
-//      TEXT AND IMAGES SECTIONS  
+  //      TEXT AND IMAGES SECTIONS  
 
   .benefits__wrapper {
     grid-template-columns: repeat(3, 1fr);
@@ -169,7 +172,7 @@
     max-width: 720px;
   }
 
- .simple__heading {
+  .simple__heading {
     font-size: 48px;
     margin-top: -3rem;
   }
@@ -186,7 +189,7 @@
 
   .about__heading {
     font-size: 3rem;
-    margin-top: 10.19rem;
+    margin-top: 5rem;
     margin-left: 6rem;
     margin-right: 6rem;
     line-height: 3.5rem;
@@ -199,6 +202,7 @@
     display: flex;
     margin-left: 2.44rem;
     margin-bottom: 4rem;
+    margin-top: 4rem;
     text-align: left;
   }
 
@@ -207,7 +211,7 @@
     margin-right: 2.5rem;
   }
 
-.easy__heading {
+  .easy__heading {
     font-size: 48px;
     margin-top: -3rem;
   }
@@ -218,6 +222,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 275px;
+    margin-top: 5.50rem;
   }
 
   .team__numbers__grids {
@@ -264,7 +269,7 @@
     }
   }
 
-.our-business__description {
+  .our-business__description {
     margin-left: 4rem;
     margin-right: 2.5rem;
   }
@@ -313,6 +318,7 @@
       font-size: 0.9375rem;
       font-family: "Public Sans";
       opacity: 0.7;
+      font-weight: 700;
 
       &:hover {
         color: $secondary-colors-san-juan-blue;
@@ -400,13 +406,14 @@
       }
     }
   }
-    // ABBOUT PART
+
+  // ABBOUT PART
   .about__heading {
     font-size: 3.5rem;
     line-height: 3.5rem;
     margin-right: 28.12rem;
     margin-left: 16.25rem;
-    margin-top: 10.63rem;
+    margin-top: 5.13rem;
     text-align: left;
   }
 
@@ -417,6 +424,7 @@
     display: flex;
     margin-left: 16.25rem;
     margin-bottom: 3.75rem;
+    margin-top: 4.5rem;
     text-align: left;
 
     .our-vision__description {
@@ -439,6 +447,7 @@
       margin-right: 16.25rem;
     }
   }
+
   .our-vision {
     margin-top: 3.25rem;
   }
@@ -449,6 +458,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
+    margin-top: 6rem;
   }
 
   .team__numbers__grids {
