@@ -36,33 +36,31 @@
     }
 
     .team__numbers__grids {
-        border-top: 1px solid #bfcbd5;
+        border-top: 1px solid rgba(54, 83, 107, 0.25);
         margin-top: 3rem;
         padding: 1rem;
         margin-left: 1.5rem;
         margin-right: 1.5rem;
-        border-bottom: 1px solid #bfcbd5;
+        border-bottom: 1px solid rgba(54, 83, 107, 0.25);
 
         p {
-            color: #36536B;
+            color: $secondary-colors-san-juan-blue ;
             text-align: center;
             font-family: Public Sans;
             font-size: 1rem;
             font-style: normal;
             font-weight: 400;
             line-height: 1.75rem;
-            /* 175% */
         }
 
         .team__numbers {
-            color: #BA4270;
+            color: $primary-colors-dark-pink;
             text-align: center;
             font-family: DM Serif Display;
             font-size: 3.5rem;
             font-style: normal;
             font-weight: 400;
             line-height: 4.5rem;
-            /* 128.571% */
             letter-spacing: -0.02694rem;
         }
     }
@@ -157,7 +155,7 @@
     }
 
     .team_numbers_image {
-        background-image: url(/assets/about/tablet/image-team-members.jpg);
+        background-image: url(/assets/about/desktop/image-team-members.jpg) ;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -177,8 +175,8 @@
         .team__numbers__text,
         .team__numbers__text1,
         .team__numbers__text2 {
-            border-bottom: 1px solid #bfcbd5;
-            border-top: 1px solid #bfcbd5;
+            border-bottom: 1px solid rgba(54, 83, 107, 0.25);
+            border-top: 1px solid rgba(54, 83, 107, 0.25);
         }
 
         .team__numbers__text1 {
@@ -187,24 +185,22 @@
         }
 
         p {
-            color: #36536B;
+            color: $secondary-colors-san-juan-blue;
             font-family: PublicSans;
             font-size: 1rem;
             font-style: normal;
             font-weight: 100;
             line-height: 1.75rem;
-            /* 175% */
             padding-top: 1.06rem;
         }
 
         .team__numbers {
-            color: #BA4270;
+            color: $primary-colors-dark-pink;
             font-family: DM Serif Display;
             font-size: 3.5rem;
             font-style: normal;
             font-weight: 400;
             line-height: 4.5rem;
-            /* 128.571% */
             letter-spacing: -0.02694rem;
             padding-bottom: 1.06rem;
         }
@@ -335,7 +331,7 @@
     }
 
     .team_numbers_image {
-        background-image: url(/assets/about/tablet/image-team-members.jpg);
+        background-image: url(/assets/about/desktop/image-team-members.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -355,8 +351,8 @@
         .team__numbers__text,
         .team__numbers__text1,
         .team__numbers__text2 {
-            border-bottom: 1px solid #bfcbd5;
-            border-top: 1px solid #bfcbd5;
+            border-bottom: 1px solid rgba(54, 83, 107, 0.25);
+            border-top: 1px solid rgba(54, 83, 107, 0.25);
         }
 
         .team__numbers__text1 {
@@ -365,24 +361,22 @@
         }
 
         p {
-            color: #36536B;
+            color: $secondary-colors-san-juan-blue;
             font-family: PublicSans;
             font-size: 1rem;
             font-style: normal;
             font-weight: 100;
             line-height: 1.75rem;
-            /* 175% */
             padding-top: 1.06rem;
         }
 
         .team__numbers {
-            color: #BA4270;
+            color: $primary-colors-dark-pink;
             font-family: DM Serif Display;
             font-size: 3.5rem;
             font-style: normal;
             font-weight: 400;
             line-height: 4.5rem;
-            /* 128.571% */
             letter-spacing: -0.02694rem;
             padding-bottom: 1.06rem;
         }
