@@ -97,8 +97,9 @@ img {
     }
   }
 }
-.about-main {
+.about__container, .culture, .people {
   text-align: center;
+}
   .about__heading {
     font-family: 'DM Serif Display', serif;;
     letter-spacing: 1.25px;
@@ -119,5 +120,4 @@ img {
     font-family: 'Public Sans', sans-serif;
     color: $secondary-colors-light-juan-blue;
   }
-}
 

@@ -30,7 +30,7 @@
 
   .about__heading {
     font-size: 2rem;
-    margin-top: 7.88rem;
+    margin-top: 3rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     line-height: 2.5rem;
@@ -41,6 +41,7 @@
   .culture,
   .people {
     margin-bottom: 3rem;
+    margin-top: 3rem;
 
     .our-vision__heading,
     .our-business__heading,
@@ -57,8 +58,50 @@
       margin-right: 1.5rem;
       margin-left: 1.5rem;
     }
+
+
+  }
+
+  .team_numbers_image {
+    background-image: url(/assets/about/mobile/image-team-members.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-top: 4.75rem;
+  }
+
+  .team__numbers__grids {
+    border-top: 1px solid rgba(54, 83, 107, 0.25);
+    margin-top: 3rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    border-bottom: 1px solid rgba(54, 83, 107, 0.25);
+
+    p {
+      color: $secondary-colors-san-juan-blue ;
+      text-align: center;
+      font-family: 'Public Sans';
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.75rem;
+    }
+
+    .team__numbers {
+      color: $primary-colors-dark-pink;
+      text-align: center;
+      font-family: 'DM Serif Display';
+      font-size: 3.5rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 4.5rem;
+      letter-spacing: -0.02694rem;
+    }
   }
 }
+
+
 
 /* Styles for Tablet */
 @media only screen and (min-width: 768px) and (max-width: 1439.5px) {
@@ -73,7 +116,7 @@
     list-style-type: none;
 
     a {
-
+      font-weight: 700;
       padding-right: 2.5rem;
       text-decoration: none;
       color: $secondary-colors-san-juan-blue;
@@ -93,15 +136,6 @@
     display: none;
   }
 
-  .bttn {
-    width: 173px;
-    height: 48px;
-    border-radius: 24px;
-    background: $primary-colors-dark-pink;
-    box-shadow: 10px 10px 25px -10px #36536b40;
-    margin-right: 2.5rem;
-  }
-
   .nav {
     display: flex;
     justify-content: space-between;
@@ -116,7 +150,22 @@
     margin: 0.2rem 0 0 2.44rem;
   }
 
+  .bttn {
+    width: 173px;
+    height: 48px;
+    border-radius: 24px;
+    background: $primary-colors-dark-pink;
+    box-shadow: 10px 10px 25px -10px #36536b40;
+    margin-right: 2.5rem;
+
+    &:active {
+      box-shadow: 0 1px #666;
+      transform: translateY(4px);
+    }
+  }
+
   //      TEXT AND IMAGES SECTIONS  
+
   .benefits__wrapper {
     grid-template-columns: repeat(3, 1fr);
     gap: 0.625rem;
@@ -140,7 +189,7 @@
 
   .about__heading {
     font-size: 3rem;
-    margin-top: 10.19rem;
+    margin-top: 5rem;
     margin-left: 6rem;
     margin-right: 6rem;
     line-height: 3.5rem;
@@ -153,12 +202,71 @@
     display: flex;
     margin-left: 2.44rem;
     margin-bottom: 4rem;
+    margin-top: 4rem;
     text-align: left;
   }
 
   .our-vision__description {
     margin-left: 6.3rem;
     margin-right: 2.5rem;
+  }
+
+  .easy__heading {
+    font-size: 48px;
+    margin-top: -3rem;
+  }
+
+  .team_numbers_image {
+    background-image: url(/assets/about/desktop/image-team-members.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 275px;
+    margin-top: 5.50rem;
+  }
+
+  .team__numbers__grids {
+    border-top: none;
+    margin-top: 3rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    border-bottom: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    .team__numbers__text,
+    .team__numbers__text1,
+    .team__numbers__text2 {
+      border-bottom: 1px solid rgba(54, 83, 107, 0.25);
+      border-top: 1px solid rgba(54, 83, 107, 0.25);
+    }
+
+    .team__numbers__text1 {
+      margin-left: 0.62rem;
+      margin-right: 0.62rem;
+    }
+
+    p {
+      color: $secondary-colors-san-juan-blue;
+      font-family: 'Public Sans';
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 100;
+      line-height: 1.75rem;
+      padding-top: 1.06rem;
+    }
+
+    .team__numbers {
+      color: $primary-colors-dark-pink;
+      font-family: 'DM Serif Display';
+      font-size: 3.5rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 4.5rem;
+      letter-spacing: -0.02694rem;
+      padding-bottom: 1.06rem;
+    }
   }
 
   .our-business__description {
@@ -185,6 +293,7 @@
 /* Styles for Desktop */
 @media only screen and (min-width: 1440px) {
 
+  // NAVBAR PART
   nav {
     ul {
       display: flex;
@@ -209,6 +318,7 @@
       font-size: 0.9375rem;
       font-family: "Public Sans";
       opacity: 0.7;
+      font-weight: 700;
 
       &:hover {
         color: $secondary-colors-san-juan-blue;
@@ -244,7 +354,7 @@
     padding-top: 2px;
   }
 
-  //      TEXT AND IMAGES SECTIONS  
+  //      TEXT AND IMAGES SECTIONS  IN HOMEPAGE
   .benefits__wrapper {
     grid-template-columns: repeat(3, 1fr);
     gap: 0.625rem;
@@ -297,12 +407,13 @@
     }
   }
 
+  // ABBOUT PART
   .about__heading {
     font-size: 3.5rem;
     line-height: 3.5rem;
     margin-right: 28.12rem;
     margin-left: 16.25rem;
-    margin-top: 10.63rem;
+    margin-top: 5.13rem;
     text-align: left;
   }
 
@@ -313,6 +424,7 @@
     display: flex;
     margin-left: 16.25rem;
     margin-bottom: 3.75rem;
+    margin-top: 4.5rem;
     text-align: left;
 
     .our-vision__description {
@@ -338,5 +450,58 @@
 
   .our-vision {
     margin-top: 3.25rem;
+  }
+
+  .team_numbers_image {
+    background-image: url(/assets/about/desktop/image-team-members.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-top: 6rem;
+  }
+
+  .team__numbers__grids {
+    border-top: none;
+    margin-top: 3rem;
+    padding: 1rem;
+    margin-left: 10.61rem;
+    margin-right: 10.61rem;
+    border-bottom: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    .team__numbers__text,
+    .team__numbers__text1,
+    .team__numbers__text2 {
+      border-bottom: 1px solid rgba(54, 83, 107, 0.25);
+      border-top: 1px solid rgba(54, 83, 107, 0.25);
+    }
+
+    .team__numbers__text1 {
+      margin-left: 1.87rem;
+      margin-right: 1.87rem;
+    }
+
+    p {
+      color: $secondary-colors-san-juan-blue;
+      font-family: 'Public Sans';
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 100;
+      line-height: 1.75rem;
+      padding-top: 1.06rem;
+    }
+
+    .team__numbers {
+      color: $primary-colors-dark-pink;
+      font-family: 'DM Serif Display';
+      font-size: 3.5rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 4.5rem;
+      letter-spacing: -0.02694rem;
+      padding-bottom: 1.06rem;
+    }
   }
 }

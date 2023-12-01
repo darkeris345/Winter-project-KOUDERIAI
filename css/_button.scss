@@ -27,7 +27,7 @@
     color: $secondary-colors-mirage-blue;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1440px) {
+@media only screen and (min-width: 768px) and (max-width: 1439.5px) {
     .partners__button {
         margin: 32px 0px 88px 0px
     }
@@ -54,5 +54,6 @@
 
     font-size: 0.9375rem;
     color: $primary-colors-water-white;
+    font-family: 'Public Sans';
     border: none;
 }

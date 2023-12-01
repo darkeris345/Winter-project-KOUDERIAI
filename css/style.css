@@ -192,10 +192,11 @@ img {
   max-width: 573px;
 }
 
-.about-main {
+.about__container, .culture, .people {
   text-align: center;
 }
-.about-main .about__heading {
+
+.about__heading {
   font-family: "DM Serif Display", serif;
   letter-spacing: 1.25px;
   color: #36536B;
@@ -203,7 +204,8 @@ img {
   font-style: normal;
   font-weight: 400;
 }
-.about-main .our-vision__heading, .about-main .our-business__heading, .about-main .culture__heading, .about-main .people__heading {
+
+.our-vision__heading, .our-business__heading, .culture__heading, .people__heading {
   font-size: 2rem;
   white-space: nowrap;
   font-family: "DM Serif Display", serif;
@@ -211,7 +213,8 @@ img {
   font-style: normal;
   font-weight: 400;
 }
-.about-main .our-business__description, .about-main .our-vision__description, .about-main .culture__description, .about-main .people__description {
+
+.our-business__description, .our-vision__description, .culture__description, .people__description {
   font-family: "Public Sans", sans-serif;
   color: #6C8294;
 }
@@ -246,7 +249,7 @@ img {
   padding: 88px 47px 0px 47px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1440px) {
+@media only screen and (min-width: 768px) and (max-width: 1439.5px) {
   .partners__logos {
     grid-template-columns: repeat(3, 1fr);
     gap: 3.5rem;
@@ -320,7 +323,7 @@ img {
   }
   .about__heading {
     font-size: 2rem;
-    margin-top: 7.88rem;
+    margin-top: 3rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     line-height: 2.5rem;
@@ -330,6 +333,7 @@ img {
   .culture,
   .people {
     margin-bottom: 3rem;
+    margin-top: 3rem;
   }
   .our-vision .our-vision__heading,
   .our-vision .our-business__heading,
@@ -369,6 +373,40 @@ img {
     margin-right: 1.5rem;
     margin-left: 1.5rem;
   }
+  .team_numbers_image {
+    background-image: url(/assets/about/mobile/image-team-members.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-top: 4.75rem;
+  }
+  .team__numbers__grids {
+    border-top: 1px solid rgba(54, 83, 107, 0.25);
+    margin-top: 3rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    border-bottom: 1px solid rgba(54, 83, 107, 0.25);
+  }
+  .team__numbers__grids p {
+    color: #36536B;
+    text-align: center;
+    font-family: "Public Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+  }
+  .team__numbers__grids .team__numbers {
+    color: #BA4270;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.5rem;
+    letter-spacing: -0.02694rem;
+  }
 }
 /* Styles for Tablet */
 @media only screen and (min-width: 768px) and (max-width: 1439.5px) {
@@ -380,6 +418,7 @@ img {
     list-style-type: none;
   }
   .menu a {
+    font-weight: 700;
     padding-right: 2.5rem;
     text-decoration: none;
     color: #36536B;
@@ -395,14 +434,6 @@ img {
   .mobile__btn {
     display: none;
   }
-  .bttn {
-    width: 173px;
-    height: 48px;
-    border-radius: 24px;
-    background: #BA4270;
-    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.2509803922);
-    margin-right: 2.5rem;
-  }
   .nav {
     display: flex;
     justify-content: space-between;
@@ -413,6 +444,18 @@ img {
   }
   .logo {
     margin: 0.2rem 0 0 2.44rem;
+  }
+  .bttn {
+    width: 173px;
+    height: 48px;
+    border-radius: 24px;
+    background: #BA4270;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.2509803922);
+    margin-right: 2.5rem;
+  }
+  .bttn:active {
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
   }
   .benefits__wrapper {
     grid-template-columns: repeat(3, 1fr);
@@ -433,7 +476,7 @@ img {
   }
   .about__heading {
     font-size: 3rem;
-    margin-top: 10.19rem;
+    margin-top: 5rem;
     margin-left: 6rem;
     margin-right: 6rem;
     line-height: 3.5rem;
@@ -445,11 +488,63 @@ img {
     display: flex;
     margin-left: 2.44rem;
     margin-bottom: 4rem;
+    margin-top: 4rem;
     text-align: left;
   }
   .our-vision__description {
     margin-left: 6.3rem;
     margin-right: 2.5rem;
+  }
+  .easy__heading {
+    font-size: 48px;
+    margin-top: -3rem;
+  }
+  .team_numbers_image {
+    background-image: url(/assets/about/desktop/image-team-members.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 275px;
+    margin-top: 5.5rem;
+  }
+  .team__numbers__grids {
+    border-top: none;
+    margin-top: 3rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    border-bottom: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .team__numbers__grids .team__numbers__text,
+  .team__numbers__grids .team__numbers__text1,
+  .team__numbers__grids .team__numbers__text2 {
+    border-bottom: 1px solid rgba(54, 83, 107, 0.25);
+    border-top: 1px solid rgba(54, 83, 107, 0.25);
+  }
+  .team__numbers__grids .team__numbers__text1 {
+    margin-left: 0.62rem;
+    margin-right: 0.62rem;
+  }
+  .team__numbers__grids p {
+    color: #36536B;
+    font-family: "Public Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 1.75rem;
+    padding-top: 1.06rem;
+  }
+  .team__numbers__grids .team__numbers {
+    color: #BA4270;
+    font-family: "DM Serif Display";
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.5rem;
+    letter-spacing: -0.02694rem;
+    padding-bottom: 1.06rem;
   }
   .our-business__description {
     margin-left: 4rem;
@@ -488,6 +583,7 @@ img {
     font-size: 0.9375rem;
     font-family: "Public Sans";
     opacity: 0.7;
+    font-weight: 700;
   }
   .menu a:hover {
     color: #36536B;
@@ -561,7 +657,7 @@ img {
     line-height: 3.5rem;
     margin-right: 28.12rem;
     margin-left: 16.25rem;
-    margin-top: 10.63rem;
+    margin-top: 5.13rem;
     text-align: left;
   }
   .our-vision,
@@ -571,6 +667,7 @@ img {
     display: flex;
     margin-left: 16.25rem;
     margin-bottom: 3.75rem;
+    margin-top: 4.5rem;
     text-align: left;
   }
   .our-vision .our-vision__description,
@@ -604,6 +701,53 @@ img {
   .our-vision {
     margin-top: 3.25rem;
   }
+  .team_numbers_image {
+    background-image: url(/assets/about/desktop/image-team-members.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-top: 6rem;
+  }
+  .team__numbers__grids {
+    border-top: none;
+    margin-top: 3rem;
+    padding: 1rem;
+    margin-left: 10.61rem;
+    margin-right: 10.61rem;
+    border-bottom: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .team__numbers__grids .team__numbers__text,
+  .team__numbers__grids .team__numbers__text1,
+  .team__numbers__grids .team__numbers__text2 {
+    border-bottom: 1px solid rgba(54, 83, 107, 0.25);
+    border-top: 1px solid rgba(54, 83, 107, 0.25);
+  }
+  .team__numbers__grids .team__numbers__text1 {
+    margin-left: 1.87rem;
+    margin-right: 1.87rem;
+  }
+  .team__numbers__grids p {
+    color: #36536B;
+    font-family: "Public Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 1.75rem;
+    padding-top: 1.06rem;
+  }
+  .team__numbers__grids .team__numbers {
+    color: #BA4270;
+    font-family: "DM Serif Display";
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.5rem;
+    letter-spacing: -0.02694rem;
+    padding-bottom: 1.06rem;
+  }
 }
 .partners__button {
   padding: 0.375rem 0.5rem;
@@ -633,7 +777,7 @@ img {
   color: #1B262F;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1440px) {
+@media only screen and (min-width: 768px) and (max-width: 1439.5px) {
   .partners__button {
     margin: 32px 0px 88px 0px;
   }
@@ -648,6 +792,7 @@ img {
 .bttn {
   font-size: 0.9375rem;
   color: #FBFCFE;
+  font-family: "Public Sans";
   border: none;
 }
 .mobile__btn:hover,
@@ -840,9 +985,10 @@ w-400 {
   font-style: normal;
   font-weight: 400;
   font-size: 2rem;
-  line-height: 2.25rem; /* 112.5% */
+  line-height: 2.25rem;
+  /* 112.5% */
   letter-spacing: -0.01538rem;
-  margin-top: 5rem;
+  margin-top: 3rem;
   margin-bottom: 0.5rem;
 }
 
@@ -898,10 +1044,11 @@ w-400 {
 }
 
 /* Styles for Tablet */
-@media only screen and (min-width: 768px) and (max-width: 1440px) {
+@media only screen and (min-width: 768px) and (max-width: 1439.5px) {
   .footer__section1 .footer__section1__text {
     font-size: 3rem;
-    line-height: 3.5rem; /* 116.667% */
+    line-height: 3.5rem;
+    /* 116.667% */
     letter-spacing: -0.02306rem;
     margin-bottom: 2.5rem;
   }
@@ -945,14 +1092,15 @@ w-400 {
   }
   .footer__section1 .footer__section1__text {
     font-size: 3rem;
-    line-height: 3.5rem; /* 116.667% */
+    line-height: 3.5rem;
     letter-spacing: -0.02306rem;
-    margin-top: 6rem;
+    margin-top: 3rem;
     margin-bottom: 6rem;
     width: 445px;
     text-align: left;
   }
   .footer__section1 .footer__button {
+    margin-bottom: 6.25rem;
     left: 0;
   }
   .footer__section1 .footer__button__pink {
@@ -1260,7 +1408,7 @@ w-400 {
   }
   .title__txt {
     width: 546px;
-    margin-top: 152px;
+    margin-top: 100px;
     line-height: 72px;
     height: 243px;
     flex-shrink: 0;
@@ -1290,12 +1438,11 @@ w-400 {
     margin-left: 1rem;
   }
   .center__img {
-    width: 233px;
-    height: 465px;
+    width: 257px;
     filter: drop-shadow(25px 25px 80px rgba(54, 83, 107, 0.3));
   }
   .center__img {
-    margin-top: 100px;
+    margin-top: 50px;
     margin-right: 275px;
   }
 }/*# sourceMappingURL=style.css.map */
