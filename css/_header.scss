@@ -111,9 +111,6 @@
 
 /* Styles for Tablet */
 @media only screen and (min-width: 768px) and (max-width: 1439.5px) {
-    body {
-        background-color: #82ae82;
-    }
 
     .win__8 {
         font-size: 48px;
@@ -230,9 +227,6 @@
 
 /* Styles for Desktop */
 @media only screen and (min-width: 1440px) {
-    body {
-        background-color: #afaf93;
-    }
 
     nav {
         ul {
