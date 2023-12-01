@@ -1,8 +1,18 @@
+
 @use "variables";
+
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.resize-animation-stopper * {
+  animation: none !important;
+  transition: none !important;
+}
+
+body{
+    background-color: $primary-colors-background-color;
 }
 
 p {
@@ -87,7 +97,6 @@ img {
     }
   }
 }
-
 .about-main {
   text-align: center;
   .about__heading {
@@ -111,3 +120,4 @@ img {
     color: $secondary-colors-light-juan-blue;
   }
 }
+
