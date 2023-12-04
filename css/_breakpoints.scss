@@ -17,6 +17,7 @@
     margin-right: 1rem;
   }
 
+
   .easy__heading {
     font-size: 36px;
     margin-top: -1rem;
@@ -27,6 +28,7 @@
     margin-left: 1rem;
     margin-right: 1rem;
   }
+
 
   .about__heading {
     font-size: 2rem;
@@ -151,6 +153,12 @@
   }
 
   .bttn {
+    font-size: 0.9375rem;
+    color: $primary-colors-water-white;
+    font-family: 'Public Sans';
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
     width: 173px;
     height: 48px;
     border-radius: 24px;
@@ -332,6 +340,12 @@
   }
 
   .bttn {
+    font-size: 0.9375rem;
+    color: $primary-colors-water-white;
+    font-family: 'Public Sans';
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
     width: 173px;
     height: 48px;
     border-radius: 24px;
