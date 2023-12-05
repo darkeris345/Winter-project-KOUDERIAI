@@ -46,7 +46,7 @@ p {
     gap: 3rem;
 
     .benefit-card__img {
-      padding: 1.5rem;
+      padding: 1.4rem;
     }
 
     .benefit-card__heading {
@@ -85,8 +85,6 @@ p {
     }
 
     .simple__heading {
-      letter-spacing: 1px;
-      margin-bottom: 1.5rem;
       color: $secondary-colors-san-juan-blue;
     }
 
@@ -109,14 +107,11 @@ p {
     align-items: center;
 
     .easy__img {
-      max-width: 100%;
       margin-left: 2.5rem;
       filter: drop-shadow(25px 25px 80px rgba(54, 83, 107, 0.322));
     }
 
     .easy__heading {
-      letter-spacing: 1px;
-      margin-bottom: 1.5rem;
       color: $secondary-colors-san-juan-blue;
     }
 
