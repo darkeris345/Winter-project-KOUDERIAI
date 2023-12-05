@@ -1475,4 +1475,496 @@ w-400 {
     margin-top: 50px;
     margin-right: 275px;
   }
+}
+/* Styles for Mobile */
+@media only screen and (min-width: 375px) and (max-width: 767.5px) {
+  .pricing__plan {
+    color: #36536B;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.25rem;
+    letter-spacing: -0.01538rem;
+    margin-top: 3rem;
+  }
+  .pricing__free__plan {
+    color: #BA4270;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: -0.01156rem;
+    padding-top: 3rem;
+  }
+  .pricing__text {
+    display: grid;
+    justify-content: center;
+    margin-top: 0.81rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  .pricing__text p {
+    text-align: center;
+    color: #6C8294;
+    text-align: center;
+    font-family: "Public Sans";
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+    max-width: 330px;
+  }
+  .pricing__money {
+    color: #36536B;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.5rem;
+    letter-spacing: -0.02694rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  hr {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    opacity: 0.25;
+    background: #36536B;
+    margin-bottom: 0.5rem;
+    height: 0.0625rem;
+  }
+  .pricing__list {
+    height: 20rem;
+    background: #EDF3F8;
+    display: grid;
+    align-items: center;
+    place-items: center;
+    margin-top: -1rem;
+    margin-bottom: -1.5rem;
+  }
+  .pricing__list ul .pricing__checkmark__src {
+    color: #36536B;
+    font-family: "Public Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+    list-style-type: none;
+    display: flex;
+  }
+  .pricing__list ul .pricing__checkmark__src img {
+    width: 0.75rem;
+    height: 0.5rem;
+    stroke-width: 2px;
+    stroke: #BA4270;
+    margin-top: 0.5rem;
+  }
+  .pricing__list ul .pricing__checkmark__src p {
+    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .pricing__list ul .pricing__checkmark {
+    color: #36536B;
+    font-family: "Public Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+    list-style-type: none;
+    display: flex;
+  }
+  .pricing__list ul .pricing__checkmark img {
+    width: 0.75rem;
+    height: 0.5rem;
+    stroke-width: 2px;
+    stroke: #BA4270;
+    margin-top: 0.5rem;
+    opacity: 0;
+  }
+  .pricing__list ul .pricing__checkmark .pricing__paragraph {
+    opacity: 0.5;
+    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .pricing__button__grid {
+    display: grid;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+  .pricing__button__grid .pricing__button {
+    width: 10.5rem;
+    height: 3rem;
+    flex-shrink: 0;
+    border-radius: 1.5rem;
+    border: 1px solid #36536B;
+    background-color: #EDF3F8;
+    color: #36536B;
+    font-family: "Public Sans";
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.00719rem;
+  }
+  .pricing__bottom {
+    display: grid;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+  }
+  .pricing__bottom .pricing__bottom__button {
+    width: 10.5rem;
+    height: 3rem;
+    flex-shrink: 0;
+    border-radius: 1.5rem;
+    border: 1px solid #36536B;
+    background-color: #EDF3F8;
+    color: #36536B;
+    font-family: "Public Sans";
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.00719rem;
+  }
+}
+/* Styles for Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1439.5px) {
+  .pricing__colums {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .pricing__plan {
+    color: #36536B;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.5rem;
+    letter-spacing: -0.02306rem;
+    margin-top: 5rem;
+  }
+  .pricing__free__plan {
+    color: #BA4270;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5rem;
+    letter-spacing: -0.01156rem;
+    padding-top: 4.31rem;
+  }
+  .pricing__text {
+    display: grid;
+    justify-content: center;
+    margin-top: 0.81rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .pricing__text p {
+    color: #6C8294;
+    text-align: center;
+    font-family: "Public Sans";
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+    max-width: 13.9375rem;
+  }
+  .pricing__money {
+    color: #36536B;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.5rem;
+    letter-spacing: -0.02694rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  hr {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    opacity: 0.25;
+    background: #36536B;
+    margin-bottom: 0.5rem;
+    height: 0.0625rem;
+  }
+  .pricing__list {
+    height: 20rem;
+    background: #EDF3F8;
+    display: grid;
+    align-items: center;
+    place-items: center;
+    margin-top: -1rem;
+    margin-bottom: -1.5rem;
+  }
+  .pricing__list ul .pricing__checkmark__src {
+    color: #36536B;
+    font-family: "Public Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+    list-style-type: none;
+    display: flex;
+  }
+  .pricing__list ul .pricing__checkmark__src img {
+    width: 0.75rem;
+    height: 0.5rem;
+    stroke-width: 2px;
+    stroke: #BA4270;
+    margin-top: 0.5rem;
+  }
+  .pricing__list ul .pricing__checkmark__src p {
+    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .pricing__list ul .pricing__checkmark {
+    color: #36536B;
+    font-family: "Public Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+    list-style-type: none;
+    display: flex;
+  }
+  .pricing__list ul .pricing__checkmark img {
+    width: 0.75rem;
+    height: 0.5rem;
+    stroke-width: 2px;
+    stroke: #BA4270;
+    margin-top: 0.5rem;
+    opacity: 0;
+  }
+  .pricing__list ul .pricing__checkmark .pricing__paragraph {
+    opacity: 0.5;
+    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .pricing__button__grid {
+    display: grid;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+  .pricing__button__grid .pricing__button {
+    width: 10.5rem;
+    height: 3rem;
+    flex-shrink: 0;
+    border-radius: 1.5rem;
+    border: 1px solid #36536B;
+    background-color: #EDF3F8;
+    color: #36536B;
+    font-family: "Public Sans";
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.00719rem;
+  }
+  .pricing__bottom {
+    display: grid;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+  }
+  .pricing__bottom .pricing__bottom__button {
+    width: 10.5rem;
+    height: 3rem;
+    flex-shrink: 0;
+    border-radius: 1.5rem;
+    border: 1px solid #36536B;
+    background-color: #EDF3F8;
+    color: #36536B;
+    font-family: "Public Sans";
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.00719rem;
+  }
+}
+/* Styles for Desktop */
+@media only screen and (min-width: 1440px) {
+  .pricing__colums {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 10.31rem;
+    margin-right: 10.31rem;
+  }
+  .pricing__plan {
+    color: #36536B;
+    font-family: "DM Serif Display";
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.5rem;
+    letter-spacing: -0.02694rem;
+    margin-left: 10.31rem;
+    margin-top: 5.44rem;
+  }
+  .pricing__free__plan {
+    color: #BA4270;
+    font-family: DM Serif Display;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5rem;
+    letter-spacing: -0.01538rem;
+    margin-top: 4.31rem;
+  }
+  .pricing__text {
+    display: grid;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-right: 1.88rem;
+    max-width: 22rem;
+  }
+  .pricing__text p {
+    color: #6C8294;
+    font-family: "Public Sans";
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+  }
+  .pricing__money {
+    color: #36536B;
+    font-family: "DM Serif Display";
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.5rem;
+    letter-spacing: -0.02694rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  hr {
+    opacity: 0.25;
+    background: #36536B;
+    margin-bottom: 0.5rem;
+    height: 0.0625rem;
+    max-width: 21.875rem;
+    margin-right: 2.2rem;
+  }
+  .pricing__list {
+    height: 20rem;
+    background: #EDF3F8;
+    display: grid;
+    align-items: center;
+    place-items: center;
+    margin-top: -1rem;
+    margin-bottom: -1.5rem;
+    display: flex;
+  }
+  .pricing__list ul .pricing__checkmark__src {
+    color: #36536B;
+    font-family: "Public Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+    list-style-type: none;
+    display: flex;
+  }
+  .pricing__list ul .pricing__checkmark__src img {
+    width: 0.75rem;
+    height: 0.5rem;
+    stroke-width: 2px;
+    stroke: #BA4270;
+    margin-top: 0.5rem;
+  }
+  .pricing__list ul .pricing__checkmark__src p {
+    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .pricing__list ul .pricing__checkmark {
+    color: #36536B;
+    font-family: "Public Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+    list-style-type: none;
+    display: flex;
+  }
+  .pricing__list ul .pricing__checkmark img {
+    width: 0.75rem;
+    height: 0.5rem;
+    stroke-width: 2px;
+    stroke: #BA4270;
+    margin-top: 0.5rem;
+    opacity: 0;
+  }
+  .pricing__list ul .pricing__checkmark .pricing__paragraph {
+    opacity: 0.5;
+    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .pricing__button__grid {
+    margin-top: 1.5rem;
+  }
+  .pricing__button__grid .pricing__button {
+    width: 10.5rem;
+    height: 3rem;
+    flex-shrink: 0;
+    border-radius: 1.5rem;
+    border: 1px solid #36536B;
+    background-color: #EDF3F8;
+    color: #36536B;
+    font-family: "Public Sans";
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.00719rem;
+  }
+  .pricing__button__grid .pricing__button:hover {
+    background-color: #36536B;
+    color: #FBFCFE;
+    cursor: pointer;
+  }
+  .pricing__button__grid .pricing__button:hover:active {
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+  }
+  .pricing__bottom {
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+  }
+  .pricing__bottom .pricing__bottom__button {
+    width: 10.5rem;
+    height: 3rem;
+    flex-shrink: 0;
+    border-radius: 1.5rem;
+    border: 1px solid #36536B;
+    background-color: #EDF3F8;
+    color: #36536B;
+    font-family: "Public Sans";
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.00719rem;
+  }
+  .pricing__bottom .pricing__bottom__button:hover {
+    background-color: #36536B;
+    color: #FBFCFE;
+    cursor: pointer;
+  }
+  .pricing__bottom .pricing__bottom__button:hover:active {
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+  }
 }/*# sourceMappingURL=style.css.map */
