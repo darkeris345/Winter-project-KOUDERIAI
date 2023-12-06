@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 445 284" style="enable-background:new 0 0 445 284;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#1B262F;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#2E3F4D;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#BA4270;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#527695;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#36536B;}
+	.st6{fill:#FBFCFE;}
+	.st7{font-family:'RobotoMono-Italic';}
+	.st8{font-size:13px;}
+</style>
+<g>
+	<g transform="translate(55 55)">
+		<g>
+			<path id="b" class="st0" d="M-47-55h429c4.4,0,8,3.6,8,8v268c0,4.4-3.6,8-8,8H-47c-4.4,0-8-3.6-8-8V-47C-55-51.4-51.4-55-47-55z"
+				/>
+		</g>
+		<g>
+			<path id="b_00000025433906974776555030000016465196600164899979_" class="st1" d="M-47-55h429c4.4,0,8,3.6,8,8v268
+				c0,4.4-3.6,8-8,8H-47c-4.4,0-8-3.6-8-8V-47C-55-51.4-51.4-55-47-55z"/>
+		</g>
+	</g>
+	<path class="st2" d="M8,0h429c4.4,0,8,3.6,8,8v32H0V8C0,3.6,3.6,0,8,0z"/>
+	<g transform="translate(71 67)">
+		<circle class="st3" cx="-47" cy="-47" r="8"/>
+		<circle class="st4" cx="-24.6" cy="-47" r="8"/>
+		<circle class="st5" cx="-2.2" cy="-47" r="8"/>
+	</g>
+	<text transform="matrix(1 0 0 1 32 86)" class="st6 st7 st8">&lt;form id=&quot;form-id&quot; method=&quot;GET&quot;&gt; &lt;/form&gt;</text>
+	<text transform="matrix(1 0 0 1 337.1953 86)" class="st6 st7 st8"> </text>
+	<text transform="matrix(1 0 0 1 32 106)" class="st6 st7 st8">&lt;script</text>
+	<text transform="matrix(1 0 0 1 85.4092 106)" class="st6 st7 st8"> </text>
+	<text transform="matrix(1 0 0 1 32 126)" class="st6 st7 st8">src=&quot;https://loremipsum.com/api.js&quot;</text>
+	<text transform="matrix(1 0 0 1 299.0459 126)" class="st6 st7 st8"> </text>
+	<text transform="matrix(1 0 0 1 32 146)" class="st6 st7 st8">data-client-name=&quot;Your Company&apos;s Name&quot;</text>
+	<text transform="matrix(1 0 0 1 321.9355 146)" class="st6 st7 st8"> </text>
+	<text transform="matrix(1 0 0 1 32 166)" class="st6 st7 st8">data-form-id=&quot;form-id&quot;</text>
+	<text transform="matrix(1 0 0 1 199.8574 166)" class="st6 st7 st8"> </text>
+	<text transform="matrix(1 0 0 1 32 186)" class="st6 st7 st8">data-key=&quot;test_key&quot;</text>
+	<text transform="matrix(1 0 0 1 176.9678 186)" class="st6 st7 st8"> </text>
+	<text transform="matrix(1 0 0 1 32 206)" class="st6 st7 st8">data-product=&quot;transactions&quot;</text>
+	<text transform="matrix(1 0 0 1 238.0068 206)" class="st6 st7 st8"> </text>
+	<text transform="matrix(1 0 0 1 32 226)" class="st6 st7 st8">data-env=&quot;sandbox&quot;&gt;</text>
+	<text transform="matrix(1 0 0 1 176.9678 226)" class="st6 st7 st8"> </text>
+	<text transform="matrix(1 0 0 1 32 246)" class="st6 st7 st8">&lt;/script&gt;</text>
+</g>
+</svg>
