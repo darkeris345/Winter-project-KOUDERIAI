@@ -214,11 +214,13 @@ p {
 
 .about__heading {
   font-family: "DM Serif Display", serif;
-  letter-spacing: 1.25px;
   color: #36536B;
+  margin-top: 126px;
   margin-bottom: 3rem;
   font-style: normal;
   font-weight: 400;
+  line-height: 36px;
+  letter-spacing: -0.246px;
 }
 
 .our-vision__heading, .our-business__heading, .culture__heading, .people__heading {
@@ -342,7 +344,7 @@ p {
     margin-top: 3rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-    line-height: 2.5rem;
+    line-height: 2.25rem;
   }
   .our-vision,
   .our-business,
@@ -350,6 +352,7 @@ p {
   .people {
     margin-bottom: 3rem;
     margin-top: 3rem;
+    font-size: 15px;
   }
   .our-vision .our-vision__heading,
   .our-vision .our-business__heading,
@@ -422,6 +425,18 @@ p {
     font-weight: 400;
     line-height: 4.5rem;
     letter-spacing: -0.02694rem;
+    margin-bottom: 2rem;
+  }
+  .team__numbers__grids .team__numbers__last {
+    color: #BA4270;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.5rem;
+    letter-spacing: -0.02694rem;
+    margin-bottom: 0rem;
   }
 }
 /* Styles for Tablet */
@@ -504,17 +519,25 @@ p {
     line-height: 3.5rem;
   }
   .our-vision,
-  .our-business,
-  .culture,
-  .people {
+  .our-business {
     display: flex;
-    margin-left: 2.44rem;
+    margin-left: 2.54rem;
     margin-bottom: 4rem;
     margin-top: 4rem;
     text-align: left;
+    font-size: 15px;
+  }
+  .culture,
+  .people {
+    display: flex;
+    margin-left: 2.54rem;
+    margin-bottom: 4rem;
+    margin-top: 2.7rem;
+    text-align: left;
+    font-size: 15px;
   }
   .our-vision__description {
-    margin-left: 6.3rem;
+    margin-left: 5.5rem;
     margin-right: 2.5rem;
   }
   .easy__heading {
@@ -526,7 +549,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 275px;
+    height: 269px;
     margin-top: 5.5rem;
   }
   .team__numbers__grids {
@@ -538,6 +561,7 @@ p {
     border-bottom: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
   }
   .team__numbers__grids .team__numbers__text,
   .team__numbers__grids .team__numbers__text1,
@@ -558,7 +582,8 @@ p {
     line-height: 1.75rem;
     padding-top: 1.06rem;
   }
-  .team__numbers__grids .team__numbers {
+  .team__numbers__grids .team__numbers,
+  .team__numbers__grids .team__numbers__last {
     color: #BA4270;
     font-family: "DM Serif Display";
     font-size: 3.5rem;
@@ -569,15 +594,20 @@ p {
     padding-bottom: 1.06rem;
   }
   .our-business__description {
-    margin-left: 4rem;
+    margin-left: 3.1rem;
+    margin-right: 2.5rem;
+  }
+  .our-vision__description {
+    margin-left: 5.5rem;
     margin-right: 2.5rem;
   }
   .people__description {
-    margin-left: 5.6rem;
+    margin-left: 4.8rem;
     margin-right: 2.5rem;
+    margin-bottom: 0.6rem;
   }
   .culture__description {
-    margin-left: 5rem;
+    margin-left: 4.1rem;
     margin-right: 2.5rem;
   }
   .our-vision {
@@ -683,10 +713,9 @@ p {
   .about__heading {
     font-size: 3.5rem;
     line-height: 3.5rem;
-    margin-right: 28.12rem;
-    margin-left: 16.25rem;
-    margin-top: 5.13rem;
+    margin: 5.13rem 28.12rem 4.3rem 16.25rem;
     text-align: left;
+    letter-spacing: -0.027rem;
   }
   .our-vision,
   .our-business,
@@ -694,37 +723,44 @@ p {
   .people {
     display: flex;
     margin-left: 16.25rem;
-    margin-bottom: 3.75rem;
-    margin-top: 4.5rem;
+    margin-bottom: 3.6rem;
+    margin-top: 3.6rem;
     text-align: left;
   }
   .our-vision .our-vision__description,
   .our-business .our-vision__description,
   .culture .our-vision__description,
   .people .our-vision__description {
-    margin-left: 10rem;
+    margin-left: 8.55rem;
     margin-right: 16.25rem;
+    font-size: 0.9375rem;
   }
   .our-vision .our-business__description,
   .our-business .our-business__description,
   .culture .our-business__description,
   .people .our-business__description {
-    margin-left: 7.8rem;
+    margin-left: 6.45rem;
     margin-right: 16.25rem;
+    font-size: 0.9375rem;
   }
   .our-vision .people__description,
   .our-business .people__description,
   .culture .people__description,
   .people .people__description {
-    margin-left: 9.5rem;
+    margin-left: 8.1rem;
     margin-right: 16.25rem;
+    font-size: 0.9375rem;
   }
   .our-vision .culture__description,
   .our-business .culture__description,
   .culture .culture__description,
   .people .culture__description {
-    margin-left: 8.8rem;
+    margin-left: 7.5rem;
     margin-right: 16.25rem;
+    font-size: 0.9375rem;
+  }
+  .our-business {
+    margin-bottom: 6.3rem;
   }
   .our-vision {
     margin-top: 3.25rem;
@@ -735,17 +771,17 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-    margin-top: 6rem;
   }
   .team__numbers__grids {
     border-top: none;
-    margin-top: 3rem;
+    margin-top: 3.3rem;
     padding: 1rem;
-    margin-left: 10.61rem;
-    margin-right: 10.61rem;
+    margin-left: 9.2rem;
+    margin-right: 9.61rem;
     border-bottom: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
   }
   .team__numbers__grids .team__numbers__text,
   .team__numbers__grids .team__numbers__text1,
@@ -766,7 +802,8 @@ p {
     line-height: 1.75rem;
     padding-top: 1.06rem;
   }
-  .team__numbers__grids .team__numbers {
+  .team__numbers__grids .team__numbers,
+  .team__numbers__grids .team__numbers__last {
     color: #BA4270;
     font-family: "DM Serif Display";
     font-size: 3.5rem;
@@ -1188,7 +1225,7 @@ w-400 {
     height: 48px;
     width: 327px;
     border: none;
-    padding-left: 1rem;
+    padding-left: 1.69rem;
     box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
     font-weight: 700;
     font-family: "Public Sans";
@@ -1287,6 +1324,8 @@ w-400 {
     font-size: 15px;
     font-style: normal;
     line-height: normal;
+    border: 0;
+    outline: 0;
   }
   .bttn__header {
     margin-top: 14.5px;
@@ -1340,10 +1379,6 @@ w-400 {
     color: #6C8294;
     font-weight: 700;
   }
-  .title_input {
-    border: 0;
-    outline: 0;
-  }
   input:focus {
     outline: none !important;
   }
@@ -1386,7 +1421,7 @@ w-400 {
     height: 48px;
     width: 445px;
     border: none;
-    padding-left: 1rem;
+    padding-left: 1.69rem;
     box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
     font-weight: 700;
     font-family: "Public Sans";

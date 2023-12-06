@@ -35,7 +35,7 @@
     margin-top: 3rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-    line-height: 2.5rem;
+    line-height: 2.25rem;
   }
 
   .our-vision,
@@ -44,6 +44,7 @@
   .people {
     margin-bottom: 3rem;
     margin-top: 3rem;
+    font-size: 15px;
 
     .our-vision__heading,
     .our-business__heading,
@@ -99,6 +100,19 @@
       font-weight: 400;
       line-height: 4.5rem;
       letter-spacing: -0.02694rem;
+      margin-bottom: 2rem;
+    }
+
+    .team__numbers__last {
+      color: $primary-colors-dark-pink;
+      text-align: center;
+      font-family: 'DM Serif Display';
+      font-size: 3.5rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 4.5rem;
+      letter-spacing: -0.02694rem;
+      margin-bottom: 0rem;
     }
   }
 }
@@ -204,18 +218,27 @@
   }
 
   .our-vision,
-  .our-business,
-  .culture,
-  .people {
+  .our-business {
     display: flex;
-    margin-left: 2.44rem;
+    margin-left: 2.54rem;
     margin-bottom: 4rem;
     margin-top: 4rem;
     text-align: left;
+    font-size: 15px;
+  }
+
+  .culture,
+  .people {
+    display: flex;
+    margin-left: 2.54rem;
+    margin-bottom: 4rem;
+    margin-top: 2.7rem;
+    text-align: left;
+    font-size: 15px;
   }
 
   .our-vision__description {
-    margin-left: 6.3rem;
+    margin-left: 5.5rem;
     margin-right: 2.5rem;
   }
 
@@ -229,7 +252,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 275px;
+    height: 269px;
     margin-top: 5.50rem;
   }
 
@@ -242,6 +265,7 @@
     border-bottom: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
 
     .team__numbers__text,
     .team__numbers__text1,
@@ -265,7 +289,8 @@
       padding-top: 1.06rem;
     }
 
-    .team__numbers {
+    .team__numbers,
+    .team__numbers__last {
       color: $primary-colors-dark-pink;
       font-family: 'DM Serif Display';
       font-size: 3.5rem;
@@ -278,17 +303,23 @@
   }
 
   .our-business__description {
-    margin-left: 4rem;
+    margin-left: 3.1rem;
+    margin-right: 2.5rem;
+  }
+
+  .our-vision__description {
+    margin-left: 5.5rem;
     margin-right: 2.5rem;
   }
 
   .people__description {
-    margin-left: 5.6rem;
+    margin-left: 4.8rem;
     margin-right: 2.5rem;
+    margin-bottom: 0.6rem;
   }
 
   .culture__description {
-    margin-left: 5rem;
+    margin-left: 4.1rem;
     margin-right: 2.5rem;
   }
 
@@ -425,10 +456,9 @@
   .about__heading {
     font-size: 3.5rem;
     line-height: 3.5rem;
-    margin-right: 28.12rem;
-    margin-left: 16.25rem;
-    margin-top: 5.13rem;
+    margin: 5.13rem 28.12rem 4.3rem 16.25rem;
     text-align: left;
+    letter-spacing: -0.027rem;
   }
 
   .our-vision,
@@ -437,29 +467,37 @@
   .people {
     display: flex;
     margin-left: 16.25rem;
-    margin-bottom: 3.75rem;
-    margin-top: 4.5rem;
+    margin-bottom: 3.6rem;
+    margin-top: 3.6rem;
     text-align: left;
 
     .our-vision__description {
-      margin-left: 10rem;
+      margin-left: 8.55rem;
       margin-right: 16.25rem;
+      font-size: 0.9375rem;
     }
 
     .our-business__description {
-      margin-left: 7.8rem;
+      margin-left: 6.45rem;
       margin-right: 16.25rem;
+      font-size: 0.9375rem;
     }
 
     .people__description {
-      margin-left: 9.5rem;
+      margin-left: 8.1rem;
       margin-right: 16.25rem;
+      font-size: 0.9375rem;
     }
 
     .culture__description {
-      margin-left: 8.8rem;
+      margin-left: 7.5rem;
       margin-right: 16.25rem;
+      font-size: 0.9375rem;
     }
+  }
+
+  .our-business {
+    margin-bottom: 6.3rem;
   }
 
   .our-vision {
@@ -472,18 +510,19 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-    margin-top: 6rem;
+    // margin-top: 5.8rem;
   }
 
   .team__numbers__grids {
     border-top: none;
-    margin-top: 3rem;
+    margin-top: 3.3rem;
     padding: 1rem;
-    margin-left: 10.61rem;
-    margin-right: 10.61rem;
+    margin-left: 9.2rem; //9.2
+    margin-right: 9.61rem; //10.61
     border-bottom: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
 
     .team__numbers__text,
     .team__numbers__text1,
@@ -507,7 +546,8 @@
       padding-top: 1.06rem;
     }
 
-    .team__numbers {
+    .team__numbers,
+    .team__numbers__last {
       color: $primary-colors-dark-pink;
       font-family: 'DM Serif Display';
       font-size: 3.5rem;
