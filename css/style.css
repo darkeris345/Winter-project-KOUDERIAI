@@ -462,6 +462,9 @@ p {
     color: #36536B;
     opacity: 1;
   }
+  a {
+    color: #FBFCFE;
+  }
   .mobile__btn {
     display: none;
   }
@@ -643,6 +646,9 @@ p {
   }
   .mobile__btn {
     display: none;
+  }
+  a {
+    color: #FBFCFE;
   }
   .bttn {
     font-size: 0.9375rem;
@@ -1192,6 +1198,9 @@ w-400 {
     background-color: #FBFCFE;
     margin-top: 20px;
     opacity: 0.15;
+  }
+  a {
+    color: #FBFCFE;
   }
   .showMenu {
     transform: translateY(0);
