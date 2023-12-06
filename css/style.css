@@ -1150,7 +1150,7 @@ w-400 {
 
 @media only screen and (max-width: 767.5px) {
   .nav {
-    margin: 40px 25px 20px 30px;
+    margin: 40px 25px 20px 25px;
   }
   .hamburger {
     position: absolute;
@@ -1569,12 +1569,12 @@ w-400 {
     line-height: 2.25rem;
   }
   .form__page {
-    margin-top: 2.6rem;
+    margin-top: 2rem;
   }
   .form__page input {
     width: 20.4375rem;
     height: 2.625rem;
-    margin: 0 1rem 2rem 1rem;
+    margin: 0.5rem 1.5rem 1rem 1rem;
     background-color: transparent;
     border-top: none;
     border-right: none;
@@ -1594,7 +1594,7 @@ w-400 {
   }
   .form__page textarea {
     resize: none;
-    margin: 0 1rem 2rem 1rem;
+    margin: 0.5rem 1rem 2rem 1rem;
     background-color: transparent;
     border-top: none;
     border-right: none;
@@ -1620,7 +1620,7 @@ w-400 {
     left: 1rem;
   }
   .form__page .check {
-    margin: 0 0 0 0.7rem;
+    margin: 0 0 0 0.9rem;
     width: 1.5rem;
     height: 1.5rem;
     opacity: 0.25;
@@ -1642,11 +1642,11 @@ w-400 {
     font-weight: 400;
     line-height: 1.5625rem;
     letter-spacing: -0.00719rem;
-    margin: 0 1.3rem 0 0;
+    margin: 0.2rem 1.4rem 0 0;
     bottom: 0.9rem;
   }
   .form__page .bttn__form {
-    margin: 0.7rem 0 5rem 0.7rem;
+    margin: 0.6rem 0rem 5rem 0.9rem;
     width: 9.5rem;
     height: 3rem;
     padding: 0.375rem 0.5rem;
@@ -1680,6 +1680,7 @@ w-400 {
     text-align: center;
     font-family: "DM Serif Display";
     font-size: 1.5rem;
+    opacity: 0.75;
     font-style: normal;
     font-weight: 400;
     line-height: 2rem;
@@ -1823,7 +1824,8 @@ w-400 {
     margin: 0 5rem;
   }
   .partners__title {
-    width: 27.8125rem;
+    opacity: 0.75;
+    width: 26.5125rem;
     color: #36536B;
     text-align: center;
     font-family: "DM Serif Display";
@@ -1838,19 +1840,19 @@ w-400 {
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     align-items: center;
-    gap: 3rem;
+    gap: 3rem 5.3rem;
     margin: 2.6rem 0 3.2rem 0;
   }
 }
 @media only screen and (min-width: 1440px) {
   .form__box {
-    display: grid;
-    grid-template-columns: 28.8125rem 1fr;
+    display: flex;
     align-items: center;
-    margin: 0 0 0 8rem;
+    justify-content: center;
+    margin: 0 10.31rem -6.5rem 10.31rem;
   }
   .flex__box {
-    justify-content: center;
+    margin: 0 -11rem;
   }
   .form__title {
     color: #36536B;
@@ -1860,7 +1862,7 @@ w-400 {
     font-size: 3.5rem;
     font-weight: 400;
     letter-spacing: -0.02306rem;
-    margin: 3.2rem 0.5rem 0 2.2rem;
+    margin: 3.2rem 0.5rem 0 19rem;
     width: 45.625rem;
     height: 11.125rem;
   }
@@ -1868,13 +1870,15 @@ w-400 {
     line-height: 3.5rem;
   }
   .form__page {
-    margin-top: 2.6rem;
+    margin: 2.6rem 13rem;
+    display: flex;
+    flex-direction: column;
   }
   .form__page input {
     position: relative;
     width: 27.8125rem;
     height: 2.625rem;
-    margin: 0 1rem 1.5rem 2.4rem;
+    margin: 0 1rem 0.4rem 6rem;
     background-color: transparent;
     border-top: none;
     border-right: none;
@@ -1896,7 +1900,7 @@ w-400 {
   .form__page textarea {
     position: relative;
     resize: none;
-    margin: 0 1rem 2rem 2.4rem;
+    margin: 0 1rem 2rem 6rem;
     background-color: transparent;
     border-top: none;
     border-right: none;
@@ -1923,7 +1927,7 @@ w-400 {
     left: 1rem;
   }
   .form__page .check {
-    margin: 0 0 1rem 2rem;
+    margin: 0.3rem 0 1rem 6rem;
     width: 1.5rem;
     height: 1.5rem;
     opacity: 0.25;
@@ -1942,13 +1946,13 @@ w-400 {
     font-size: 0.9375rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 1rem;
+    line-height: 1.5rem;
     letter-spacing: -0.00719rem;
-    margin: 0 1rem 0 1rem;
-    bottom: 5rem;
+    margin: 0 1rem 0 9rem;
+    bottom: 6rem;
   }
   .form__page .bttn__form {
-    margin: 2rem 5rem 4rem 0;
+    margin: -1.6rem 5rem 4rem 6.2rem;
     width: 9.5rem;
     height: 3rem;
     padding: 0.375rem 0.5rem;
@@ -1973,26 +1977,28 @@ w-400 {
   .partners__logo__section {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 0 5rem;
+    align-items: start;
+    margin: 5rem 9rem 0 0;
   }
   .partners__title {
+    opacity: 0.75;
     width: 27.8125rem;
     color: #36536B;
-    text-align: center;
+    text-align: start;
     font-family: "DM Serif Display";
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: 2rem;
     letter-spacing: -0.01156rem;
+    margin: 0 5.5rem 0 0;
   }
   .partners__logos__form {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     align-items: center;
-    gap: 3rem;
+    gap: 3rem 5.3rem;
     margin: 2.6rem 0 3.2rem 0;
   }
 }/*# sourceMappingURL=style.css.map */
