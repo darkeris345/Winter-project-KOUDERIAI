@@ -1498,7 +1498,7 @@ w-400 {
     font-weight: 400;
     line-height: 2rem;
     letter-spacing: -0.01156rem;
-    padding-top: 3rem;
+    margin-top: 3.3rem;
   }
   .pricing__text {
     display: grid;
@@ -1527,7 +1527,7 @@ w-400 {
     font-weight: 400;
     line-height: 4.5rem;
     letter-spacing: -0.02694rem;
-    margin-top: 0.5rem;
+    margin-top: 0.7rem;
     margin-bottom: 1.5rem;
   }
   hr {
@@ -1614,8 +1614,8 @@ w-400 {
   .pricing__bottom {
     display: grid;
     justify-content: center;
-    margin-top: 1.5rem;
-    margin-bottom: 5rem;
+    margin-top: 1.4rem;
+    margin-bottom: 4.9rem;
   }
   .pricing__bottom .pricing__bottom__button {
     width: 10.5rem;
@@ -1635,13 +1635,11 @@ w-400 {
 }
 /* Styles for Tablet */
 @media only screen and (min-width: 768px) and (max-width: 1439.5px) {
-  .pricing__colums {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+  .pricing__main {
+    margin-right: 1.2rem;
     margin-left: 1rem;
-    margin-right: 1rem;
   }
-  .pricing__plan {
+  .pricing__main .pricing__plan {
     color: #36536B;
     text-align: center;
     font-family: "DM Serif Display";
@@ -1651,8 +1649,16 @@ w-400 {
     line-height: 3.5rem;
     letter-spacing: -0.02306rem;
     margin-top: 5rem;
+    margin-left: 0.2rem;
   }
-  .pricing__free__plan {
+  .pricing__main .pricing__colums {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+  }
+  .pricing__main .pricing__colums .pricing__free__plan {
     color: #BA4270;
     text-align: center;
     font-family: "DM Serif Display";
@@ -1661,16 +1667,11 @@ w-400 {
     font-weight: 400;
     line-height: 2.5rem;
     letter-spacing: -0.01156rem;
-    padding-top: 4.31rem;
+    margin-top: 5.1rem;
+    margin-left: 2.8rem;
+    margin-right: 2.4rem;
   }
-  .pricing__text {
-    display: grid;
-    justify-content: center;
-    margin-top: 0.81rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  .pricing__text p {
+  .pricing__main .pricing__colums .pricing__text {
     color: #6C8294;
     text-align: center;
     font-family: "Public Sans";
@@ -1678,38 +1679,46 @@ w-400 {
     font-style: normal;
     font-weight: 400;
     line-height: 1.75rem;
-    max-width: 13.9375rem;
+    margin-top: 0.85rem;
+    margin-left: 0.5rem;
   }
-  .pricing__money {
+  .pricing__main .pricing__colums .pricing__money {
     color: #36536B;
     text-align: center;
     font-family: "DM Serif Display";
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 400;
     line-height: 4.5rem;
     letter-spacing: -0.02694rem;
-    margin-top: 0.5rem;
-    margin-bottom: 1.5rem;
+    margin-top: 1.2rem;
+    margin-left: 0.3rem;
   }
-  hr {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+  .pricing__main .pricing__colums hr {
+    margin-left: 1rem;
+    margin-right: 1rem;
     opacity: 0.25;
     background: #36536B;
     margin-bottom: 0.5rem;
     height: 0.0625rem;
+    max-width: 31rem;
+    margin-top: 1.3rem;
+    margin-bottom: -0.1rem;
   }
-  .pricing__list {
+  .pricing__main .pricing__colums .pricing__list {
     height: 20rem;
     background: #EDF3F8;
     display: grid;
     align-items: center;
     place-items: center;
     margin-top: -1rem;
-    margin-bottom: -1.5rem;
+    margin-bottom: -2.1rem;
   }
-  .pricing__list ul .pricing__checkmark__src {
+  .pricing__main .pricing__colums .pricing__list ul {
+    margin-left: 0.4rem;
+    margin-top: 0.7rem;
+  }
+  .pricing__main .pricing__colums .pricing__list ul .pricing__checkmark__src {
     color: #36536B;
     font-family: "Public Sans";
     font-size: 1rem;
@@ -1719,18 +1728,18 @@ w-400 {
     list-style-type: none;
     display: flex;
   }
-  .pricing__list ul .pricing__checkmark__src img {
+  .pricing__main .pricing__colums .pricing__list ul .pricing__checkmark__src img {
     width: 0.75rem;
     height: 0.5rem;
     stroke-width: 2px;
     stroke: #BA4270;
     margin-top: 0.5rem;
   }
-  .pricing__list ul .pricing__checkmark__src p {
+  .pricing__main .pricing__colums .pricing__list ul .pricing__checkmark__src p {
     margin-left: 1.5rem;
     margin-bottom: 0.5rem;
   }
-  .pricing__list ul .pricing__checkmark {
+  .pricing__main .pricing__colums .pricing__list ul .pricing__checkmark {
     color: #36536B;
     font-family: "Public Sans";
     font-size: 1rem;
@@ -1740,7 +1749,7 @@ w-400 {
     list-style-type: none;
     display: flex;
   }
-  .pricing__list ul .pricing__checkmark img {
+  .pricing__main .pricing__colums .pricing__list ul .pricing__checkmark img {
     width: 0.75rem;
     height: 0.5rem;
     stroke-width: 2px;
@@ -1748,17 +1757,18 @@ w-400 {
     margin-top: 0.5rem;
     opacity: 0;
   }
-  .pricing__list ul .pricing__checkmark .pricing__paragraph {
+  .pricing__main .pricing__colums .pricing__list ul .pricing__checkmark .pricing__paragraph {
     opacity: 0.5;
     margin-left: 1.5rem;
     margin-bottom: 0.5rem;
   }
-  .pricing__button__grid {
+  .pricing__main .pricing__colums .pricing__button__grid {
     display: grid;
     justify-content: center;
     margin-top: 1.5rem;
+    margin-left: 0.7rem;
   }
-  .pricing__button__grid .pricing__button {
+  .pricing__main .pricing__colums .pricing__button__grid .pricing__button {
     width: 10.5rem;
     height: 3rem;
     flex-shrink: 0;
@@ -1773,13 +1783,14 @@ w-400 {
     line-height: normal;
     letter-spacing: -0.00719rem;
   }
-  .pricing__bottom {
+  .pricing__main .pricing__colums .pricing__bottom {
     display: grid;
     justify-content: center;
     margin-top: 1.5rem;
     margin-bottom: 5rem;
+    margin-left: 0.3rem;
   }
-  .pricing__bottom .pricing__bottom__button {
+  .pricing__main .pricing__colums .pricing__bottom .pricing__bottom__button {
     width: 10.5rem;
     height: 3rem;
     flex-shrink: 0;
@@ -1800,8 +1811,8 @@ w-400 {
   .pricing__colums {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-left: 10.31rem;
-    margin-right: 10.31rem;
+    margin-left: 9.8rem;
+    margin-right: 7.9rem;
   }
   .pricing__plan {
     color: #36536B;
@@ -1811,23 +1822,23 @@ w-400 {
     font-weight: 400;
     line-height: 3.5rem;
     letter-spacing: -0.02694rem;
-    margin-left: 10.31rem;
+    margin-left: 9.9rem;
     margin-top: 5.44rem;
   }
   .pricing__free__plan {
     color: #BA4270;
-    font-family: DM Serif Display;
+    font-family: "DM Serif Display";
     font-size: 2rem;
     font-style: normal;
     font-weight: 400;
     line-height: 2.5rem;
     letter-spacing: -0.01538rem;
-    margin-top: 4.31rem;
+    margin-top: 5.4rem;
   }
   .pricing__text {
     display: grid;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: 0.9rem;
     margin-right: 1.88rem;
     max-width: 22rem;
   }
@@ -1853,20 +1864,18 @@ w-400 {
   hr {
     opacity: 0.25;
     background: #36536B;
-    margin-bottom: 0.5rem;
     height: 0.0625rem;
     max-width: 21.875rem;
-    margin-right: 2.2rem;
+    margin-right: 1.7rem;
   }
   .pricing__list {
-    height: 20rem;
+    height: 18.1rem;
     background: #EDF3F8;
-    display: grid;
-    align-items: center;
-    place-items: center;
     margin-top: -1rem;
-    margin-bottom: -1.5rem;
-    display: flex;
+    margin-bottom: -1.4rem;
+  }
+  .pricing__list ul {
+    margin-top: 2.5rem;
   }
   .pricing__list ul .pricing__checkmark__src {
     color: #36536B;
@@ -1902,9 +1911,7 @@ w-400 {
   .pricing__list ul .pricing__checkmark img {
     width: 0.75rem;
     height: 0.5rem;
-    stroke-width: 2px;
     stroke: #BA4270;
-    margin-top: 0.5rem;
     opacity: 0;
   }
   .pricing__list ul .pricing__checkmark .pricing__paragraph {
