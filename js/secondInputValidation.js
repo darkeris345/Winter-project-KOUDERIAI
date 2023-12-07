@@ -3,15 +3,22 @@ function validateEmail(inputId) {
     const emailValue = emailInput.value;
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-    if (emailRegex.test(emailValue)) {
-        // Valid email
-        emailInput.value = '';
+    if (emailValue.trim() === "") {
+        emailInput.value = "This field is empty";
+        emailInput.style.color = "red";
+        setTimeout(() => {
+          emailInput.value = "";
+          emailInput.style.color = "#36536B";
+        }, 2000);
+        return;
+      }
+      if (emailRegex.test(emailValue)) {
+        emailInput.value = "";
         alert("We've got your message and sent instructions to your email. 😃");
-    } else {
-        // Invalid email
-        emailInput.value = '';
-        alert("Wrong type of input! Please try again. 🤔");
-    }
+      } else {
+        emailInput.value = "";
+        alert("Invalid email! Please try again. 🤔");
+      }
 }
 
 document.querySelector('.validate__second').addEventListener('click', function(event) {

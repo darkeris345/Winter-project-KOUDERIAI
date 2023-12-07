@@ -1,4 +1,4 @@
-@media only screen and (min-width: 375px) and (max-width: 767.5px) {
+@media only screen and (max-width: 767.5px) {
     .flex__box {
         display: flex;
         flex-direction: column;
@@ -87,7 +87,7 @@
             }
 
             &::placeholder {
-                position: absolute;
+                position: fixed;
                 left: 1.2rem;
                 opacity: 0.5;
             }
@@ -191,7 +191,7 @@
     }
 }
 
-//  TABLET !!!!!!!!!!!!!!!!!!!!!!!!!
+//  TABLET !!!!!!!!!!!!!!!!!!!!!
 
 @media only screen and (min-width: 768px) and (max-width: 1439.5px) {
     .flex__box {
@@ -281,7 +281,7 @@
             }
 
             &::placeholder {
-                position: absolute;
+                position: fixed;
                 left: 1.2rem;
                 opacity: 0.5;
             }
@@ -475,7 +475,7 @@
             bottom: 2.8rem;
 
             &::placeholder {
-                position: absolute;
+                position: fixed;
                 left: 1.2rem;
                 opacity: 0.5;
             }
