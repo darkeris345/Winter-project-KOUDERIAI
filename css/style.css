@@ -2341,6 +2341,7 @@ w-400 {
     letter-spacing: -0.00719rem;
     width: 20.4375rem;
     height: 5.5625rem;
+    overflow: hidden;
   }
   .form__page textarea:focus {
     outline: none;
@@ -2352,12 +2353,12 @@ w-400 {
     opacity: 1;
   }
   .form__page textarea::-moz-placeholder {
-    position: fixed;
+    position: relative;
     left: 1.2rem;
     opacity: 0.5;
   }
   .form__page textarea::placeholder {
-    position: fixed;
+    position: relative;
     left: 1.2rem;
     opacity: 0.5;
   }
@@ -2523,6 +2524,7 @@ w-400 {
     letter-spacing: -0.00719rem;
     width: 27.8125rem;
     height: 5.5625rem;
+    overflow: hidden;
   }
   .form__page textarea:focus {
     outline: none;
@@ -2534,12 +2536,12 @@ w-400 {
     opacity: 1;
   }
   .form__page textarea::-moz-placeholder {
-    position: fixed;
+    position: relative;
     left: 1.2rem;
     opacity: 0.5;
   }
   .form__page textarea::placeholder {
-    position: fixed;
+    position: relative;
     left: 1.2rem;
     opacity: 0.5;
   }
@@ -2713,14 +2715,15 @@ w-400 {
     width: 27.8125rem;
     height: 5.5625rem;
     bottom: 2.8rem;
+    overflow: hidden;
   }
   .form__page textarea::-moz-placeholder {
-    position: fixed;
+    position: relative;
     left: 1.2rem;
     opacity: 0.5;
   }
   .form__page textarea::placeholder {
-    position: fixed;
+    position: relative;
     left: 1.2rem;
     opacity: 0.5;
   }
