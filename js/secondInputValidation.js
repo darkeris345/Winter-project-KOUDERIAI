@@ -1,5 +1,4 @@
 function validateEmail(inputId) {
-    
     const emailInput = document.getElementById(inputId);
     const emailValue = emailInput.value;
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -12,11 +11,10 @@ function validateEmail(inputId) {
         // Invalid email
         emailInput.value = '';
         alert("Wrong type of input! Please try again. 🤔");
-        // emailInput.style.color = "red"
-
     }
 }
-document.querySelector('.validate').addEventListener('click', function(event) {
-    validateEmail('email');
+
+document.querySelector('.validate__second').addEventListener('click', function(event) {
+    validateEmail('email__two');
     event.preventDefault();
 });

@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="/css/style.css" />
   <script type="module" defer src="/js/main.js"></script>
   <script type="module" defer src="/js/resize.js"></script>
+  <script defer type="module" src="/js/validation.js"></script>
+  <script type="module" defer src="/js/secondInputValidation.js"></script>
 </head>
 
 <body>
@@ -38,7 +40,7 @@
         </svg>
       </button>
     </section>
-    <!-- Heeader part -->
+    <!-- Header part -->
     <section class="win__8">
       <!-- Image Section -->
       <div class="center__img">
@@ -51,8 +53,8 @@
             Start building with our APIs for absolutely free.
           </p>
           <form class="btns">
-            <input class="title_input" type="email" name="" id="email" placeholder="Enter email address" />
-            <button class="bttn__header" type="submit">Schedule a Demo</button>
+            <input class="title_input validate__input" type="email" name="email" id="email" placeholder="Enter email address" />
+            <button class="bttn__header validate" type="submit">Schedule a Demo</button>
           </form>
           <p class="p__questions">
             Have any questions?
@@ -171,8 +173,8 @@
     <section class="footer__section1">
       <p class="footer__section1__text">Ready to start?</p>
       <form class="btns footer__button">
-        <input class="title_input" type="email" name="" id="email" placeholder="Enter email address" />
-        <button class="bttn__header  footer__button__pink" type="submit">Schedule a Demo</button>
+        <input class="title_input " type="email" name="email" id="email__two" placeholder="Enter email address" />
+        <button class="bttn__header  footer__button__pink validate__second" type="submit">Schedule a Demo</button>
       </form>
     </section>
     <!-- Logo, links and icons sections -->
