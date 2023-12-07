@@ -1752,7 +1752,7 @@ w-400 {
   }
 }
 /* Styles for Mobile */
-@media only screen and (min-width: 375px) and (max-width: 767.5px) {
+@media only screen and (max-width: 767.5px) {
   .pricing__main {
     margin-bottom: -2rem;
   }
@@ -2263,7 +2263,7 @@ w-400 {
     transform: translateY(4px);
   }
 }
-@media only screen and (min-width: 375px) and (max-width: 767.5px) {
+@media only screen and (max-width: 767.5px) {
   .flex__box {
     display: flex;
     flex-direction: column;
@@ -2352,12 +2352,12 @@ w-400 {
     opacity: 1;
   }
   .form__page textarea::-moz-placeholder {
-    position: absolute;
+    position: fixed;
     left: 1.2rem;
     opacity: 0.5;
   }
   .form__page textarea::placeholder {
-    position: absolute;
+    position: fixed;
     left: 1.2rem;
     opacity: 0.5;
   }
@@ -2534,12 +2534,12 @@ w-400 {
     opacity: 1;
   }
   .form__page textarea::-moz-placeholder {
-    position: absolute;
+    position: fixed;
     left: 1.2rem;
     opacity: 0.5;
   }
   .form__page textarea::placeholder {
-    position: absolute;
+    position: fixed;
     left: 1.2rem;
     opacity: 0.5;
   }
@@ -2715,12 +2715,12 @@ w-400 {
     bottom: 2.8rem;
   }
   .form__page textarea::-moz-placeholder {
-    position: absolute;
+    position: fixed;
     left: 1.2rem;
     opacity: 0.5;
   }
   .form__page textarea::placeholder {
-    position: absolute;
+    position: fixed;
     left: 1.2rem;
     opacity: 0.5;
   }
