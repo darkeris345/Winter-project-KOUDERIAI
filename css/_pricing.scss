@@ -2,7 +2,9 @@
 @media only screen and (min-width: 375px) and (max-width: 767.5px) {
 
     //           Pricing part
-    .pricing__main {margin-bottom: -2rem;
+    .pricing__main {
+        margin-bottom: -2rem;
+
         .pricing__plan {
             color: $secondary-colors-san-juan-blue;
             text-align: center;
@@ -15,169 +17,178 @@
             margin-top: 3rem;
         }
 
-        .pricing__free__plan {
-            color: $primary-colors-dark-pink;
-            text-align: center;
-            font-family: 'DM Serif Display';
-            font-size: 1.5rem;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 2rem;
-            letter-spacing: -0.01156rem;
-            margin-top: 3.3rem;
-        }
+        .pricing__colums {
 
-        .pricing__text {
-            display: grid;
-            justify-content: center;
-            margin-top: 0.81rem;
-            margin-left: 1.5rem;
-            margin-right: 1.5rem;
-
-            p {
+            .pricing__free__plan {
+                color: $primary-colors-dark-pink;
                 text-align: center;
-                color: $secondary-colors-light-juan-blue;
-                text-align: center;
-                font-family: 'Public Sans';
-                font-size: 0.9375rem;
+                font-family: 'DM Serif Display';
+                font-size: 1.5rem;
                 font-style: normal;
                 font-weight: 400;
-                line-height: 1.75rem;
-                max-width: 330px;
+                line-height: 2rem;
+                letter-spacing: -0.01156rem;
+                margin-top: 3.2rem;
             }
-        }
 
-        .pricing__money {
-            color: $secondary-colors-san-juan-blue;
-            text-align: center;
-            font-family: 'DM Serif Display';
-            font-size: 3.5rem;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 4.5rem;
-            letter-spacing: -0.02694rem;
-            margin-top: 0.7rem;
-            margin-bottom: 1.5rem;
-        }
+            .pricing__text {
+                display: grid;
+                justify-content: center;
+                margin-top: 0.81rem;
+                margin-left: 1.5rem;
+                margin-right: 1.5rem;
 
-        hr {
-            margin-left: 1.5rem;
-            margin-right: 1.5rem;
-            opacity: 0.25;
-            background: $secondary-colors-san-juan-blue;
-            margin-bottom: 0.5rem;
-            height: 0.0625rem;
-        }
-
-        .pricing__list {
-            height: 20rem;
-            background: $primary-colors-background-color;
-            display: grid;
-            align-items: center;
-            place-items: center;
-            margin-top: -1rem;
-            margin-bottom: -1.5rem;
-
-            ul {
-                .pricing__checkmark__src {
-                    color: $secondary-colors-san-juan-blue;
+                p {
+                    text-align: center;
+                    color: $secondary-colors-light-juan-blue;
+                    text-align: center;
                     font-family: 'Public Sans';
-                    font-size: 1rem;
+                    font-size: 0.9375rem;
                     font-style: normal;
                     font-weight: 400;
                     line-height: 1.75rem;
-                    list-style-type: none;
-                    display: flex;
+                    max-width: 330px;
+                }
+            }
 
-                    img {
-                        width: 0.75rem;
-                        height: 0.5rem;
-                        stroke-width: 2px;
-                        stroke: $primary-colors-dark-pink;
-                        margin-top: 0.5rem;
+            .pricing__money {
+                color: $secondary-colors-san-juan-blue;
+                text-align: center;
+                font-family: 'DM Serif Display';
+                font-size: 3.5rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 4.5rem;
+                letter-spacing: -0.02694rem;
+                margin-top: 0.7rem;
+                margin-bottom: 1.5rem;
+            }
+
+            hr {
+                margin-left: 1.5rem;
+                margin-right: 1.5rem;
+                opacity: 0.25;
+                background: $secondary-colors-san-juan-blue;
+                margin-bottom: 0.6rem;
+                height: 0.0625rem;
+                margin-bottom: 0.5rem;
+            }
+
+            .pricing__list {
+                height: 20rem;
+                background: $primary-colors-background-color;
+                display: grid;
+                align-items: center;
+                place-items: center;
+                margin-top: -1rem;
+                margin-bottom: -1.5rem;
+
+                ul {
+                    margin-bottom: 0.2rem;
+
+                    .pricing__checkmark__src {
+                        color: $secondary-colors-san-juan-blue;
+                        font-family: 'Public Sans';
+                        font-size: 1rem;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 1.75rem;
+                        list-style-type: none;
+                        display: flex;
+
+                        img {
+                            width: 0.75rem;
+                            height: 0.5rem;
+                            stroke-width: 2px;
+                            stroke: $primary-colors-dark-pink;
+                            margin-top: 0.5rem;
+                        }
+
+                        p {
+                            margin-left: 1.5rem;
+                            margin-bottom: 0.5rem;
+                        }
                     }
 
-                    p {
-                        margin-left: 1.5rem;
-                        margin-bottom: 0.5rem;
+                    .pricing__checkmark {
+                        color: $secondary-colors-san-juan-blue;
+                        font-family: 'Public Sans';
+                        font-size: 1rem;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 1.75rem;
+                        list-style-type: none;
+                        display: flex;
+
+                        img {
+                            width: 0.75rem;
+                            height: 0.5rem;
+                            stroke-width: 2px;
+                            stroke: $primary-colors-dark-pink;
+                            margin-top: 0.5rem;
+                            opacity: 0;
+                        }
+
+                        .pricing__paragraph {
+                            opacity: 0.5;
+                            margin-left: 1.5rem;
+                            margin-bottom: 0.5rem;
+                        }
                     }
                 }
+            }
 
-                .pricing__checkmark {
+
+            .pricing__button__grid {
+                display: grid;
+                justify-content: center;
+                margin-top: 1.6rem;
+
+
+
+                .pricing__button {
+                    width: 10.5rem;
+                    height: 3rem;
+                    flex-shrink: 0;
+                    border-radius: 1.5rem;
+                    border: 1px solid $secondary-colors-san-juan-blue;
+                    background-color: $primary-colors-background-color;
                     color: $secondary-colors-san-juan-blue;
                     font-family: 'Public Sans';
-                    font-size: 1rem;
+                    font-size: 0.9375rem;
                     font-style: normal;
-                    font-weight: 400;
-                    line-height: 1.75rem;
-                    list-style-type: none;
-                    display: flex;
-
-                    img {
-                        width: 0.75rem;
-                        height: 0.5rem;
-                        stroke-width: 2px;
-                        stroke: $primary-colors-dark-pink;
-                        margin-top: 0.5rem;
-                        opacity: 0;
-                    }
-
-                    .pricing__paragraph {
-                        opacity: 0.5;
-                        margin-left: 1.5rem;
-                        margin-bottom: 0.5rem;
-                    }
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: -0.00719rem;
                 }
             }
-        }
 
-        .pricing__button__grid {
-            display: grid;
-            justify-content: center;
-            margin-top: 1.5rem;
+            .pricing__bottom {
+                display: grid;
+                justify-content: center;
+                margin-top: 1.5rem;
 
 
-            .pricing__button {
-                width: 10.5rem;
-                height: 3rem;
-                flex-shrink: 0;
-                border-radius: 1.5rem;
-                border: 1px solid $secondary-colors-san-juan-blue;
-                background-color: $primary-colors-background-color;
-                color: $secondary-colors-san-juan-blue;
-                font-family: 'Public Sans';
-                font-size: 0.9375rem;
-                font-style: normal;
-                font-weight: 700;
-                line-height: normal;
-                letter-spacing: -0.00719rem;
-            }
-        }
-
-        .pricing__bottom {
-            display: grid;
-            justify-content: center;
-            margin-top: 1.4rem;
-            margin-bottom: 4.9rem;
-
-            .pricing__bottom__button {
-                width: 10.5rem;
-                height: 3rem;
-                flex-shrink: 0;
-                border-radius: 1.5rem;
-                border: 1px solid $secondary-colors-san-juan-blue;
-                background-color: $primary-colors-background-color;
-                color: $secondary-colors-san-juan-blue;
-                font-family: 'Public Sans';
-                font-size: 0.9375rem;
-                font-style: normal;
-                font-weight: 700;
-                line-height: normal;
-                letter-spacing: -0.00719rem;
+                .pricing__bottom__button {
+                    width: 10.5rem;
+                    height: 3rem;
+                    flex-shrink: 0;
+                    border-radius: 1.5rem;
+                    border: 1px solid $secondary-colors-san-juan-blue;
+                    background-color: $primary-colors-background-color;
+                    color: $secondary-colors-san-juan-blue;
+                    font-family: 'Public Sans';
+                    font-size: 0.9375rem;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: -0.00719rem;
+                }
             }
         }
     }
 }
+
 
 
 /* Styles for Tablet */
@@ -185,10 +196,11 @@
 
     //          Pricing part
     .pricing__main {
-        margin-right: 1.2rem;
-        margin-left: 1rem;
+        margin-right: 1.4rem;
+        margin-left: 0.9rem;
         margin-top: 5.5rem;
         margin-bottom: -3.2rem;
+      
 
 
         .pricing__plan {
@@ -259,9 +271,8 @@
                 margin-right: 1rem;
                 opacity: 0.25;
                 background: $secondary-colors-san-juan-blue;
-                margin-bottom: 0.5rem;
                 height: 0.0625rem;
-                max-width: 31rem;
+                max-width: 35rem;
                 margin-top: 1.3rem;
                 margin-bottom: -0.1rem;
             }
@@ -390,8 +401,9 @@
 
     // Pricing part
     .pricing__main {
-
         margin: 6rem 0 -5rem 0;
+
+
 
         .pricing__colums {
             display: grid;
@@ -399,6 +411,10 @@
             margin-left: 9.8rem;
             margin-right: 8rem;
 
+        }
+
+        .bob {
+            margin-left: 0.5rem;
         }
 
         .pricing__plan {
@@ -409,7 +425,7 @@
             font-weight: 400;
             line-height: 3.5rem;
             letter-spacing: -0.02694rem;
-            margin-left: 9.8rem;
+            margin-left: 10.3rem;
             margin-top: 5.44rem;
         }
 
