@@ -61,23 +61,27 @@
     font-size: 2.25rem;
     font-style: normal;
     font-weight: 400;
-    margin-top: 2.8rem;
+    margin-top: 2.6rem;
   }
 
   .easy__text {
     max-width: 460px;
     margin-left: 1rem;
     margin-right: 1rem;
-    margin-top: 1rem;
+    margin-top: 1.1rem;
   }
 
+  .about__wrapper {
+    margin-bottom: -4.1rem;
+  }
 
   .about__heading {
     font-size: 2rem;
-    margin-top: 3rem;
+    margin-top: 2.75rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-    line-height: 2.5rem;
+    letter-spacing: -0.01538rem;
+    line-height: 2.25rem;
   }
 
   .our-vision,
@@ -101,6 +105,8 @@
     .people__description {
       margin-right: 1.5rem;
       margin-left: 1.5rem;
+      font-size: 0.9375rem;
+      line-height: 1.75rem;
     }
   }
 
@@ -131,6 +137,18 @@
     }
 
     .team__numbers {
+      color: $primary-colors-dark-pink;
+      text-align: center;
+      font-family: 'DM Serif Display';
+      font-size: 3.5rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 4.5rem;
+      letter-spacing: -0.02694rem;
+      margin-bottom: 2rem;
+    }
+
+    .team__numbers__last {
       color: $primary-colors-dark-pink;
       text-align: center;
       font-family: 'DM Serif Display';
@@ -250,7 +268,7 @@
 
   .simple__img {
     max-height: 100%;
-    width: 48%;
+    width: 47%;
     margin-top: 1.5rem;
   }
 
@@ -259,7 +277,7 @@
     font-size: 3rem;
     font-style: normal;
     font-weight: 400;
-    margin-top: 2.3rem;
+    margin-top: 2.7rem;
     margin-left: -0.3rem;
     letter-spacing: -0.02306rem;
   }
@@ -289,7 +307,7 @@
     font-style: normal;
     font-weight: 400;
 
-    padding-top: 5.6rem;
+    padding-top: 5.7rem;
     margin-top: 3rem;
     margin-bottom: 1.3rem;
   }
@@ -297,26 +315,41 @@
 
   .about__heading {
     font-size: 3rem;
-    margin-top: 5rem;
-    margin-left: 6rem;
-    margin-right: 6rem;
+    letter-spacing: -0.02306rem;
+    margin-top: 4.7rem;
+    margin-left: 6.28rem;
+    margin-right: 6.12rem;
+    margin-bottom: 3.9rem;
     line-height: 3.5rem;
   }
 
   .our-vision,
-  .our-business,
-  .culture,
-  .people {
+  .our-business {
     display: flex;
     margin-left: 2.44rem;
     margin-bottom: 4rem;
     margin-top: 4rem;
     text-align: left;
+    letter-spacing: -0.01538rem;
+  }
+
+  .culture,
+  .people {
+    display: flex;
+    margin-left: 2.44rem;
+    margin-bottom: 4rem;
+    margin-top: 3rem;
+    text-align: left;
+    letter-spacing: -0.01538rem;
   }
 
   .our-vision__description {
-    margin-left: 6.3rem;
+    margin-left: 5.29rem;
     margin-right: 2.5rem;
+  }
+
+  .our-vision__heading {
+    margin-top: 0.49rem;
   }
 
   .easy__heading {
@@ -329,19 +362,20 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 275px;
-    margin-top: 5.50rem;
+    height: 269px;
+    margin-top: 5.7rem;
   }
 
   .team__numbers__grids {
     border-top: none;
     margin-top: 3rem;
-    padding: 1rem;
+    padding: 0.9rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     border-bottom: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
 
     .team__numbers__text,
     .team__numbers__text1,
@@ -375,25 +409,44 @@
       letter-spacing: -0.02694rem;
       padding-bottom: 1.06rem;
     }
+
+    .team__numbers__last {
+      color: $primary-colors-dark-pink;
+      font-family: 'DM Serif Display';
+      font-size: 3.5rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 4.5rem;
+      letter-spacing: -0.02694rem;
+      padding-bottom: 1.06rem;
+    }
   }
 
   .our-business__description {
-    margin-left: 4rem;
+    margin-left: 3.1rem;
     margin-right: 2.5rem;
+    font-size: 0.9375rem;
+    line-height: 1.75rem;
   }
 
   .people__description {
-    margin-left: 5.6rem;
+    margin-left: 4.75rem;
     margin-right: 2.5rem;
+    font-size: 0.9375rem;
+    line-height: 1.75rem;
   }
 
   .culture__description {
-    margin-left: 5rem;
+    margin-left: 4.1rem;
     margin-right: 2.5rem;
+    font-size: 0.9375rem;
+    line-height: 1.75rem;
   }
 
   .our-vision {
     margin-top: 3.4rem;
+    font-size: 0.9375rem;
+    line-height: 1.75rem;
   }
 }
 /* Styles for Desktop */
@@ -492,7 +545,7 @@
       .simple__img {
         width: 39%;
         margin-top: 6.4rem;
-        margin-right: 0.7rem;
+        margin-right: 0.4rem;
       }
 
       .simple__description {
@@ -566,6 +619,8 @@
   // ABOUT PART
   .about__heading {
     font-size: 3.5rem;
+    line-height: 3.5rem; /* 100% */
+    letter-spacing: -0.02694rem;
     line-height: 3.5rem;
     margin-right: 28.12rem;
     margin-left: 16.25rem;
@@ -579,33 +634,55 @@
   .people {
     display: flex;
     margin-left: 16.25rem;
-    margin-bottom: 3.75rem;
-    margin-top: 4.5rem;
+    margin-bottom: 3.5rem;
+    margin-top: 3rem;
     text-align: left;
+  }
+  .people {
+    margin-bottom: 0.3rem;
+  }
 
     .our-vision__description {
-      margin-left: 10rem;
+      margin-top: 1.1rem;
+      margin-left: 8.7rem;
       margin-right: 16.25rem;
+      font-size: 0.9375rem;
+      line-height: 1.75rem;
     }
 
     .our-business__description {
-      margin-left: 7.8rem;
+      margin-left: 6.5rem;
       margin-right: 16.25rem;
+      font-size: 0.9375rem;
+      line-height: 1.75rem;
     }
 
     .people__description {
-      margin-left: 9.5rem;
+      margin-left: 8.17rem;
       margin-right: 16.25rem;
+      font-size: 0.9375rem;
+      line-height: 1.75rem;
     }
 
     .culture__description {
-      margin-left: 8.8rem;
+      margin-left: 7.4rem;
       margin-right: 16.25rem;
+      margin-top: 0.4rem;
+      font-size: 0.9375rem;
+      line-height: 1.75rem;
     }
+  
+
+  .our-vision{
+    margin-top: 3.25rem;
   }
 
-  .our-vision {
-    margin-top: 3.25rem;
+  .our-vision__heading {
+    margin-top: 1rem;
+  }
+
+  .culture__heading {
+    margin-top: 0.4rem;
   }
 
   .team_numbers_image {
@@ -614,18 +691,19 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-    margin-top: 6rem;
+    margin-top: 6.3rem;
   }
 
   .team__numbers__grids {
     border-top: none;
-    margin-top: 3rem;
+    margin-top: 3.40rem;
     padding: 1rem;
-    margin-left: 10.61rem;
+    margin-left: 9.45rem;
     margin-right: 10.61rem;
     border-bottom: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
 
     .team__numbers__text,
     .team__numbers__text1,
@@ -634,10 +712,10 @@
       border-top: 1px solid rgba(54, 83, 107, 0.25);
     }
 
-    .team__numbers__text1 {
-      margin-left: 1.87rem;
-      margin-right: 1.87rem;
-    }
+    // .team__numbers__text1 {
+    //   margin-left: 1.87rem;
+    //   margin-right: 1.87rem;
+    // }
 
     p {
       color: $secondary-colors-san-juan-blue;
@@ -659,5 +737,19 @@
       letter-spacing: -0.02694rem;
       padding-bottom: 1.06rem;
     }
+    .team__numbers__last {
+      color: $primary-colors-dark-pink;
+      font-family: 'DM Serif Display';
+      font-size: 3.5rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 4.5rem;
+      letter-spacing: -0.02694rem;
+      padding-bottom: 1.06rem;
+    }
+
+    // .about__wrapper {
+    //   margin-bottom: -5rem;
+    // }
   }
 }

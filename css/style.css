@@ -245,7 +245,7 @@ p {
 }
 
 .partners__reverse {
-  margin-top: -0.2rem;
+  margin-top: -0.3rem;
   margin-bottom: 2rem;
 }
 
@@ -383,20 +383,24 @@ p {
     font-size: 2.25rem;
     font-style: normal;
     font-weight: 400;
-    margin-top: 2.8rem;
+    margin-top: 2.6rem;
   }
   .easy__text {
     max-width: 460px;
     margin-left: 1rem;
     margin-right: 1rem;
-    margin-top: 1rem;
+    margin-top: 1.1rem;
+  }
+  .about__wrapper {
+    margin-bottom: -4.1rem;
   }
   .about__heading {
     font-size: 2rem;
-    margin-top: 3rem;
+    margin-top: 2.75rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-    line-height: 2.5rem;
+    letter-spacing: -0.01538rem;
+    line-height: 2.25rem;
   }
   .our-vision,
   .our-business,
@@ -442,6 +446,8 @@ p {
   .people .people__description {
     margin-right: 1.5rem;
     margin-left: 1.5rem;
+    font-size: 0.9375rem;
+    line-height: 1.75rem;
   }
   .team_numbers_image {
     background-image: url(/assets/about/mobile/image-team-members.jpg);
@@ -468,6 +474,17 @@ p {
     line-height: 1.75rem;
   }
   .team__numbers__grids .team__numbers {
+    color: #BA4270;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.5rem;
+    letter-spacing: -0.02694rem;
+    margin-bottom: 2rem;
+  }
+  .team__numbers__grids .team__numbers__last {
     color: #BA4270;
     text-align: center;
     font-family: "DM Serif Display";
@@ -565,7 +582,7 @@ p {
   }
   .simple__img {
     max-height: 100%;
-    width: 48%;
+    width: 47%;
     margin-top: 1.5rem;
   }
   .simple__heading {
@@ -573,7 +590,7 @@ p {
     font-size: 3rem;
     font-style: normal;
     font-weight: 400;
-    margin-top: 2.3rem;
+    margin-top: 2.7rem;
     margin-left: -0.3rem;
     letter-spacing: -0.02306rem;
   }
@@ -594,30 +611,43 @@ p {
     font-size: 3rem;
     font-style: normal;
     font-weight: 400;
-    padding-top: 5.6rem;
+    padding-top: 5.7rem;
     margin-top: 3rem;
     margin-bottom: 1.3rem;
   }
   .about__heading {
     font-size: 3rem;
-    margin-top: 5rem;
-    margin-left: 6rem;
-    margin-right: 6rem;
+    letter-spacing: -0.02306rem;
+    margin-top: 4.7rem;
+    margin-left: 6.28rem;
+    margin-right: 6.12rem;
+    margin-bottom: 3.9rem;
     line-height: 3.5rem;
   }
   .our-vision,
-  .our-business,
-  .culture,
-  .people {
+  .our-business {
     display: flex;
     margin-left: 2.44rem;
     margin-bottom: 4rem;
     margin-top: 4rem;
     text-align: left;
+    letter-spacing: -0.01538rem;
+  }
+  .culture,
+  .people {
+    display: flex;
+    margin-left: 2.44rem;
+    margin-bottom: 4rem;
+    margin-top: 3rem;
+    text-align: left;
+    letter-spacing: -0.01538rem;
   }
   .our-vision__description {
-    margin-left: 6.3rem;
+    margin-left: 5.29rem;
     margin-right: 2.5rem;
+  }
+  .our-vision__heading {
+    margin-top: 0.49rem;
   }
   .easy__heading {
     font-size: 48px;
@@ -628,18 +658,19 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 275px;
-    margin-top: 5.5rem;
+    height: 269px;
+    margin-top: 5.7rem;
   }
   .team__numbers__grids {
     border-top: none;
     margin-top: 3rem;
-    padding: 1rem;
+    padding: 0.9rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     border-bottom: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
   }
   .team__numbers__grids .team__numbers__text,
   .team__numbers__grids .team__numbers__text1,
@@ -670,20 +701,38 @@ p {
     letter-spacing: -0.02694rem;
     padding-bottom: 1.06rem;
   }
+  .team__numbers__grids .team__numbers__last {
+    color: #BA4270;
+    font-family: "DM Serif Display";
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.5rem;
+    letter-spacing: -0.02694rem;
+    padding-bottom: 1.06rem;
+  }
   .our-business__description {
-    margin-left: 4rem;
+    margin-left: 3.1rem;
     margin-right: 2.5rem;
+    font-size: 0.9375rem;
+    line-height: 1.75rem;
   }
   .people__description {
-    margin-left: 5.6rem;
+    margin-left: 4.75rem;
     margin-right: 2.5rem;
+    font-size: 0.9375rem;
+    line-height: 1.75rem;
   }
   .culture__description {
-    margin-left: 5rem;
+    margin-left: 4.1rem;
     margin-right: 2.5rem;
+    font-size: 0.9375rem;
+    line-height: 1.75rem;
   }
   .our-vision {
     margin-top: 3.4rem;
+    font-size: 0.9375rem;
+    line-height: 1.75rem;
   }
 }
 /* Styles for Desktop */
@@ -764,7 +813,7 @@ p {
   .simple .simple__wrapper .simple__img {
     width: 39%;
     margin-top: 6.4rem;
-    margin-right: 0.7rem;
+    margin-right: 0.4rem;
   }
   .simple .simple__wrapper .simple__description {
     margin-right: 2.5rem;
@@ -819,6 +868,8 @@ p {
   }
   .about__heading {
     font-size: 3.5rem;
+    line-height: 3.5rem; /* 100% */
+    letter-spacing: -0.02694rem;
     line-height: 3.5rem;
     margin-right: 28.12rem;
     margin-left: 16.25rem;
@@ -831,40 +882,47 @@ p {
   .people {
     display: flex;
     margin-left: 16.25rem;
-    margin-bottom: 3.75rem;
-    margin-top: 4.5rem;
+    margin-bottom: 3.5rem;
+    margin-top: 3rem;
     text-align: left;
   }
-  .our-vision .our-vision__description,
-  .our-business .our-vision__description,
-  .culture .our-vision__description,
-  .people .our-vision__description {
-    margin-left: 10rem;
-    margin-right: 16.25rem;
+  .people {
+    margin-bottom: 0.3rem;
   }
-  .our-vision .our-business__description,
-  .our-business .our-business__description,
-  .culture .our-business__description,
-  .people .our-business__description {
-    margin-left: 7.8rem;
+  .our-vision__description {
+    margin-top: 1.1rem;
+    margin-left: 8.7rem;
     margin-right: 16.25rem;
+    font-size: 0.9375rem;
+    line-height: 1.75rem;
   }
-  .our-vision .people__description,
-  .our-business .people__description,
-  .culture .people__description,
-  .people .people__description {
-    margin-left: 9.5rem;
+  .our-business__description {
+    margin-left: 6.5rem;
     margin-right: 16.25rem;
+    font-size: 0.9375rem;
+    line-height: 1.75rem;
   }
-  .our-vision .culture__description,
-  .our-business .culture__description,
-  .culture .culture__description,
-  .people .culture__description {
-    margin-left: 8.8rem;
+  .people__description {
+    margin-left: 8.17rem;
     margin-right: 16.25rem;
+    font-size: 0.9375rem;
+    line-height: 1.75rem;
+  }
+  .culture__description {
+    margin-left: 7.4rem;
+    margin-right: 16.25rem;
+    margin-top: 0.4rem;
+    font-size: 0.9375rem;
+    line-height: 1.75rem;
   }
   .our-vision {
     margin-top: 3.25rem;
+  }
+  .our-vision__heading {
+    margin-top: 1rem;
+  }
+  .culture__heading {
+    margin-top: 0.4rem;
   }
   .team_numbers_image {
     background-image: url(/assets/about/desktop/image-team-members.jpg);
@@ -872,27 +930,24 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-    margin-top: 6rem;
+    margin-top: 6.3rem;
   }
   .team__numbers__grids {
     border-top: none;
-    margin-top: 3rem;
+    margin-top: 3.4rem;
     padding: 1rem;
-    margin-left: 10.61rem;
+    margin-left: 9.45rem;
     margin-right: 10.61rem;
     border-bottom: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
   }
   .team__numbers__grids .team__numbers__text,
   .team__numbers__grids .team__numbers__text1,
   .team__numbers__grids .team__numbers__text2 {
     border-bottom: 1px solid rgba(54, 83, 107, 0.25);
     border-top: 1px solid rgba(54, 83, 107, 0.25);
-  }
-  .team__numbers__grids .team__numbers__text1 {
-    margin-left: 1.87rem;
-    margin-right: 1.87rem;
   }
   .team__numbers__grids p {
     color: #36536B;
@@ -904,6 +959,16 @@ p {
     padding-top: 1.06rem;
   }
   .team__numbers__grids .team__numbers {
+    color: #BA4270;
+    font-family: "DM Serif Display";
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.5rem;
+    letter-spacing: -0.02694rem;
+    padding-bottom: 1.06rem;
+  }
+  .team__numbers__grids .team__numbers__last {
     color: #BA4270;
     font-family: "DM Serif Display";
     font-size: 3.5rem;
@@ -1096,7 +1161,7 @@ w-400 {
   }
   .footer__section1 .footer__button {
     margin: 0 auto;
-    margin-bottom: 6.1rem;
+    margin-bottom: 6.2rem;
     margin-top: -0.3rem;
   }
   .footer__section1 .footer__button__pink {
@@ -1173,7 +1238,7 @@ w-400 {
     gap: 2.5rem;
     padding-left: 0;
     margin: 0 4rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.3rem;
   }
 }
 w-700 {
@@ -1372,6 +1437,7 @@ w-400 {
     font-family: "Public Sans";
     font-size: 15px;
     font-style: normal;
+    padding-left: 3px;
   }
   .bttn__header:hover {
     background: #DA6D97;
@@ -1393,7 +1459,7 @@ w-400 {
     font-family: "Public Sans", sans-serif;
     font-size: 15px;
     line-height: 28px;
-    margin-top: -0.5rem;
+    margin-top: -0.3rem;
   }
   .title__txt {
     color: #36536B;
@@ -1419,6 +1485,7 @@ w-400 {
     margin: 0 auto;
     filter: drop-shadow(25px 25px 80px rgba(54, 83, 107, 0.61));
     justify-content: center;
+    padding-top: 7px;
   }
 }
 /* Styles for Tablet */
@@ -1567,7 +1634,7 @@ w-400 {
     padding-right: 7rem;
     border-radius: 24px;
     height: 48px;
-    width: 445px;
+    width: 430px;
     border: none;
     padding-left: 1rem;
     box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
@@ -1603,7 +1670,7 @@ w-400 {
     opacity: 1;
   }
   .title_input {
-    padding-left: 2.1rem;
+    padding-left: 1.7rem;
     border: 0;
     outline: 0;
   }
@@ -1700,7 +1767,7 @@ w-400 {
     letter-spacing: -0.01538rem;
     margin-top: 3rem;
   }
-  .pricing__main .pricing__free__plan {
+  .pricing__main .pricing__colums .pricing__free__plan {
     color: #BA4270;
     text-align: center;
     font-family: "DM Serif Display";
@@ -1709,16 +1776,16 @@ w-400 {
     font-weight: 400;
     line-height: 2rem;
     letter-spacing: -0.01156rem;
-    margin-top: 3.3rem;
+    margin-top: 3.2rem;
   }
-  .pricing__main .pricing__text {
+  .pricing__main .pricing__colums .pricing__text {
     display: grid;
     justify-content: center;
     margin-top: 0.81rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
   }
-  .pricing__main .pricing__text p {
+  .pricing__main .pricing__colums .pricing__text p {
     text-align: center;
     color: #6C8294;
     text-align: center;
@@ -1729,7 +1796,7 @@ w-400 {
     line-height: 1.75rem;
     max-width: 330px;
   }
-  .pricing__main .pricing__money {
+  .pricing__main .pricing__colums .pricing__money {
     color: #36536B;
     text-align: center;
     font-family: "DM Serif Display";
@@ -1741,15 +1808,16 @@ w-400 {
     margin-top: 0.7rem;
     margin-bottom: 1.5rem;
   }
-  .pricing__main hr {
+  .pricing__main .pricing__colums hr {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     opacity: 0.25;
     background: #36536B;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.6rem;
     height: 0.0625rem;
+    margin-bottom: 0.5rem;
   }
-  .pricing__main .pricing__list {
+  .pricing__main .pricing__colums .pricing__list {
     height: 20rem;
     background: #EDF3F8;
     display: grid;
@@ -1758,7 +1826,10 @@ w-400 {
     margin-top: -1rem;
     margin-bottom: -1.5rem;
   }
-  .pricing__main .pricing__list ul .pricing__checkmark__src {
+  .pricing__main .pricing__colums .pricing__list ul {
+    margin-bottom: 0.2rem;
+  }
+  .pricing__main .pricing__colums .pricing__list ul .pricing__checkmark__src {
     color: #36536B;
     font-family: "Public Sans";
     font-size: 1rem;
@@ -1768,18 +1839,18 @@ w-400 {
     list-style-type: none;
     display: flex;
   }
-  .pricing__main .pricing__list ul .pricing__checkmark__src img {
+  .pricing__main .pricing__colums .pricing__list ul .pricing__checkmark__src img {
     width: 0.75rem;
     height: 0.5rem;
     stroke-width: 2px;
     stroke: #BA4270;
     margin-top: 0.5rem;
   }
-  .pricing__main .pricing__list ul .pricing__checkmark__src p {
+  .pricing__main .pricing__colums .pricing__list ul .pricing__checkmark__src p {
     margin-left: 1.5rem;
     margin-bottom: 0.5rem;
   }
-  .pricing__main .pricing__list ul .pricing__checkmark {
+  .pricing__main .pricing__colums .pricing__list ul .pricing__checkmark {
     color: #36536B;
     font-family: "Public Sans";
     font-size: 1rem;
@@ -1789,7 +1860,7 @@ w-400 {
     list-style-type: none;
     display: flex;
   }
-  .pricing__main .pricing__list ul .pricing__checkmark img {
+  .pricing__main .pricing__colums .pricing__list ul .pricing__checkmark img {
     width: 0.75rem;
     height: 0.5rem;
     stroke-width: 2px;
@@ -1797,17 +1868,17 @@ w-400 {
     margin-top: 0.5rem;
     opacity: 0;
   }
-  .pricing__main .pricing__list ul .pricing__checkmark .pricing__paragraph {
+  .pricing__main .pricing__colums .pricing__list ul .pricing__checkmark .pricing__paragraph {
     opacity: 0.5;
     margin-left: 1.5rem;
     margin-bottom: 0.5rem;
   }
-  .pricing__main .pricing__button__grid {
+  .pricing__main .pricing__colums .pricing__button__grid {
     display: grid;
     justify-content: center;
-    margin-top: 1.5rem;
+    margin-top: 1.6rem;
   }
-  .pricing__main .pricing__button__grid .pricing__button {
+  .pricing__main .pricing__colums .pricing__button__grid .pricing__button {
     width: 10.5rem;
     height: 3rem;
     flex-shrink: 0;
@@ -1822,13 +1893,12 @@ w-400 {
     line-height: normal;
     letter-spacing: -0.00719rem;
   }
-  .pricing__main .pricing__bottom {
+  .pricing__main .pricing__colums .pricing__bottom {
     display: grid;
     justify-content: center;
-    margin-top: 1.4rem;
-    margin-bottom: 4.9rem;
+    margin-top: 1.5rem;
   }
-  .pricing__main .pricing__bottom .pricing__bottom__button {
+  .pricing__main .pricing__colums .pricing__bottom .pricing__bottom__button {
     width: 10.5rem;
     height: 3rem;
     flex-shrink: 0;
@@ -1847,8 +1917,8 @@ w-400 {
 /* Styles for Tablet */
 @media only screen and (min-width: 768px) and (max-width: 1439.5px) {
   .pricing__main {
-    margin-right: 1.2rem;
-    margin-left: 1rem;
+    margin-right: 1.4rem;
+    margin-left: 1.2rem;
     margin-top: 5.5rem;
     margin-bottom: -3.2rem;
   }
@@ -1912,9 +1982,8 @@ w-400 {
     margin-right: 1rem;
     opacity: 0.25;
     background: #36536B;
-    margin-bottom: 0.5rem;
     height: 0.0625rem;
-    max-width: 31rem;
+    max-width: 35rem;
     margin-top: 1.3rem;
     margin-bottom: -0.1rem;
   }
@@ -1928,7 +1997,7 @@ w-400 {
     margin-bottom: -2.1rem;
   }
   .pricing__main .pricing__colums .pricing__list ul {
-    margin-left: 0.4rem;
+    margin-left: 0.2rem;
     margin-top: 0.7rem;
   }
   .pricing__main .pricing__colums .pricing__list ul .pricing__checkmark__src {
@@ -1978,8 +2047,8 @@ w-400 {
   .pricing__main .pricing__colums .pricing__button__grid {
     display: grid;
     justify-content: center;
-    margin-top: 1.5rem;
-    margin-left: 0.7rem;
+    margin-top: 1.6rem;
+    margin-left: 0.4rem;
   }
   .pricing__main .pricing__colums .pricing__button__grid .pricing__button {
     width: 10.5rem;
@@ -1999,9 +2068,9 @@ w-400 {
   .pricing__main .pricing__colums .pricing__bottom {
     display: grid;
     justify-content: center;
-    margin-top: 1.5rem;
-    margin-bottom: 5rem;
-    margin-left: 0.3rem;
+    margin-top: 1.6rem;
+    margin-left: 0.4rem;
+    margin-bottom: 4.9rem;
   }
   .pricing__main .pricing__colums .pricing__bottom .pricing__bottom__button {
     width: 10.5rem;
@@ -2030,6 +2099,9 @@ w-400 {
     margin-left: 9.8rem;
     margin-right: 8rem;
   }
+  .pricing__main .bob {
+    margin-left: 0.5rem;
+  }
   .pricing__main .pricing__plan {
     color: #36536B;
     font-family: "DM Serif Display";
@@ -2038,7 +2110,7 @@ w-400 {
     font-weight: 400;
     line-height: 3.5rem;
     letter-spacing: -0.02694rem;
-    margin-left: 9.8rem;
+    margin-left: 10.3rem;
     margin-top: 5.44rem;
   }
   .pricing__main .pricing__free__plan {
