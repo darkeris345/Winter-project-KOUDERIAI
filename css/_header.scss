@@ -30,10 +30,21 @@
         font-weight: 700;
         font-family: 'Public Sans';
         font-size: 15px;
-        font-style: normal;
-        line-height: normal;
-        opacity: 0.5;
         color: $secondary-colors-san-juan-blue;
+
+        &:focus {
+            outline: none;
+        }
+
+        &::placeholder {
+            color: $secondary-colors-san-juan-blue;
+            opacity: 0.5;
+        }
+
+        &:focus::placeholder {
+            color: $secondary-colors-san-juan-blue;
+            opacity: 1;
+        }
     }
 
     .bttn__header {
@@ -144,7 +155,22 @@
         font-size: 15px;
         font-style: normal;
         line-height: normal;
-        opacity: 0.5;
+
+        &:focus {
+            outline: none;
+            opacity: 1;
+        }
+
+        &::placeholder {
+            color: $secondary-colors-san-juan-blue;
+            opacity: 0.5;
+        }
+
+        &:focus::placeholder {
+            color: $secondary-colors-san-juan-blue;
+            opacity: 1;
+        }
+
     }
 
     .bttn__header {
@@ -273,7 +299,25 @@
         line-height: normal;
         margin-left: -1rem;
         color: $secondary-colors-san-juan-blue;
-        opacity: 0.5;
+        &:focus {
+            outline: none;
+            opacity: 1;
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        &::placeholder {
+            color: $secondary-colors-san-juan-blue;
+            opacity: 0.5;
+        }
+
+        &:focus::placeholder {
+            color: $secondary-colors-san-juan-blue;
+            opacity: 1;
+        }
+
     }
 
     .title_input {

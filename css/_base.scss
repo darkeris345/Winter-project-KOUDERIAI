@@ -11,10 +11,14 @@ img {
   max-width: 100%;
 }
 
+// Stops menu appearing on shrinking screen from tablet to mobile
 .resize-animation-stopper * {
   animation: none !important;
   transition: none !important;
 }
+
+// Checkbox features
+
 
 .noSelect {
   -webkit-tap-highlight-color: transparent;

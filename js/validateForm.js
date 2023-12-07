@@ -16,7 +16,7 @@ function validateEmail(inputId) {
 
     }
 }
-document.querySelector('.validate').addEventListener('click', function(event) {
-    validateEmail('email');
+document.querySelector('.validate2').addEventListener('click', function(event) {
+    validateEmail('form_email');
     event.preventDefault();
 });
