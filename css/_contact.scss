@@ -20,7 +20,6 @@
         P {
             line-height: 2.25rem;
         }
-
     }
 
     .form__page {
@@ -57,8 +56,6 @@
                 bottom: 0.5rem;
                 opacity: 0.5;
             }
-
-
         }
 
         textarea {
@@ -156,7 +153,6 @@
                 box-shadow: 0 1px #666;
                 transform: translateY(4px);
             }
-
         }
     }
 
@@ -178,7 +174,6 @@
         font-weight: 400;
         line-height: 2rem;
         letter-spacing: -0.01156rem;
-
     }
 
     .partners__logos__form {
@@ -188,11 +183,8 @@
         align-items: center;
         gap: 2.5rem;
         margin: 2rem 4rem -2rem 3.5rem;
-
     }
 }
-
-//  TABLET !!!!!!!!!!!!!!!!!!!!!
 
 @media only screen and (min-width: 768px) and (max-width: 1439.5px) {
     .flex__box {
@@ -385,14 +377,12 @@
     }
 }
 
-// DESKTOP VERSION !!!!!!
 @media only screen and (min-width: 1440px) {
     .form__box {
         display: flex;
         align-items: center;
         justify-content: center;
         margin: 0 10.8rem -6rem 0;
-
     }
 
     .flex__box {
@@ -490,7 +480,6 @@
                     opacity: 1;
                 }
             }
-
         }
 
         .check {
@@ -587,7 +576,5 @@
         align-items: center;
         gap: 3rem 4.8rem;
         margin: 0 0 0 0;
-
     }
-
 }
