@@ -1,3 +1,5 @@
+
+
 const nameInput = document.getElementById("name");
 const companyInput = document.getElementById("company_name");
 const checkedBox = document.getElementById("check");
@@ -19,12 +21,12 @@ function validateEmail(emailId, titleId, messageId) {
   ) {
     //   Changing title input field to error message
     titleInput.value = "This field must be filled";
-    titleInput.style.color = "red";
-    titleInput.style.borderBottomColor = "red";
+    titleInput.style.color = "#BA4270";
+    titleInput.style.borderBottomColor = "#BA4270";
     //   Changing message input field to error message
     messageInput.value = "This field must be filled";
-    messageInput.style.color = "red";
-    messageInput.style.borderBottomColor = "red";
+    messageInput.style.color = "#BA4270";
+    messageInput.style.borderBottomColor = "#BA4270";
 
     // This part of code get chagned inputs to default state
     setTimeout(() => {
@@ -44,12 +46,12 @@ function validateEmail(emailId, titleId, messageId) {
   ) {
     //   Changing email input field to error message
     emailInput.value = "This field must be filled";
-    emailInput.style.color = "red";
-    emailInput.style.borderBottomColor = "red";
+    emailInput.style.color = "#BA4270";
+    emailInput.style.borderBottomColor = "#BA4270";
     //   Changing message input field to error message
     messageInput.value = "This field must be filled";
-    messageInput.style.color = "red";
-    messageInput.style.borderBottomColor = "red";
+    messageInput.style.color = "#BA4270";
+    messageInput.style.borderBottomColor = "#BA4270";
 
     // This part of code get chagned inputs to default state
     setTimeout(() => {
@@ -69,12 +71,12 @@ function validateEmail(emailId, titleId, messageId) {
   ) {
     //   Changing email input field to error message
     emailInput.value = "This field must be filled";
-    emailInput.style.color = "red";
-    emailInput.style.borderBottomColor = "red";
+    emailInput.style.color = "#BA4270";
+    emailInput.style.borderBottomColor = "#BA4270";
     //   Changing title input field to error message
     titleInput.value = "This field must be filled";
-    titleInput.style.color = "red";
-    titleInput.style.borderBottomColor = "red";
+    titleInput.style.color = "#BA4270";
+    titleInput.style.borderBottomColor = "#BA4270";
 
     // This part of code get chagned inputs to default state
     setTimeout(() => {
@@ -94,16 +96,16 @@ function validateEmail(emailId, titleId, messageId) {
   ) {
     //   Changing email input field to error message
     emailInput.value = "This field must be filled";
-    emailInput.style.color = "red";
-    emailInput.style.borderBottomColor = "red";
+    emailInput.style.color = "#BA4270";
+    emailInput.style.borderBottomColor = "#BA4270";
     //   Changing title input field to error message
     titleInput.value = "This field must be filled";
-    titleInput.style.color = "red";
-    titleInput.style.borderBottomColor = "red";
+    titleInput.style.color = "#BA4270";
+    titleInput.style.borderBottomColor = "#BA4270";
     //   Changing message input field to error message
     messageInput.value = "This field must be filled";
-    messageInput.style.color = "red";
-    messageInput.style.borderBottomColor = "red";
+    messageInput.style.color = "#BA4270";
+    messageInput.style.borderBottomColor = "#BA4270";
 
     // This part of code get chagned inputs to default state
     setTimeout(() => {
@@ -127,8 +129,8 @@ function validateEmail(emailId, titleId, messageId) {
   ) {
     //   Changing message input field to error message
     messageInput.value = "This field must be filled";
-    messageInput.style.color = "red";
-    messageInput.style.borderBottomColor = "red";
+    messageInput.style.color = "#BA4270";
+    messageInput.style.borderBottomColor = "#BA4270";
 
     // This part of code get chagned inputs to default state
     setTimeout(() => {
@@ -144,8 +146,8 @@ function validateEmail(emailId, titleId, messageId) {
   ) {
     //   Changing title input field to error message
     titleInput.value = "This field must be filled";
-    titleInput.style.color = "red";
-    titleInput.style.borderBottomColor = "red";
+    titleInput.style.color = "#BA4270";
+    titleInput.style.borderBottomColor = "#BA4270";
 
     // This part of code get chagned inputs to default state
     setTimeout(() => {
@@ -161,8 +163,8 @@ function validateEmail(emailId, titleId, messageId) {
   ) {
     //   Changing email input field to error message
     emailInput.value = "This field must be filled";
-    emailInput.style.color = "red";
-    emailInput.style.borderBottomColor = "red";
+    emailInput.style.color = "#BA4270";
+    emailInput.style.borderBottomColor = "#BA4270";
 
     // This part of code get chagned inputs to default state
     setTimeout(() => {

@@ -242,6 +242,8 @@ p {
   text-align: center;
   font-weight: 400;
   height: 670px;
+  position: relative;
+  overflow: hidden;
 }
 
 .partners__reverse {
@@ -271,14 +273,13 @@ p {
   gap: 2rem;
   row-gap: 2.5rem;
   padding: 80px 47px 0px 47px;
+  z-index: 1;
+  position: relative;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1439.5px) {
   .partners {
     height: 615px;
-  }
-  .partners__reverse {
-    margin-top: 2rem;
   }
   .partners__logos {
     grid-template-columns: repeat(3, 1fr);
@@ -874,7 +875,8 @@ p {
   }
   .about__heading {
     font-size: 3.5rem;
-    line-height: 3.5rem; /* 100% */
+    line-height: 3.5rem;
+    /* 100% */
     letter-spacing: -0.02694rem;
     line-height: 3.5rem;
     margin-right: 28.12rem;
@@ -1126,6 +1128,8 @@ w-400 {
   gap: 1.9375rem;
   padding-left: 0;
   margin: 2.22rem 0;
+  position: relative;
+  z-index: 1;
 }
 .footer__links ul li a {
   text-decoration: none;
@@ -1149,6 +1153,8 @@ w-400 {
   align-items: center;
   gap: 1.5rem;
   margin-top: 3px;
+  position: relative;
+  z-index: 1;
 }
 .footer__icons a svg:hover path {
   fill: #DA6D97;
@@ -1247,6 +1253,143 @@ w-400 {
     margin-bottom: 0.3rem;
   }
 }
+.ovrflw {
+  overflow: hidden;
+  position: relative;
+}
+
+.ovrflw__simple {
+  position: relative;
+  overflow-x: clip;
+}
+
+.contnr__positioning {
+  display: flex;
+  justify-content: center;
+}
+
+.bubble__top {
+  width: calc(780px + (100vw - 375px) * 0.1);
+  height: calc(780px + (100vw - 375px) * 0.1);
+  border-radius: calc(780px + (100vw - 375px) * 0.1);
+  background-color: #36536B;
+  position: absolute;
+  top: -34.3rem;
+  opacity: 15%;
+  z-index: 0;
+}
+
+.contnr_all__positioning {
+  display: flex;
+}
+
+.bubble_all__top {
+  width: calc(780px + (100vw - 375px) * 0.1);
+  height: calc(780px + (100vw - 375px) * 0.1);
+  border-radius: calc(780px + (100vw - 375px) * 0.1);
+  background-color: #36536B;
+  position: absolute;
+  top: -40rem;
+  right: -30.25rem;
+  opacity: 15%;
+  z-index: -1;
+}
+
+.bubble__reference {
+  width: calc(780px + (100vw - 375px) * 0.1);
+  height: calc(780px + (100vw - 375px) * 0.1);
+  border-radius: calc(780px + (100vw - 375px) * 0.1);
+  background-color: #36536B;
+  position: absolute;
+  top: -37.6rem;
+  opacity: 15%;
+  z-index: 0;
+}
+
+.bubble__footer {
+  width: calc(780px + (100vw - 375px) * 0.1);
+  height: calc(780px + (100vw - 375px) * 0.1);
+  border-radius: calc(780px + (100vw - 375px) * 0.1);
+  background-color: #36536B;
+  position: absolute;
+  bottom: -37.5rem;
+  opacity: 15%;
+  z-index: 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1439.5px) {
+  .bubble__top {
+    width: calc(949px + (100vw - 768px) * 0.2);
+    height: calc(949px + (100vw - 768px) * 0.2);
+    border-radius: calc(949px + (100vw - 768px) * 0.2);
+    top: -41.5rem;
+    z-index: -1;
+  }
+  .bubble_all__top {
+    top: -32rem;
+    right: -34rem;
+  }
+  .bubble__reference {
+    top: -36.9rem;
+  }
+  .bubble__footer {
+    bottom: -34rem;
+    right: -26.5rem;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .contnr__positioning {
+    display: flex;
+  }
+  .bubble__top {
+    width: calc(780px + (100vw - 1440px) * 0.1);
+    height: calc(780px + (100vw - 1440px) * 0.1);
+    border-radius: calc(780px + (100vw - 1440px) * 0.1);
+    top: -10rem;
+    right: -9rem;
+    z-index: -1;
+  }
+  .bubble_all__top {
+    top: -38rem;
+    right: -10rem;
+  }
+  .bubble__reference {
+    top: -25rem;
+    left: -20rem;
+  }
+  .bubble__simple {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    background-color: #36536B;
+    opacity: 15%;
+    width: calc(780px + (100vw - 1440px) * 0.4);
+    height: calc(780px + (100vw - 1440px) * 0.4);
+    border-radius: 50%;
+    z-index: -1;
+    right: -27rem;
+    top: 19rem;
+  }
+  .bubble_about__team {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #36536B;
+    opacity: 15%;
+    width: calc(780px + (100vw - 1440px) * 0.3);
+    height: calc(780px + (100vw - 1440px) * 0.3);
+    border-radius: 50%;
+    z-index: -1;
+    left: -10rem;
+    top: 21rem;
+  }
+  .bubble__footer {
+    bottom: -40rem;
+    right: -29rem;
+  }
+}
 w-700 {
   font-weight: 700;
 }
@@ -1313,6 +1456,12 @@ w-400 {
     background-color: transparent;
     border: none;
   }
+  .bbl {
+    background: url(/assets/shared/desktop/bg-pattern-circle.svg) no-repeat -18rem -34.2rem;
+  }
+  .bbl__all {
+    background: url(/assets/shared/desktop/bg-pattern-circle.svg) no-repeat 2rem -39.5rem;
+  }
   .menu {
     position: fixed;
     transform: translateX(100%);
@@ -1322,7 +1471,7 @@ w-400 {
     right: 0;
     bottom: 0;
     z-index: 3;
-    background: #1B262F;
+    background-color: #1B262F;
     color: white;
     list-style: none;
     padding-top: 8.69rem;
@@ -1902,6 +2051,15 @@ w-400 {
     line-height: normal;
     letter-spacing: -0.00719rem;
   }
+  .pricing__main .pricing__colums .pricing__button__grid .pricing__button:hover {
+    background-color: #36536B;
+    color: #FBFCFE;
+    cursor: pointer;
+  }
+  .pricing__main .pricing__colums .pricing__button__grid .pricing__button:hover:active {
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+  }
   .pricing__main .pricing__colums .pricing__bottom {
     display: grid;
     justify-content: center;
@@ -1921,6 +2079,15 @@ w-400 {
     font-weight: 700;
     line-height: normal;
     letter-spacing: -0.00719rem;
+  }
+  .pricing__main .pricing__colums .pricing__bottom__button:hover {
+    background-color: #36536B;
+    color: #FBFCFE;
+    cursor: pointer;
+  }
+  .pricing__main .pricing__colums .pricing__bottom__button:hover:active {
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
   }
 }
 /* Styles for Tablet */
@@ -2074,6 +2241,15 @@ w-400 {
     line-height: normal;
     letter-spacing: -0.00719rem;
   }
+  .pricing__main .pricing__colums .pricing__button__grid .pricing__button:hover {
+    background-color: #36536B;
+    color: #FBFCFE;
+    cursor: pointer;
+  }
+  .pricing__main .pricing__colums .pricing__button__grid .pricing__button:hover:active {
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+  }
   .pricing__main .pricing__colums .pricing__bottom {
     display: grid;
     justify-content: center;
@@ -2095,6 +2271,15 @@ w-400 {
     font-weight: 700;
     line-height: normal;
     letter-spacing: -0.00719rem;
+  }
+  .pricing__main .pricing__colums .pricing__bottom__button:hover {
+    background-color: #36536B;
+    color: #FBFCFE;
+    cursor: pointer;
+  }
+  .pricing__main .pricing__colums .pricing__bottom__button:hover:active {
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
   }
 }
 /* Styles for Desktop */

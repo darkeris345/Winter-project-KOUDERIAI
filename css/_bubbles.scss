@@ -1,0 +1,174 @@
+// mobile 
+.ovrflw {
+    overflow: hidden;
+    position: relative;
+}
+
+.ovrflw__simple {
+    position: relative;
+    overflow-x: clip;
+}
+
+.contnr__positioning {
+    display: flex;
+    justify-content: center;
+}
+
+.bubble__top {
+    width: calc(780px + (100vw - 375px) * 0.1);
+    height: calc(780px + (100vw - 375px) * 0.1);
+    border-radius: calc(780px + (100vw - 375px) * 0.1);
+    background-color: $secondary-colors-san-juan-blue;
+    position: absolute;
+    top: -34.3rem;
+    opacity: 15%;
+    z-index: 0;
+}
+
+
+
+.contnr_all__positioning {
+    display: flex;
+}
+
+// bubble for about, pricing and contact pages
+.bubble_all__top {
+    width: calc(780px + (100vw - 375px) * 0.1);
+    height: calc(780px + (100vw - 375px) * 0.1);
+    border-radius: calc(780px + (100vw - 375px) * 0.1);
+    background-color: $secondary-colors-san-juan-blue;
+    position: absolute;
+    top: -40rem;
+    right: -30.25rem;
+    opacity: 15%;
+    z-index: -1;
+}
+
+// reference bubble 
+.bubble__reference {
+    width: calc(780px + (100vw - 375px) * 0.1);
+    height: calc(780px + (100vw - 375px) * 0.1);
+    border-radius: calc(780px + (100vw - 375px) * 0.1);
+    background-color: $secondary-colors-san-juan-blue;
+    position: absolute;
+    top: -37.6rem;
+    opacity: 15%;
+    z-index: 0;
+}
+
+//footer bubble
+
+.bubble__footer {
+    width: calc(780px + (100vw - 375px) * 0.1);
+    height: calc(780px + (100vw - 375px) * 0.1);
+    border-radius: calc(780px + (100vw - 375px) * 0.1);
+    background-color: $secondary-colors-san-juan-blue;
+    position: absolute;
+    bottom: -37.5rem;
+    opacity: 15%;
+    z-index: 0;
+}
+
+// tablet
+@media only screen and (min-width: 768px) and (max-width: 1439.5px) {
+
+    // header bubble
+    .bubble__top {
+        width: calc(949px + (100vw - 768px) * 0.2);
+        height: calc(949px + (100vw - 768px) * 0.2);
+        border-radius: calc(949px + (100vw - 768px) * 0.2);
+        top: -41.5rem;
+        z-index: -1;
+    }
+
+    // bubble for about, pricing and contact pages
+    .bubble_all__top {
+        top: -32rem;
+        right: -34rem;
+    }
+
+    // reference bubble 
+    .bubble__reference {
+        top: -36.9rem;
+    }
+
+
+    // footer bubble
+    .bubble__footer {
+        bottom: -34rem;
+        right: -26.5rem;
+    }
+}
+
+// desktop
+@media only screen and (min-width: 1440px) {
+
+    // header bubble
+    .contnr__positioning {
+        display: flex;
+    }
+
+    .bubble__top {
+        width: calc(780px + (100vw - 1440px) * 0.1);
+        height: calc(780px + (100vw - 1440px) * 0.1);
+        border-radius: calc(780px + (100vw - 1440px) * 0.1);
+        top: -10rem;
+        right: -9rem;
+        z-index: -1;
+    }
+
+    // bubble for about, pricing and contact pages
+    .bubble_all__top {
+        top: -38rem;
+        right: -10rem;
+    }
+
+    // reference bubble 
+
+    .bubble__reference {
+        top: -25rem;
+        left: -20rem;
+    }
+
+    // simple bubble
+
+    .bubble__simple {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(0, -50%);
+        background-color: $secondary-colors-san-juan-blue;
+        opacity: 15%;
+        width: calc(780px + (100vw - 1440px) * 0.4);
+        height: calc(780px + (100vw - 1440px) * 0.4);
+        border-radius: 50%;
+        z-index: -1;
+        right: -27rem;
+        top: 19rem;
+    }
+
+    // about page midle bubble
+
+    .bubble_about__team {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: $secondary-colors-san-juan-blue;
+        opacity: 15%;
+        width: calc(780px + (100vw - 1440px) * 0.3);
+        height: calc(780px + (100vw - 1440px) * 0.3);
+        border-radius: 50%;
+        z-index: -1;
+        left: -10rem;
+        top: 21rem;
+    }
+
+
+    // footer bubble
+    .bubble__footer {
+        bottom: -40rem;
+        right: -29rem;
+    }
+
+}
