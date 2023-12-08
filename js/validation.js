@@ -5,7 +5,7 @@ function validateEmail(inputId) {
 
   if (emailValue.trim() === "") {
     emailInput.value = "This field is empty";
-    emailInput.style.color = "red";
+    emailInput.style.color = "#BA4270";
     setTimeout(() => {
       emailInput.value = "";
       emailInput.style.color = "#36536B";

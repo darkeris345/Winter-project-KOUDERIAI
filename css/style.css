@@ -522,6 +522,9 @@ p {
   .mobile__btn {
     display: none;
   }
+  a {
+    color: #FBFCFE;
+  }
   .nav {
     display: flex;
     justify-content: space-between;
@@ -765,6 +768,9 @@ p {
   }
   .mobile__btn {
     display: none;
+  }
+  a {
+    color: #FBFCFE;
   }
   .bttn {
     font-size: 0.9375rem;
@@ -1498,6 +1504,9 @@ w-400 {
     background: #BA4270;
     box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
   }
+  .menu a {
+    color: #FBFCFE;
+  }
   .menu li:nth-child(1) {
     padding-top: 0rem;
     position: relative;
@@ -2042,6 +2051,15 @@ w-400 {
     line-height: normal;
     letter-spacing: -0.00719rem;
   }
+  .pricing__main .pricing__colums .pricing__button__grid .pricing__button:hover {
+    background-color: #36536B;
+    color: #FBFCFE;
+    cursor: pointer;
+  }
+  .pricing__main .pricing__colums .pricing__button__grid .pricing__button:hover:active {
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+  }
   .pricing__main .pricing__colums .pricing__bottom {
     display: grid;
     justify-content: center;
@@ -2061,6 +2079,15 @@ w-400 {
     font-weight: 700;
     line-height: normal;
     letter-spacing: -0.00719rem;
+  }
+  .pricing__main .pricing__colums .pricing__bottom__button:hover {
+    background-color: #36536B;
+    color: #FBFCFE;
+    cursor: pointer;
+  }
+  .pricing__main .pricing__colums .pricing__bottom__button:hover:active {
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
   }
 }
 /* Styles for Tablet */
@@ -2214,6 +2241,15 @@ w-400 {
     line-height: normal;
     letter-spacing: -0.00719rem;
   }
+  .pricing__main .pricing__colums .pricing__button__grid .pricing__button:hover {
+    background-color: #36536B;
+    color: #FBFCFE;
+    cursor: pointer;
+  }
+  .pricing__main .pricing__colums .pricing__button__grid .pricing__button:hover:active {
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+  }
   .pricing__main .pricing__colums .pricing__bottom {
     display: grid;
     justify-content: center;
@@ -2235,6 +2271,15 @@ w-400 {
     font-weight: 700;
     line-height: normal;
     letter-spacing: -0.00719rem;
+  }
+  .pricing__main .pricing__colums .pricing__bottom__button:hover {
+    background-color: #36536B;
+    color: #FBFCFE;
+    cursor: pointer;
+  }
+  .pricing__main .pricing__colums .pricing__bottom__button:hover:active {
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
   }
 }
 /* Styles for Desktop */
