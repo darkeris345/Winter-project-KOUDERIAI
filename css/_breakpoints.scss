@@ -449,6 +449,7 @@
     line-height: 1.75rem;
   }
 }
+
 /* Styles for Desktop */
 @media only screen and (min-width: 1440px) {
 
@@ -581,7 +582,7 @@
     .easy__wrapper {
       flex-direction: row;
       margin: auto;
-    
+
 
       .easy__img {
         width: 31%;
@@ -589,6 +590,7 @@
         margin-top: 6.5rem;
 
       }
+
       // .easy__description {
       //   margin-right: 14.6rem;
       //   margin-bottom: 5rem;
@@ -619,7 +621,8 @@
   // ABOUT PART
   .about__heading {
     font-size: 3.5rem;
-    line-height: 3.5rem; /* 100% */
+    line-height: 3.5rem;
+    /* 100% */
     letter-spacing: -0.02694rem;
     line-height: 3.5rem;
     margin-right: 28.12rem;
@@ -638,42 +641,43 @@
     margin-top: 3rem;
     text-align: left;
   }
+
   .people {
     margin-bottom: 0.3rem;
   }
 
-    .our-vision__description {
-      margin-top: 1.1rem;
-      margin-left: 8.7rem;
-      margin-right: 16.25rem;
-      font-size: 0.9375rem;
-      line-height: 1.75rem;
-    }
+  .our-vision__description {
+    margin-top: 1.1rem;
+    margin-left: 8.7rem;
+    margin-right: 16.25rem;
+    font-size: 0.9375rem;
+    line-height: 1.75rem;
+  }
 
-    .our-business__description {
-      margin-left: 6.5rem;
-      margin-right: 16.25rem;
-      font-size: 0.9375rem;
-      line-height: 1.75rem;
-    }
+  .our-business__description {
+    margin-left: 6.5rem;
+    margin-right: 16.25rem;
+    font-size: 0.9375rem;
+    line-height: 1.75rem;
+  }
 
-    .people__description {
-      margin-left: 8.17rem;
-      margin-right: 16.25rem;
-      font-size: 0.9375rem;
-      line-height: 1.75rem;
-    }
+  .people__description {
+    margin-left: 8.17rem;
+    margin-right: 16.25rem;
+    font-size: 0.9375rem;
+    line-height: 1.75rem;
+  }
 
-    .culture__description {
-      margin-left: 7.4rem;
-      margin-right: 16.25rem;
-      margin-top: 0.4rem;
-      font-size: 0.9375rem;
-      line-height: 1.75rem;
-    }
-  
+  .culture__description {
+    margin-left: 7.4rem;
+    margin-right: 16.25rem;
+    margin-top: 0.4rem;
+    font-size: 0.9375rem;
+    line-height: 1.75rem;
+  }
 
-  .our-vision{
+
+  .our-vision {
     margin-top: 3.25rem;
   }
 
@@ -737,6 +741,7 @@
       letter-spacing: -0.02694rem;
       padding-bottom: 1.06rem;
     }
+
     .team__numbers__last {
       color: $primary-colors-dark-pink;
       font-family: 'DM Serif Display';

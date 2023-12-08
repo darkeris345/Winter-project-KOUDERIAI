@@ -27,6 +27,14 @@
 
   }
 
+  .bbl {
+    background: url(/assets/shared/desktop/bg-pattern-circle.svg) no-repeat -18rem -34.2rem;
+  }
+
+  .bbl__all {
+    background: url(/assets/shared/desktop/bg-pattern-circle.svg) no-repeat 2rem -39.5rem;
+  }
+
   .menu {
     position: fixed;
     transform: translateX(100%);
@@ -36,7 +44,7 @@
     right: 0;
     bottom: 0;
     z-index: 3;
-    background: $secondary-colors-mirage-blue;
+    background-color: $secondary-colors-mirage-blue;
     color: white;
     list-style: none;
     padding-top: 8.69rem;

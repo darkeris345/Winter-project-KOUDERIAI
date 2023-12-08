@@ -4,6 +4,8 @@
     text-align: center;
     font-weight: 400;
     height: 670px;
+    position: relative;
+    overflow: hidden;
 }
 
 .partners__reverse {
@@ -33,15 +35,15 @@
     gap: 2rem;
     row-gap: 2.5rem;
     padding: 80px 47px 0px 47px;
+    z-index: 1;
+    position: relative;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1439.5px) {
     .partners {
         height: 615px;
     }
-    .partners__reverse {
-        margin-top: 2rem;
-    }
+
     .partners__logos {
         grid-template-columns: repeat(3, 1fr);
         gap: 2.5rem;
@@ -70,6 +72,7 @@
         height: 470px;
         margin-top: -2rem;
     }
+
     .partners__logos {
         grid-template-columns: repeat(3, 1fr);
         gap: 4.8rem;
