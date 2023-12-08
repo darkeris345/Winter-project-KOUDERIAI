@@ -115,16 +115,16 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 300px;
-    margin-top: 4.75rem;
+    margin-top: 1.6rem;
   }
 
   .team__numbers__grids {
-    border-top: 1px solid rgba(54, 83, 107, 0.25);
+    border-top: 1px solid #36536b40;
     margin-top: 3rem;
     padding: 1rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-    border-bottom: 1px solid rgba(54, 83, 107, 0.25);
+    border-bottom: 1px solid #36536b40;
 
     p {
       color: $secondary-colors-san-juan-blue ;
@@ -159,7 +159,6 @@
       letter-spacing: -0.02694rem;
     }
   }
-
 }
 
 /* Styles for Tablet */
@@ -206,7 +205,8 @@
 
     .menu {
       align-self: center;
-      margin-right: 1.3rem;
+      margin-left: 1.2rem;
+      margin-top: 0.7rem;
       gap: 0.5rem;
     }
   }
@@ -299,10 +299,6 @@
     margin-top: 3.2rem;
   }
 
-  // .easy__description {
-  //   margin-top: -0.3rem;
-  // }
-
   .easy__heading {
     letter-spacing: -0.02306rem;
     margin-bottom: 1.3rem;
@@ -310,7 +306,6 @@
     font-size: 3rem;
     font-style: normal;
     font-weight: 400;
-
     padding-top: 5.7rem;
     margin-top: 3rem;
     margin-bottom: 1.3rem;
@@ -367,7 +362,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 269px;
-    margin-top: 5.7rem;
+    margin-top: 1.7rem;
   }
 
   .team__numbers__grids {
@@ -384,8 +379,8 @@
     .team__numbers__text,
     .team__numbers__text1,
     .team__numbers__text2 {
-      border-bottom: 1px solid rgba(54, 83, 107, 0.25);
-      border-top: 1px solid rgba(54, 83, 107, 0.25);
+      border-bottom: 1px solid #36536b40;
+      border-top: 1px solid #36536b40;
     }
 
     .team__numbers__text1 {
@@ -494,7 +489,7 @@
   .mobile__btn {
     display: none;
   }
-  
+
   a {
     color: $primary-colors-water-white;
   }
@@ -570,7 +565,6 @@
         letter-spacing: -0.02306rem;
         margin-top: 6.5rem;
         padding-right: 1rem;
-
       }
 
       .simple__text {
@@ -596,13 +590,7 @@
         width: 31%;
         margin-right: 7.7rem;
         margin-top: 6.5rem;
-
       }
-
-      // .easy__description {
-      //   margin-right: 14.6rem;
-      //   margin-bottom: 5rem;
-      // }
 
       .easy__heading {
         font-family: 'DM Serif Display';
@@ -630,7 +618,6 @@
   .about__heading {
     font-size: 3.5rem;
     line-height: 3.5rem;
-    /* 100% */
     letter-spacing: -0.02694rem;
     line-height: 3.5rem;
     margin-right: 28.12rem;
@@ -703,7 +690,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-    margin-top: 6.3rem;
+    margin-top: 2.9rem;
   }
 
   .team__numbers__grids {
@@ -720,14 +707,9 @@
     .team__numbers__text,
     .team__numbers__text1,
     .team__numbers__text2 {
-      border-bottom: 1px solid rgba(54, 83, 107, 0.25);
-      border-top: 1px solid rgba(54, 83, 107, 0.25);
+      border-bottom: 1px solid #36536b40;
+      border-top: 1px solid #36536b40;
     }
-
-    // .team__numbers__text1 {
-    //   margin-left: 1.87rem;
-    //   margin-right: 1.87rem;
-    // }
 
     p {
       color: $secondary-colors-san-juan-blue;
@@ -760,9 +742,5 @@
       letter-spacing: -0.02694rem;
       padding-bottom: 1.06rem;
     }
-
-    // .about__wrapper {
-    //   margin-bottom: -5rem;
-    // }
   }
 }
