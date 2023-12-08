@@ -195,6 +195,10 @@
     display: none;
   }
 
+  a {
+    color: $primary-colors-water-white;
+  }
+
   .nav {
     display: flex;
     justify-content: space-between;
@@ -488,6 +492,10 @@
 
   .mobile__btn {
     display: none;
+  }
+  
+  a {
+    color: $primary-colors-water-white;
   }
 
   .bttn {
