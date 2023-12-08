@@ -521,6 +521,9 @@ p {
   .mobile__btn {
     display: none;
   }
+  a {
+    color: #FBFCFE;
+  }
   .nav {
     display: flex;
     justify-content: space-between;
@@ -764,6 +767,9 @@ p {
   }
   .mobile__btn {
     display: none;
+  }
+  a {
+    color: #FBFCFE;
   }
   .bttn {
     font-size: 0.9375rem;
@@ -1348,6 +1354,9 @@ w-400 {
     border-radius: 1.5rem;
     background: #BA4270;
     box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  }
+  .menu a {
+    color: #FBFCFE;
   }
   .menu li:nth-child(1) {
     padding-top: 0rem;
