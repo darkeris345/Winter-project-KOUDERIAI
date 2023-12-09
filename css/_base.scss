@@ -11,10 +11,14 @@ img {
   max-width: 100%;
 }
 
+// Stops menu appearing on shrinking screen from tablet to mobile
 .resize-animation-stopper * {
   animation: none !important;
   transition: none !important;
 }
+
+// Checkbox features
+
 
 .noSelect {
   -webkit-tap-highlight-color: transparent;
@@ -80,7 +84,7 @@ p {
     align-items: center;
 
     .simple__img {
-      filter: drop-shadow(1.563rem 1.563rem 5rem #36536b52);
+      filter: drop-shadow(25px 25px 80px rgba(54, 83, 107, 0.322));
     }
 
     .simple__heading {
@@ -90,7 +94,7 @@ p {
     .simple__text {
       font-family: 'Public Sans', sans-serif;
       color: $secondary-colors-light-juan-blue;
-      max-width: 35.813rem
+      max-width: 573px;
     }
   }
 }
@@ -106,7 +110,7 @@ p {
     align-items: center;
 
     .easy__img {
-      filter: drop-shadow(1.563rem 1.563rem 5rem #36536b52);
+      filter: drop-shadow(25px 25px 80px rgba(54, 83, 107, 0.322));
     }
 
     .easy__heading {
@@ -116,7 +120,7 @@ p {
     .easy__text {
       font-family: 'Public Sans', sans-serif;
       color: $secondary-colors-light-juan-blue;
-      max-width: 35.813rem
+      max-width: 573px;
     }
   }
 }
@@ -130,7 +134,7 @@ p {
 .about__heading {
   font-family: 'DM Serif Display', serif;
   ;
-  letter-spacing: 0.078rem;
+  letter-spacing: .0781rem;
   color: $secondary-colors-san-juan-blue;
   margin-bottom: 3rem;
   font-style: normal;

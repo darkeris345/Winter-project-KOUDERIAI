@@ -119,12 +119,12 @@
   }
 
   .team__numbers__grids {
-    border-top: 0.063rem solid #36536b40;
+    border-top: 1px solid #36536b40;
     margin-top: 3rem;
     padding: 1rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-    border-bottom: 0.063rem solid #36536b40;
+    border-bottom: 1px solid #36536b40;
 
     p {
       color: $secondary-colors-san-juan-blue ;
@@ -161,8 +161,10 @@
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1439.5px) {
+/* Styles for Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1439.5008px) {
 
+  //      NAVBAR PART
   .hamburger {
     display: none;
   }
@@ -199,7 +201,7 @@
   .nav {
     display: flex;
     justify-content: space-between;
-    margin: 2.563rem 0rem 2.5rem 0rem;
+    margin: 2.5625rem 0 2.5rem 0;
 
     .menu {
       align-self: center;
@@ -218,18 +220,18 @@
     color: $primary-colors-water-white;
     font-family: 'Public Sans';
     border: none;
-    font-size: 0.938rem;
+    font-size: .9375rem;
     font-weight: 700;
-    width: 10.813rem;
+    width: 10.8125rem;
     height: 3rem;
     border-radius: 1.5rem;
     background: $primary-colors-dark-pink;
-    box-shadow: 0.625rem 0.625rem 1.563rem -0.625rem #36536b40;
+    box-shadow: .625rem .625rem 1.5625rem -0.625rem #36536b40;
     margin-right: 2.5rem;
 
     &:active {
-      box-shadow: 0 0.063rem #666;
-      transform: translateY(0.25rem);
+      box-shadow: 0 .0625rem #666;
+      transform: translateY(.25rem);
     }
   }
 
@@ -350,7 +352,7 @@
   }
 
   .easy__heading {
-    font-size: 3rem;
+    font-size: 48px;
     margin-top: -3rem;
   }
 
@@ -359,7 +361,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 16.813rem;
+    height: 16.8125rem;
     margin-top: 1.7rem;
   }
 
@@ -377,8 +379,8 @@
     .team__numbers__text,
     .team__numbers__text1,
     .team__numbers__text2 {
-      border-bottom: 0.063rem solid #36536b40;
-      border-top: 0.063rem solid #36536b40;
+      border-bottom: 1px solid #36536b40;
+      border-top: 1px solid #36536b40;
     }
 
     .team__numbers__text1 {
@@ -459,6 +461,7 @@
     }
   }
 
+
   .hamburger {
     display: none;
   }
@@ -496,18 +499,18 @@
     color: $primary-colors-water-white;
     font-family: 'Public Sans';
     border: none;
-    font-size: 0.938rem;
+    font-size: .9375rem;
     font-weight: 700;
-    width: 10.813rem;
+    width: 10.8125rem;
     height: 3rem;
     border-radius: 1.5rem;
     background: $primary-colors-dark-pink;
-    box-shadow: 0.625rem 0.625rem 1.563rem -0.625rem #36536b40;
+    box-shadow: .625rem .625rem 1.5625rem -0.625rem #36536b40;
   }
 
   .nav {
     display: flex;
-    margin: 2.563rem 10.313rem 1.875rem 10.313rem;
+    margin: 2.5625rem 10.3125rem 1.875rem 10.3125rem;
 
     .menu {
       flex-grow: 1;
@@ -581,6 +584,7 @@
     .easy__wrapper {
       flex-direction: row;
       margin: auto;
+
 
       .easy__img {
         width: 31%;
@@ -667,6 +671,7 @@
     line-height: 1.75rem;
   }
 
+
   .our-vision {
     margin-top: 3.25rem;
   }
@@ -702,8 +707,8 @@
     .team__numbers__text,
     .team__numbers__text1,
     .team__numbers__text2 {
-      border-bottom: 0.063rem solid #36536b40;
-      border-top: 0.063rem solid #36536b40;
+      border-bottom: .0625rem solid #36536b40;
+      border-top: .0625rem solid #36536b40;
     }
 
     p {

@@ -7,7 +7,6 @@
     color: $secondary-colors-san-juan-blue;
     font-family: "DM Serif Display", serif;
     text-align: center;
-    font-style: normal;
     font-weight: 400;
     font-size: 2rem;
     line-height: 2.25rem;
@@ -19,27 +18,27 @@
 .footer__button {
   margin-top: 0.5rem;
   margin-bottom: 3.5rem;
-  margin-left: 0rem;
-  margin-right: 0rem;
+  margin-left: 0;
+  margin-right: 0;
   text-align: center;
 }
 
 .footer__section2 {
   background-color: $secondary-colors-mirage-blue;
   text-align: center;
-  padding: 2.563rem 0 3.438rem;
+  padding: 2.5625rem 0 3.4375rem;
 }
 
 .footer__links ul {
   list-style-type: none;
   display: inline-flex;
-  padding-right: 0rem;
+  padding-right: 0;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 1.9375rem;
-  padding-left: 0rem;
-  margin: 2.22rem 0rem;
+  padding-left: 0;
+  margin: 2.22rem 0;
   position: relative;
   z-index: 1;
 
@@ -63,12 +62,12 @@
 
 .footer__icons {
   display: inline-flex;
-  padding-right: 0rem;
+  padding-right: 0;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
-  margin-top: 0.188rem;
+  margin-top: .1875rem;
   position: relative;
   z-index: 1;
 
@@ -82,13 +81,14 @@
   }
 }
 
+/* Styles for Tablet */
 @media only screen and (min-width: 768px) and (max-width: 1439.5px) {
 
   .footer__section1 {
+
     #{&}__text {
       font-size: 3rem;
       line-height: 3.5rem;
-      /* 116.667% */
       letter-spacing: -0.02306rem;
       margin-bottom: 2.5rem;
       margin-top: 4.6rem;
@@ -123,23 +123,26 @@
   .footer__links ul {
     list-style-type: none;
     display: inline-flex;
-    padding-right: 0rem;
+    padding-right: 0;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     gap: 2.5rem;
-    padding-left: 0rem;
-    margin: 0rem 4rem;
+    padding-left: 0;
+    margin: 0 4rem;
   }
 }
 
+/* Styles for Desktop */
 @media only screen and (min-width: 1440px) {
   .footer__section1 {
 
     display: flex;
     justify-content: center;
     gap: 13.75rem;
-    margin: 0rem 10.31rem;
+    margin: 0 10.31rem;
+
+
 
     #{&}__text {
       font-size: 3rem;
@@ -147,18 +150,20 @@
       letter-spacing: -0.02306rem;
       margin-top: 6rem;
       margin-bottom: 6rem;
-      width: 27.813rem;
+      width: 27.8125rem;
       text-align: left;
+
     }
 
     .footer__button {
       margin-top: 6.25rem;
       margin-bottom: 6.25rem;
       left: 0;
+
     }
 
     .footer__button__pink {
-      margin: 0rem;
+      margin: 0;
     }
   }
 
@@ -180,13 +185,13 @@
   .footer__links ul {
     list-style-type: none;
     display: inline-flex;
-    padding-right: 0rem;
+    padding-right: 0;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     gap: 2.5rem;
     padding-left: 0;
-    margin: 0rem 4rem;
+    margin: 0 4rem;
     margin-bottom: 0.3rem;
   }
 }

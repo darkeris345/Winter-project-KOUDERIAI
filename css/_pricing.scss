@@ -1,5 +1,4 @@
-@use "variables";
-
+/* Styles for Mobile */
 @media only screen and (max-width: 767.5px) {
 
     //           Pricing part
@@ -70,8 +69,9 @@
                 margin-right: 1.5rem;
                 opacity: 0.25;
                 background: $secondary-colors-san-juan-blue;
-                margin-bottom: 0.55rem;
+                margin-bottom: 0.6rem;
                 height: 0.0625rem;
+                margin-bottom: 0.5rem;
             }
 
             .pricing__list {
@@ -99,7 +99,7 @@
                         img {
                             width: 0.75rem;
                             height: 0.5rem;
-                            stroke-width: 2px;
+                            stroke-width: .125rem;
                             stroke: $primary-colors-dark-pink;
                             margin-top: 0.5rem;
                         }
@@ -123,7 +123,7 @@
                         img {
                             width: 0.75rem;
                             height: 0.5rem;
-                            stroke-width: 0.125rem;
+                            stroke-width: .125rem;
                             stroke: $primary-colors-dark-pink;
                             margin-top: 0.5rem;
                             opacity: 0;
@@ -151,7 +151,7 @@
                     height: 3rem;
                     flex-shrink: 0;
                     border-radius: 1.5rem;
-                    border: 0.063rem solid $secondary-colors-san-juan-blue;
+                    border: .0625rem solid $secondary-colors-san-juan-blue;
                     background-color: $primary-colors-background-color;
                     color: $secondary-colors-san-juan-blue;
                     font-family: 'Public Sans';
@@ -168,8 +168,8 @@
                     cursor: pointer;
 
                     &:active {
-                        box-shadow: 0 0.063rem #666;
-                        transform: translateY(0.25rem);
+                        box-shadow: 0 .0625rem #666;
+                        transform: translateY(.25rem);
                     }
                 }
             }
@@ -185,7 +185,7 @@
                     height: 3rem;
                     flex-shrink: 0;
                     border-radius: 1.5rem;
-                    border: 0.063rem solid $secondary-colors-san-juan-blue;
+                    border: 1px solid $secondary-colors-san-juan-blue;
                     background-color: $primary-colors-background-color;
                     color: $secondary-colors-san-juan-blue;
                     font-family: 'Public Sans';
@@ -203,8 +203,8 @@
                 cursor: pointer;
 
                 &:active {
-                    box-shadow: 0 0.063rem #666;
-                    transform: translateY(0.25rem);
+                    box-shadow: 0 .0625rem #666;
+                    transform: translateY(.25rem);
                 }
             }
         }
@@ -226,7 +226,12 @@
 
 
         .pricing__plan {
+            color: $secondary-colors-san-juan-blue;
+            text-align: center;
+            font-family: 'DM Serif Display';
             font-size: 3rem;
+            font-style: normal;
+            font-weight: 400;
             line-height: 3.5rem;
             letter-spacing: -0.02306rem;
             margin-top: 5rem;
@@ -241,7 +246,14 @@
             display: flex;
 
             .pricing__free__plan {
+                color: $primary-colors-dark-pink;
+                text-align: center;
+                font-family: 'DM Serif Display';
+                font-size: 1.5rem;
+                font-style: normal;
+                font-weight: 400;
                 line-height: 2.5rem;
+                letter-spacing: -0.01156rem;
                 margin-top: 5.1rem;
                 margin-left: 2.8rem;
                 margin-right: 2.4rem;
@@ -262,7 +274,14 @@
             }
 
             .pricing__money {
+                color: $secondary-colors-san-juan-blue;
+                text-align: center;
+                font-family: 'DM Serif Display';
                 font-size: 3rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 4.5rem;
+                letter-spacing: -0.02694rem;
                 margin-top: 1.2rem;
                 margin-left: 0.3rem;
 
@@ -273,37 +292,147 @@
                 margin-left: 1rem;
                 margin-right: 1rem;
                 opacity: 0.25;
+                background: $secondary-colors-san-juan-blue;
+                height: 0.0625rem;
                 max-width: 35rem;
                 margin-top: 1.3rem;
                 margin-bottom: -0.1rem;
             }
 
             .pricing__list {
+                height: 20rem;
+                background: $primary-colors-background-color;
+                display: grid;
+                align-items: center;
+                place-items: center;
+                margin-top: -1rem;
+                margin-bottom: -2.1rem;
 
                 ul {
                     margin-left: 0.2rem;
                     margin-top: 0.7rem;
 
-
-
-                    .pricing__checkmark {
+                    .pricing__checkmark__src {
+                        color: $secondary-colors-san-juan-blue;
+                        font-family: 'Public Sans';
+                        font-size: 1rem;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 1.75rem;
+                        list-style-type: none;
+                        display: flex;
 
                         img {
-                            stroke-width: 2px;
+                            width: 0.75rem;
+                            height: 0.5rem;
+                            stroke-width: .125rem;
+                            stroke: $primary-colors-dark-pink;
+                            margin-top: 0.5rem;
+                        }
+
+                        p {
+                            margin-left: 1.5rem;
+                            margin-bottom: 0.5rem;
+                        }
+                    }
+
+                    .pricing__checkmark {
+                        color: $secondary-colors-san-juan-blue;
+                        font-family: 'Public Sans';
+                        font-size: 1rem;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 1.75rem;
+                        list-style-type: none;
+                        display: flex;
+
+
+                        img {
+                            width: 0.75rem;
+                            height: 0.5rem;
+                            stroke-width: .125rem;
+                            stroke: $primary-colors-dark-pink;
+                            margin-top: 0.5rem;
+                            opacity: 0;
+                        }
+
+                        .pricing__paragraph {
+                            opacity: 0.5;
+                            margin-left: 1.5rem;
+                            margin-bottom: 0.5rem;
                         }
                     }
                 }
             }
 
             .pricing__button__grid {
+                display: grid;
+                justify-content: center;
+                margin-top: 1.6rem;
                 margin-left: 0.4rem;
+
+                .pricing__button {
+                    width: 10.5rem;
+                    height: 3rem;
+                    flex-shrink: 0;
+                    border-radius: 1.5rem;
+                    border: 1px solid $secondary-colors-san-juan-blue;
+                    background-color: $primary-colors-background-color;
+                    color: $secondary-colors-san-juan-blue;
+                    font-family: 'Public Sans';
+                    font-size: 0.9375rem;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: -0.00719rem;
+                }
+
+                .pricing__button:hover {
+                    background-color: $secondary-colors-san-juan-blue;
+                    color: $primary-colors-water-white;
+                    cursor: pointer;
+
+                    &:active {
+                        box-shadow: 0 .0625rem #666;
+                        transform: translateY(.25rem);
+                    }
+                }
             }
 
 
             .pricing__bottom {
+                display: grid;
+                justify-content: center;
                 margin-top: 1.6rem;
                 margin-left: 0.4rem;
                 margin-bottom: 4.9rem;
+
+                .pricing__bottom__button {
+                    width: 10.5rem;
+                    height: 3rem;
+                    flex-shrink: 0;
+                    border-radius: 1.5rem;
+                    border: 1px solid $secondary-colors-san-juan-blue;
+                    background-color: $primary-colors-background-color;
+                    color: $secondary-colors-san-juan-blue;
+                    font-family: 'Public Sans';
+                    font-size: 0.9375rem;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: -0.00719rem;
+                }
+            }
+
+            .pricing__bottom__button:hover {
+                background-color: $secondary-colors-san-juan-blue;
+                color: $primary-colors-water-white;
+                cursor: pointer;
+
+                &:active {
+                    box-shadow: 0 .0625rem #666;
+                    transform: translateY(.25rem);
+                }
             }
         }
     }
@@ -318,11 +447,14 @@
     .pricing__main {
         margin: 6rem 0 -5rem 0;
 
+
+
         .pricing__colums {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             margin-left: 9.8rem;
             margin-right: 8rem;
+
         }
 
         .bob {
@@ -330,7 +462,11 @@
         }
 
         .pricing__plan {
+            color: $secondary-colors-san-juan-blue;
+            font-family: 'DM Serif Display';
             font-size: 3.5rem;
+            font-style: normal;
+            font-weight: 400;
             line-height: 3.5rem;
             letter-spacing: -0.02694rem;
             margin-left: 10.3rem;
@@ -338,50 +474,175 @@
         }
 
         .pricing__free__plan {
+            color: $primary-colors-dark-pink;
+            font-family: 'DM Serif Display';
             font-size: 2rem;
+            font-style: normal;
+            font-weight: 400;
             line-height: 2.5rem;
             letter-spacing: -0.01538rem;
             margin-top: 5.4rem;
         }
 
         .pricing__text {
+            display: grid;
+            justify-content: center;
             margin-top: 0.9rem;
             margin-right: 1.88rem;
             max-width: 22rem;
+
+            p {
+                color: $secondary-colors-light-juan-blue;
+                font-family: 'Public Sans';
+                font-size: 0.9375rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 1.75rem;
+            }
         }
 
         .pricing__money {
+            color: $secondary-colors-san-juan-blue;
+            font-family: 'DM Serif Display';
+            font-size: 3.5rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 4.5rem;
+            letter-spacing: -0.02694rem;
             margin-top: 0.5rem;
-
+            margin-bottom: 1.5rem;
         }
 
         hr {
+            opacity: 0.25;
+            background: $secondary-colors-san-juan-blue;
+            height: 0.0625rem;
             max-width: 21.875rem;
             margin-right: 1.7rem;
         }
 
         .pricing__list {
             height: 18.1rem;
+            background: $primary-colors-background-color;
+            margin-top: -1rem;
             margin-bottom: -1.4rem;
 
 
             ul {
                 margin-top: 2.5rem;
 
-                .pricing__checkmark {
+                .pricing__checkmark__src {
+                    color: $secondary-colors-san-juan-blue;
+                    font-family: 'Public Sans';
+                    font-size: 1rem;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 1.75rem;
+                    list-style-type: none;
+                    display: flex;
 
                     img {
-                        margin-top: 0rem;
+                        width: 0.75rem;
+                        height: 0.5rem;
+                        stroke-width: .125rem;
+                        stroke: $primary-colors-dark-pink;
+                        margin-top: 0.50rem;
+                    }
+
+                    p {
+                        margin-left: 1.5rem;
+                        margin-bottom: 0.5rem;
+                    }
+                }
+
+                .pricing__checkmark {
+                    color: $secondary-colors-san-juan-blue;
+                    font-family: 'Public Sans';
+                    font-size: 1rem;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 1.75rem;
+                    list-style-type: none;
+                    display: flex;
+
+                    img {
+                        width: 0.75rem;
+                        height: 0.5rem;
+                        stroke: $primary-colors-dark-pink;
+                        opacity: 0;
+                    }
+
+                    .pricing__paragraph {
+                        opacity: 0.5;
+                        margin-left: 1.5rem;
+                        margin-bottom: 0.5rem;
                     }
                 }
             }
+        }
 
-            .pricing__button__grid {
-                margin-top: 1.5rem;
+        .pricing__button__grid {
+            margin-top: 1.5rem;
+
+            .pricing__button {
+                width: 10.5rem;
+                height: 3rem;
+                flex-shrink: 0;
+                border-radius: 1.5rem;
+                border: .0625rem solid $secondary-colors-san-juan-blue;
+                background-color: $primary-colors-background-color;
+                color: $secondary-colors-san-juan-blue;
+                font-family: 'Public Sans';
+                font-size: 0.9375rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: -0.00719rem;
             }
 
-            .pricing__bottom {
-                margin-bottom: 5rem;
+            .pricing__button:hover {
+                background-color: $secondary-colors-san-juan-blue;
+                color: $primary-colors-water-white;
+                cursor: pointer;
+
+                &:active {
+                    box-shadow: 0 .0625rem #666;
+                    transform: translateY(4px);
+                }
+            }
+
+        }
+
+        .pricing__bottom {
+            margin-top: 1.5rem;
+            margin-bottom: 5rem;
+
+            .pricing__bottom__button {
+                width: 10.5rem;
+                height: 3rem;
+                flex-shrink: 0;
+                border-radius: 1.5rem;
+                border: 1px solid $secondary-colors-san-juan-blue;
+                background-color: $primary-colors-background-color;
+                color: $secondary-colors-san-juan-blue;
+                font-family: 'Public Sans';
+                font-size: 0.9375rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: -0.00719rem;
+
+            }
+
+            .pricing__bottom__button:hover {
+                background-color: $secondary-colors-san-juan-blue;
+                color: $primary-colors-water-white;
+                cursor: pointer;
+
+                &:active {
+                    box-shadow: 0 .0625rem #666;
+                    transform: translateY(.25rem);
+                }
             }
         }
     }

@@ -1,5 +1,3 @@
-
-
 const nameInput = document.getElementById("name");
 const companyInput = document.getElementById("company_name");
 const checkedBox = document.getElementById("check");
@@ -20,23 +18,27 @@ function validateEmail(emailId, titleId, messageId) {
     messageValue.trim() === ""
   ) {
     //   Changing title input field to error message
-    titleInput.value = "This field must be filled";
-    titleInput.style.color = "#BA4270";
-    titleInput.style.borderBottomColor = "#BA4270";
+    titleInput.placeholder = "This field must be filled";
+    titleInput.classList.add("error__placeholder");
+    titleInput.style.opacity = 0.5;
+    titleInput.style.borderBottomColor = "#F00";
     //   Changing message input field to error message
-    messageInput.value = "This field must be filled";
-    messageInput.style.color = "#BA4270";
-    messageInput.style.borderBottomColor = "#BA4270";
+    messageInput.placeholder = "This field must be filled";
+    messageInput.classList.add("error__placeholder");
+    messageInput.style.opacity = 0.5;
+    messageInput.style.borderBottomColor = "#F00";
 
     // This part of code get chagned inputs to default state
     setTimeout(() => {
-      titleInput.value = "";
       titleInput.style.color = "#36536B";
       titleInput.style.borderBottomColor = "#36536B";
+      titleInput.style.opacity = 1;
+      titleInput.classList.remove("error__placeholder");
 
-      messageInput.value = "";
       messageInput.style.color = "#36536B";
       messageInput.style.borderBottomColor = "#36536B";
+      messageInput.style.opacity = 1;
+      messageInput.classList.remove("error__placeholder");
     }, 3000);
     return;
   } else if (
@@ -44,24 +46,26 @@ function validateEmail(emailId, titleId, messageId) {
     titleValue.trim() !== "" &&
     messageValue.trim() === ""
   ) {
-    //   Changing email input field to error message
-    emailInput.value = "This field must be filled";
-    emailInput.style.color = "#BA4270";
-    emailInput.style.borderBottomColor = "#BA4270";
-    //   Changing message input field to error message
-    messageInput.value = "This field must be filled";
-    messageInput.style.color = "#BA4270";
-    messageInput.style.borderBottomColor = "#BA4270";
+    emailInput.placeholder = "This field must be filled";
+    emailInput.classList.add("error__placeholder");
+    emailInput.style.opacity = 0.5;
+    emailInput.style.borderBottomColor = "#F00";
 
-    // This part of code get chagned inputs to default state
+    messageInput.placeholder = "This field must be filled";
+    messageInput.classList.add("error__placeholder");
+    messageInput.style.opacity = 0.5;
+    messageInput.style.borderBottomColor = "#F00";
+
     setTimeout(() => {
-      emailInput.value = "";
       emailInput.style.color = "#36536B";
       emailInput.style.borderBottomColor = "#36536B";
+      emailInput.style.opacity = 1;
+      emailInput.classList.remove("error__placeholder");
 
-      messageInput.value = "";
       messageInput.style.color = "#36536B";
       messageInput.style.borderBottomColor = "#36536B";
+      messageInput.style.opacity = 1;
+      messageInput.classList.remove("error__placeholder");
     }, 3000);
     return;
   } else if (
@@ -69,24 +73,26 @@ function validateEmail(emailId, titleId, messageId) {
     titleValue.trim() === "" &&
     messageValue.trim() !== ""
   ) {
-    //   Changing email input field to error message
-    emailInput.value = "This field must be filled";
-    emailInput.style.color = "#BA4270";
-    emailInput.style.borderBottomColor = "#BA4270";
-    //   Changing title input field to error message
-    titleInput.value = "This field must be filled";
-    titleInput.style.color = "#BA4270";
-    titleInput.style.borderBottomColor = "#BA4270";
+    emailInput.placeholder = "This field must be filled";
+    emailInput.classList.add("error__placeholder");
+    emailInput.style.opacity = 0.5;
+    emailInput.style.borderBottomColor = "#F00";
 
-    // This part of code get chagned inputs to default state
+    titleInput.placeholder = "This field must be filled";
+    titleInput.classList.add("error__placeholder");
+    titleInput.style.opacity = 0.5;
+    titleInput.style.borderBottomColor = "#F00";
+
     setTimeout(() => {
-      emailInput.value = "";
+      emailInput.classList.remove("error__placeholder");
       emailInput.style.color = "#36536B";
       emailInput.style.borderBottomColor = "#36536B";
+      emailInput.style.opacity = 1;
 
-      titleInput.value = "";
+      titleInput.classList.remove("error__placeholder");
       titleInput.style.color = "#36536B";
       titleInput.style.borderBottomColor = "#36536B";
+      titleInput.style.opacity = 1;
     }, 3000);
     return;
   } else if (
@@ -94,32 +100,36 @@ function validateEmail(emailId, titleId, messageId) {
     titleValue.trim() === "" &&
     messageValue.trim() === ""
   ) {
-    //   Changing email input field to error message
-    emailInput.value = "This field must be filled";
-    emailInput.style.color = "#BA4270";
-    emailInput.style.borderBottomColor = "#BA4270";
-    //   Changing title input field to error message
-    titleInput.value = "This field must be filled";
-    titleInput.style.color = "#BA4270";
-    titleInput.style.borderBottomColor = "#BA4270";
-    //   Changing message input field to error message
-    messageInput.value = "This field must be filled";
-    messageInput.style.color = "#BA4270";
-    messageInput.style.borderBottomColor = "#BA4270";
+    emailInput.placeholder = "This field must be filled";
+    emailInput.classList.add("error__placeholder");
+    emailInput.style.opacity = 0.5;
+    emailInput.style.borderBottomColor = "#F00";
 
-    // This part of code get chagned inputs to default state
+    titleInput.placeholder = "This field must be filled";
+    titleInput.classList.add("error__placeholder");
+    titleInput.style.opacity = 0.5;
+    titleInput.style.borderBottomColor = "#F00";
+
+    messageInput.placeholder = "This field must be filled";
+    messageInput.classList.add("error__placeholder");
+    messageInput.style.opacity = 0.5;
+    messageInput.style.borderBottomColor = "#F00";
+
     setTimeout(() => {
-      emailInput.value = "";
+      emailInput.classList.remove("error__placeholder");
       emailInput.style.color = "#36536B";
       emailInput.style.borderBottomColor = "#36536B";
+      emailInput.style.opacity = 1;
 
-      titleInput.value = "";
+      titleInput.classList.remove("error__placeholder");
       titleInput.style.color = "#36536B";
       titleInput.style.borderBottomColor = "#36536B";
+      titleInput.style.opacity = 1;
 
-      messageInput.value = "";
+      messageInput.classList.remove("error__placeholder");
       messageInput.style.color = "#36536B";
       messageInput.style.borderBottomColor = "#36536B";
+      messageInput.style.opacity = 1;
     }, 3000);
     return;
   } else if (
@@ -127,16 +137,16 @@ function validateEmail(emailId, titleId, messageId) {
     titleValue.trim() !== "" &&
     messageValue.trim() === ""
   ) {
-    //   Changing message input field to error message
-    messageInput.value = "This field must be filled";
-    messageInput.style.color = "#BA4270";
-    messageInput.style.borderBottomColor = "#BA4270";
+    messageInput.placeholder = "This field must be filled";
+    messageInput.classList.add("error__placeholder");
+    messageInput.style.opacity = 0.5;
+    messageInput.style.borderBottomColor = "#F00";
 
-    // This part of code get chagned inputs to default state
     setTimeout(() => {
-      messageInput.value = "";
+      messageInput.classList.remove("error__placeholder");
       messageInput.style.color = "#36536B";
       messageInput.style.borderBottomColor = "#36536B";
+      messageInput.style.opacity = 1;
     }, 3000);
     return;
   } else if (
@@ -144,16 +154,16 @@ function validateEmail(emailId, titleId, messageId) {
     titleValue.trim() === "" &&
     messageValue.trim() !== ""
   ) {
-    //   Changing title input field to error message
-    titleInput.value = "This field must be filled";
-    titleInput.style.color = "#BA4270";
-    titleInput.style.borderBottomColor = "#BA4270";
+    titleInput.placeholder = "This field must be filled";
+    titleInput.classList.add("error__placeholder");
+    titleInput.style.opacity = 0.5;
+    titleInput.style.borderBottomColor = "#F00";
 
-    // This part of code get chagned inputs to default state
     setTimeout(() => {
-      titleInput.value = "";
+      titleInput.classList.remove("error__placeholder");
       titleInput.style.color = "#36536B";
       titleInput.style.borderBottomColor = "#36536B";
+      titleInput.style.opacity = 1;
     }, 3000);
     return;
   } else if (
@@ -161,16 +171,16 @@ function validateEmail(emailId, titleId, messageId) {
     titleValue.trim() !== "" &&
     messageValue.trim() !== ""
   ) {
-    //   Changing email input field to error message
-    emailInput.value = "This field must be filled";
-    emailInput.style.color = "#BA4270";
-    emailInput.style.borderBottomColor = "#BA4270";
+    emailInput.placeholder = "This field must be filled";
+    emailInput.classList.add("error__placeholder");
+    emailInput.style.opacity = 0.5;
+    emailInput.style.borderBottomColor = "#F00";
 
-    // This part of code get chagned inputs to default state
     setTimeout(() => {
-      emailInput.value = "";
+      emailInput.classList.remove("error__placeholder");
       emailInput.style.color = "#36536B";
       emailInput.style.borderBottomColor = "#36536B";
+      emailInput.style.opacity = 1;
     }, 3000);
     return;
   }
@@ -181,7 +191,7 @@ function validateEmail(emailId, titleId, messageId) {
     companyInput.value = "";
     titleInput.value = "";
     messageInput.value = "";
-    checkedBox.value = "unchecked";
+    checkedBox.checked = false;
 
     alert("We've got your message and sent instructions to your email. 😃");
   } else {
@@ -190,7 +200,7 @@ function validateEmail(emailId, titleId, messageId) {
     companyInput.value = "";
     titleInput.value = "";
     messageInput.value = "";
-    checkedBox.value = "unchecked";
+    checkedBox.checked = false;
     alert("Invalid email! Please try again. 🤔");
   }
 }
