@@ -1,9 +1,11 @@
+@use "variables";
+
 .partners {
     background-color: $secondary-colors-mirage-blue;
     color: $primary-colors-water-white;
     text-align: center;
     font-weight: 400;
-    height: 670px;
+    height: 41.875rem;
     position: relative;
     overflow: hidden;
 }
@@ -14,10 +16,10 @@
 }
 
 .sec__title {
-    font-size: 32px;
-    line-height: 36px;
-    letter-spacing: -0.246px;
-    margin: 57px 24px 16px 24px;
+    font-size: 2rem;
+    line-height: 2.25rem;
+    letter-spacing: -0.015rem;
+    margin: 3.563rem 1.5rem 1rem 1.5rem;
     font-family: 'DM Serif Display', serif;
     z-index: 1;
     position: relative;
@@ -26,7 +28,7 @@
 .p__description {
     color: $primary-colors-water-white;
     opacity: 0.7;
-    margin: 0px 24px 0px 24px;
+    margin: 0rem 1.5rem 0rem 1.5rem;
     z-index: 1;
     position: relative;
 }
@@ -38,32 +40,32 @@
     align-items: center;
     gap: 2rem;
     row-gap: 2.5rem;
-    padding: 80px 47px 0px 47px;
+    padding: 5rem 2.938rem 0rem 2.938rem;
     z-index: 1;
     position: relative;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1439.5px) {
     .partners {
-        height: 615px;
+        height: 38.438rem;
     }
 
     .partners__logos {
         grid-template-columns: repeat(3, 1fr);
         gap: 2.5rem;
-        padding: 95px 121px 0px 116px;
+        padding: 5.938rem 7.563rem 0rem 7.25rem;
     }
 
     .sec__title {
-        letter-spacing: -0.369px;
-        font-size: 48px;
-        line-height: 56px;
+        letter-spacing: -0.023rem;
+        font-size: 3rem;
+        line-height: 3.5rem;
         font-style: normal;
-        margin: 71px 155px 24px 155px;
+        margin: 4.438rem 9.688rem 1.5rem 9.688rem;
     }
 
     .p__description {
-        margin: 0px 155px 0px 155px;
+        margin: 0rem 9.688rem 0rem 9.688rem;
     }
 
     .logo__scale {
@@ -73,16 +75,17 @@
 
 @media only screen and (min-width: 1440px) {
     .partners {
-        height: 470px;
+        height: 29.375rem;
         margin-top: -2rem;
     }
 
     .partners__logos {
+        max-width: fit-content;
         grid-template-columns: repeat(3, 1fr);
-        gap: 4.8rem;
+        column-gap: 5.5rem;
         row-gap: 2.8rem;
         margin: auto;
-        padding: 187px 193px 184px 0px;
+        padding: 11.688rem 10.75rem 11.688rem 0.313rem;
         flex: 1;
 
     }
@@ -95,15 +98,16 @@
     }
 
     .sec__title {
-        letter-spacing: -0.369px;
-        font-size: 48px;
-        line-height: 56px;
-        margin: 100px 131px 24px 165px;
+        letter-spacing: -0.023rem;
+        font-size: 3rem;
+        line-height: 3.5rem;
+        margin: 6.25rem 8.188rem 1.5rem 10.313rem;
 
     }
 
     .p__description {
-        margin: 0px 120px 0px 165px;
+        max-width: 50rem;
+        margin: 0rem 7.5rem 0rem 10.313rem;
 
     }
 

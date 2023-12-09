@@ -1,3 +1,5 @@
+@use "variables";
+
 .ovrflw {
     overflow: hidden;
     position: relative;
@@ -14,9 +16,9 @@
 }
 
 .bubble__top {
-    width: calc(780px + (100vw - 375px) * 0.1);
-    height: calc(780px + (100vw - 375px) * 0.1);
-    border-radius: calc(780px + (100vw - 375px) * 0.1);
+    width: calc(48.75rem + (100vw - 23.438rem) * 0.1);
+    height: calc(48.75rem + (100vw - 23.438rem) * 0.1);
+    border-radius: calc(48.75rem + (100vw - 23.438rem) * 0.1);
     background-color: $secondary-colors-san-juan-blue;
     position: absolute;
     top: -34.3rem;
@@ -29,9 +31,9 @@
 }
 
 .bubble_all__top {
-    width: calc(780px + (100vw - 375px) * 0.1);
-    height: calc(780px + (100vw - 375px) * 0.1);
-    border-radius: calc(780px + (100vw - 375px) * 0.1);
+    width: calc(48.75rem + (100vw - 23.438rem) * 0.1);
+    height: calc(48.75rem + (100vw - 23.438rem) * 0.1);
+    border-radius: calc(48.75rem + (100vw - 23.438rem) * 0.1);
     background-color: $secondary-colors-san-juan-blue;
     position: absolute;
     top: -40rem;
@@ -41,9 +43,9 @@
 }
 
 .bubble__reference {
-    width: calc(780px + (100vw - 375px) * 0.1);
-    height: calc(780px + (100vw - 375px) * 0.1);
-    border-radius: calc(780px + (100vw - 375px) * 0.1);
+    width: calc(48.75rem + (100vw - 23.438rem) * 0.1);
+    height: calc(48.75rem + (100vw - 23.438rem) * 0.1);
+    border-radius: calc(48.75rem + (100vw - 23.438rem) * 0.1);
     background-color: $secondary-colors-san-juan-blue;
     position: absolute;
     top: -37.6rem;
@@ -52,9 +54,9 @@
 }
 
 .bubble__footer {
-    width: calc(780px + (100vw - 375px) * 0.1);
-    height: calc(780px + (100vw - 375px) * 0.1);
-    border-radius: calc(780px + (100vw - 375px) * 0.1);
+    width: calc(48.75rem + (100vw - 23.438rem) * 0.1);
+    height: calc(48.75rem + (100vw - 23.438rem) * 0.1);
+    border-radius: calc(48.75rem + (100vw - 23.438rem) * 0.1);
     background-color: $secondary-colors-san-juan-blue;
     position: absolute;
     bottom: -37.5rem;
@@ -65,9 +67,9 @@
 @media only screen and (min-width: 768px) and (max-width: 1439.5px) {
 
     .bubble__top {
-        width: calc(949px + (100vw - 768px) * 0.2);
-        height: calc(949px + (100vw - 768px) * 0.2);
-        border-radius: calc(949px + (100vw - 768px) * 0.2);
+        width: calc(59.313rem + (100vw - 48rem) * 0.2);
+        height: calc(59.313rem + (100vw - 48rem) * 0.2);
+        border-radius: calc(59.313rem + (100vw - 48rem) * 0.2);
         top: -41.5rem;
         z-index: -1;
     }
@@ -96,10 +98,10 @@
     }
 
     .bubble__top {
-        width: calc(780px + (100vw - 1440px) * 0.1);
-        height: calc(780px + (100vw - 1440px) * 0.1);
-        border-radius: calc(780px + (100vw - 1440px) * 0.1);
-        top: -10rem;
+        width: calc(48.75rem + (100vw - 90rem) * 0.1);
+        height: calc(48.75rem + (100vw - 90rem) * 0.1);
+        border-radius: calc(48.75rem + (100vw - 90rem) * 0.1);
+        top: -10.6rem;
         right: -9rem;
         z-index: -1;
     }
@@ -110,8 +112,8 @@
     }
 
     .bubble__reference {
-        top: -29rem;
-        left: -20.5rem;
+        top: -28rem;
+        left: -20.8rem;
     }
 
     .bubble__simple {
@@ -121,8 +123,8 @@
         transform: translate(0, -50%);
         background-color: $secondary-colors-san-juan-blue;
         opacity: 15%;
-        width: calc(780px + (100vw - 1440px) * 0.4);
-        height: calc(780px + (100vw - 1440px) * 0.4);
+        width: calc(48.75rem + (100vw - 90rem) * 0.4);
+        height: calc(48.75rem + (100vw - 90rem) * 0.4);
         border-radius: 50%;
         z-index: -1;
         right: -25rem;
@@ -136,8 +138,8 @@
         transform: translate(-50%, -50%);
         background-color: $secondary-colors-san-juan-blue;
         opacity: 15%;
-        width: calc(780px + (100vw - 1440px) * 0.3);
-        height: calc(780px + (100vw - 1440px) * 0.3);
+        width: calc(48.75rem + (100vw - 90rem) * 0.3);
+        height: calc(48.75rem + (100vw - 90rem) * 0.3);
         border-radius: 50%;
         z-index: -1;
         left: -8.5rem;
