@@ -192,6 +192,9 @@ function validateEmail(emailId, titleId, messageId) {
     titleInput.value = "";
     messageInput.value = "";
     checkedBox.checked = false;
+    messageInput.placeholder = "Message";
+    emailInput.placeholder = "Email Address";
+    titleInput.placeholder = "Title";
 
     alert("We've got your message and sent instructions to your email. 😃");
   } else {
@@ -201,6 +204,9 @@ function validateEmail(emailId, titleId, messageId) {
     titleInput.value = "";
     messageInput.value = "";
     checkedBox.checked = false;
+    messageInput.placeholder = "Message";
+    emailInput.placeholder = "Email Address";
+    titleInput.placeholder = "Title";
     alert("Invalid email! Please try again. 🤔");
   }
 }

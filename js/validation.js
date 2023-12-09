@@ -16,9 +16,11 @@ function validateEmail(inputId) {
   }
   if (emailRegex.test(emailValue)) {
     emailInput.value = "";
+    emailInput.placeholder = "Enter email address";
     alert("We've got your message and sent instructions to your email. 😃");
   } else {
     emailInput.value = "";
+    emailInput.placeholder = "Enter email address";
     alert("Invalid email! Please try again. 🤔");
   }
 }
