@@ -4,10 +4,10 @@
     border: .0625rem solid transparent;
     text-align: center;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 0.9375rem;
     font-weight: bold;
     border-radius: 1.5rem;
-    margin: 2.1875rem 0 5rem 0;
+    margin: 3.9rem 0 5rem 0;
     z-index: 1;
     position: relative;
 
@@ -21,7 +21,7 @@
     background-color: transparent;
     color: $primary-colors-water-white;
     border: .0625rem solid $primary-colors-water-white;
-    padding: .875rem 1.75rem .875rem 1.75rem;
+    padding: .875rem 1.9rem .875rem 1.9rem;
 }
 
 .ref__btn:hover {

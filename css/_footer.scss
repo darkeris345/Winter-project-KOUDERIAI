@@ -136,11 +136,11 @@
 /* Styles for Desktop */
 @media only screen and (min-width: 1440px) {
   .footer__section1 {
-
+    margin-bottom: -0.05rem;
     display: flex;
     justify-content: center;
     gap: 13.75rem;
-    margin: 0 10.31rem;
+    margin: -0.05rem 10.31rem;
 
 
 
@@ -192,6 +192,6 @@
     gap: 2.5rem;
     padding-left: 0;
     margin: 0 4rem;
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.2rem;
   }
 }
