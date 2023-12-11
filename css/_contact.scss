@@ -1,5 +1,5 @@
-.error__placeholder{
-    &::placeholder{
+.error__placeholder {
+    &::placeholder {
         color: #F00;
     }
 }
@@ -180,6 +180,8 @@
         font-weight: 400;
         line-height: 2rem;
         letter-spacing: -0.01156rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     .partners__logos__form {
@@ -187,8 +189,10 @@
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
         align-items: center;
-        gap: 2.5rem;
-        margin: 2rem 4rem -2rem 3.5rem;
+        row-gap: 2.45rem;
+        column-gap: 2.75rem;
+        padding: 2rem 2.938rem 0rem 2.938rem;
+        margin-bottom: -2rem;
     }
 }
 
@@ -208,7 +212,7 @@
         font-size: 3rem;
         font-weight: 400;
         letter-spacing: -0.02306rem;
-        margin: 2.2rem 0.5rem 0.7rem 0;
+        margin: 2.2rem 0.2rem 0.7rem 0;
         width: 30.8125rem;
         height: 11.125rem;
 
@@ -360,7 +364,7 @@
 
     .partners__title {
         opacity: 0.75;
-        width: 26.5125rem;
+        width: 27.8125rem;
         color: #36536B;
         text-align: center;
         font-family: 'DM Serif Display';
@@ -369,7 +373,6 @@
         font-weight: 400;
         line-height: 2rem;
         letter-spacing: -0.01156rem;
-
     }
 
     .partners__logos__form {
@@ -377,8 +380,8 @@
         grid-template-columns: repeat(3, 1fr);
         justify-items: center;
         align-items: center;
-        gap: 3rem 5.3rem;
-        margin: 2.6rem 0 1.7rem 0;
+        gap: 2.8rem 5.25rem;
+        padding: 2.7rem 8rem 1.8rem 7.65rem;
 
     }
 }
@@ -414,7 +417,7 @@
     }
 
     .form__page {
-        margin: 2.9rem 13rem;
+        margin: 2.9rem 12.75rem;
         display: flex;
         flex-direction: column;
 
@@ -526,7 +529,7 @@
         }
 
         .bttn__form {
-            margin: -1.6rem 5rem 0 8.3rem;
+            margin: -1.7rem 5rem 0.1rem 8.3rem;
             width: 9.5rem;
             height: 3rem;
             padding: 0.375rem 0.5rem;
@@ -569,7 +572,7 @@
         font-weight: 400;
         line-height: 2rem;
         letter-spacing: -0.01156rem;
-        margin: 5.5rem 6rem 2.6rem 0;
+        margin: 5.3rem 6rem 2.6rem -0.55rem;
 
     }
 
@@ -578,6 +581,8 @@
         grid-template-columns: repeat(3, 1fr);
         justify-items: center;
         align-items: center;
-        gap: 3rem 4.8rem;
+        gap: 2.8rem 5rem;
+        margin-left: -0.45rem;
+
     }
 }
