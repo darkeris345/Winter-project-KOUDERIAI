@@ -73,17 +73,22 @@
     }
 
     .bubble_all__top {
-        top: -32rem;
-        right: -34rem;
+        width: 48.5rem;
+        height: 48.5rem;
+        top: -28.6rem;
+        right: -32.2rem;
     }
 
     .bubble__reference {
-        top: -36.9rem;
+        width: 48.5rem;
+        height: 48.5rem;
+        border-radius: 48.5rem;
+        top: -34rem;
     }
 
     .bubble__footer {
-        bottom: -34rem;
-        right: -26.5rem;
+        bottom: -36.5rem;
+        right: -26rem;
     }
 }
 
@@ -99,19 +104,25 @@
         width: calc(48.75rem + (100vw - 90rem) * 0.1);
         height: calc(48.75rem + (100vw - 90rem) * 0.1);
         border-radius: calc(48.75rem + (100vw - 90rem) * 0.1);
-        top: -10rem;
-        right: -9rem;
+        top: -10.8rem;
+        right: -8.7rem;
         z-index: -1;
     }
 
     .bubble_all__top {
-        top: -39.8rem;
-        right: -12.5rem;
+        width: 48.5rem;
+        height: 48.5rem;
+        border-radius: 48.5rem;
+        top: -32.6rem;
+        right: -8.65rem;
     }
 
     .bubble__reference {
-        top: -29rem;
-        left: -20.5rem;
+        width: 46.76rem;
+        height: 46.76rem;
+        border-radius: 46.76rem;
+        top: -20.5rem;
+        left: -13.1rem;
     }
 
     .bubble__simple {
@@ -125,7 +136,7 @@
         height: calc(48.75rem + (100vw - 90rem) * 0.4);
         border-radius: 50%;
         z-index: -1;
-        right: -25rem;
+        right: -24.35rem;
         top: 22rem;
     }
 
@@ -146,6 +157,6 @@
 
     .bubble__footer {
         bottom: -40rem;
-        right: -29rem;
+        right: -29.8rem;
     }
 }
